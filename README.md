@@ -1,2 +1,3 @@
-# Beggars-Opera-MEI
-This repository hosts the MEI of the Beggars Opera Digital Edition
+# The Beggars Opera, a Digital Edition
+
+This repository hosts the TEI and MEI files of the Beggars Opera Digital Edition
