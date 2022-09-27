@@ -72,67 +72,28 @@
 
                 <!-- Basic text formatting: bold, italic, underline, "normal," etc. -->
 
-                <rendition xml:id="bold" scheme="css"> font-weight: bold; </rendition>
-
-                <rendition xml:id="speaker" scheme="css"> font-style: italic; </rendition>
-
-
                 <!-- Blocks. -->
 
                 <!-- "codeblock" for arias -->
 
-                <rendition xml:id="codeblock" scheme="css"> display: block; font-size: 120%;
-                    margin-left: 4em; padding-left: 1em; margin-top: .75em; margin-bottom: .75em;
-                    padding-top: .75em; padding-bottom: 1.5em; font-family: "Gentium Book Basic",
-                    Cochin, Georgia, Serif; text-align: left; line-height: 2.0; </rendition>
-
-
-
                 <!-- "codeblock-tp" for blocks on title page -->
-
-                <rendition xml:id="codeblock-tp" scheme="css"> display:block; margin-left:auto;
-                    margin-right:auto; padding-top: 25px; padding-bottom: 25px; line-height:
-                    200%</rendition>
 
                 <!-- "codeblock-bl" to create line breaks using display: block; -->
 
-                <rendition xml:id="codeblock-bl" scheme="css">display: block; </rendition>
-
-
-
                 <!-- Tables. -->
-                <rendition xml:id="heading" scheme="css"> text-align: center; </rendition>
-
-
 
                 <!-- Spaces. -->
 
-
-
                 <!-- Inline -->
-
 
                 <!-- Alignment. -->
 
-
-                <rendition xml:id="center" scheme="css"> display:block; text-align:center;
-                    margin-left:auto; margin-right:auto; padding-top: 25px; padding-bottom: 75px;
-                    border-bottom: 1px solid #999; </rendition>
-
-
-
                 <!-- Indentation -->
-
 
                 <!-- Indentation for verse lines. Results in a “hanging” indent if
 					the line wraps. -->
 
-
                 <!-- font sizes -->
-
-                <rendition xml:id="xxx-large" scheme="css"> font-size:155%; </rendition>
-
-                <rendition xml:id="small" n="teibp:small" scheme="css"> font-size:90%; </rendition>
 
             </tagsDecl>
 
@@ -640,23 +601,17 @@
 
         <front>
 
-            <titlePage rendition="#center" xml:id="TITLE_PAGE">
+            <titlePage xml:id="TITLE_PAGE">
                 <docTitle>
-                    <titlePart rendition="#xxx-large" type="main">
-                        <span rendition="#codeblock-bl"> THE </span>
-                        <span rendition="#codeblock-bl"><hi rend="italics">BEGGAR’s</hi></span>
-                        <span rendition="#codeblock-bl">OPERA.</span></titlePart>
+                    <titlePart type="main">
+                         THE <hi rend="italics">BEGGAR’s</hi> OPERA.</titlePart>
 
-                    <titlePart rendition="#codeblock-tp" type="sub"><span rendition="codeblock-bl"
-                            >As it is Acted at the</span>
-                        <span rendition="#codeblock-bl"><rs type="place">THEATRE-ROYAL</rs></span>
-                        <span rendition="#codeblock-bl">IN</span>
-                        <span rendition="#codeblock-bl"> LINCOLNS-INN-FIELDS.</span></titlePart>
+                    <titlePart type="sub">As it is Acted at the <rs type="place">THEATRE-ROYAL</rs> IN LINCOLNS-INN-FIELDS.</titlePart>
                 </docTitle>
 
                 <byline>Written by <docAuthor>Mr. <hi rend="italics">GAY.</hi></docAuthor></byline>
 
-                <epigraph rendition="#codeblock-tp">
+                <epigraph>
                     <cit>
 
 
@@ -668,21 +623,14 @@
                 </epigraph>
 
 
-                <docTitle rendition="#codeblock-tp">
-                    <titlePart type="sub"><span rendition="#codeblock-bl">To which is
-                            Added,</span><span rendition="#codeblock-bl"><hi rend="italics">The</hi>
-                            MUSICK <hi rend="italics"> Engrav’d on</hi> COPPER-</span>
-                        PLATES.</titlePart>
+                <docTitle>
+                    <titlePart type="sub">To which is Added,<hi rend="italics">The</hi> MUSICK <hi rend="italics">Engrav’d on</hi> COPPER-PLATES.</titlePart>
                 </docTitle>
 
-                <docImprint rendition="#codeblock-tp">
-                    <span rendition="#codeblock-bl"><hi rend="italics">LONDON:</hi></span> Printed
-                    for <publisher>JOHN WATTS</publisher>, <pubPlace>at the Printing-Office <span
-                            rendition="#codeblock-bl">in <hi rend="italics">Wild-Court</hi>, near
-                                <hi rend="italics"
-                        >Lincoln’s-Inn-Fields.</hi></span></pubPlace><date>MDCCXXVIII.</date>
-                    <span rendition="#codeblock-bl">[Price 1<hi rend="italics">s.</hi> 6<hi
-                            rend="italics">d.</hi>]</span></docImprint>
+                <docImprint>
+                    <hi rend="italics">LONDON:</hi> Printed for <publisher>JOHN WATTS</publisher>, <pubPlace>at the Printing-Office in <hi rend="italics">Wild-Court</hi>, near
+                                <hi rend="italics">Lincoln’s-Inn-Fields.</hi></pubPlace><date>MDCCXXVIII.</date>
+                    [Price 1<hi rend="italics">s.</hi> 6<hi rend="italics">d.</hi>]</docImprint>
             </titlePage>
 
 
@@ -1073,8 +1021,7 @@
 
 
                     <stage style="text-align: center">SCENE Peachum<hi rend="italics">'s House</hi>.
-                            <span rendition="#codeblock-bl">Peachum <hi rend="italics">sitting at a
-                                Table with a large Book of Accounts before him.</hi></span></stage>
+                            Peachum <hi rend="italics">sitting at a Table with a large Book of Accounts before him.</hi></stage>
 
                     <sp>
 
