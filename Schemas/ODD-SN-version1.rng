@@ -5,10 +5,10 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2022-09-29T19:12:03Z. .
-TEI Edition: Version 4.4.0a. Last updated on
-        19th April 2022, revision c17f75dfc
-TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
+Schema generated from ODD source 2022-10-10T19:31:57Z. .
+TEI Edition: Version 4.5.0a. Last updated on
+        29th July 2022, revision 50a1ab835
+TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.5.0a./
   
 --><!--Copyright 2010 TEI Consortium. This is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version. This material is distributed in the hope that it will be useful, but without any warranty; without even the implied warranty of merchantability or fitness for a particular purpose. See the GNU General Public License for more details. A copy of the GNU General Public License is stored on the TEI web site along with this file; you can also contact the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307, USA, for a copy. Copyright (c) 2010 by the Music Encoding Initiative (MEI) Council. Licensed under the Educational Community License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.osedu.org/licenses/ECL-2.0. Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. This is a derivative work based on earlier versions of the schema copyright (c) 2001-2006 Perry Roland and the Rector and Visitors of the University of Virginia; licensed under the Educational Community License version 1.0.-->
    <define name="macro.paraContent">
@@ -1034,29 +1034,6 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
          <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})*</param>
       </data>
    </define>
-   <define name="mei_macro.anyXML">
-      <element>
-         <anyName>
-            <except>
-               <nsName ns="http://www.music-encoding.org/ns/mei"/>
-               <nsName ns="http://www.w3.org/2000/svg"/>
-               
-               
-            </except>
-         </anyName>
-         <zeroOrMore>
-            <attribute>
-               <anyName/>
-            </attribute>
-         </zeroOrMore>
-         <zeroOrMore>
-            <choice>
-               <text/>
-               <ref name="mei_macro.anyXML"/>
-            </choice>
-         </zeroOrMore>
-      </element>
-   </define>
    <define name="mei_macro.metaLike.page">
       <optional>
          <ref name="mei_pgHead"/>
@@ -1822,7 +1799,7 @@ Sample values include: 1] all; 2] most; 3] range</a:documentation>
    <define name="att.declaring.attribute.decls">
       <optional>
          <attribute name="decls">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">identifies one or more declarable elements within the header, which are understood to apply to the element bearing this attribute and its content.</a:documentation>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(declarations) identifies one or more declarable elements within the header, which are understood to apply to the element bearing this attribute and its content.</a:documentation>
             <list>
                <oneOrMore>
                   <data type="anyURI">
@@ -4390,7 +4367,7 @@ Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] cant
                <sch:report xmlns="http://www.tei-c.org/ns/1.0"
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
                            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                           test="    (ancestor::tei:ab or ancestor::tei:p)                          and not( ancestor::tei:floatingText                                 |parent::tei:exemplum                                 |parent::tei:item                                 |parent::tei:note                                 |parent::tei:q                                 |parent::tei:quote                                 |parent::tei:remarks                                 |parent::tei:said                                 |parent::tei:sp                                 |parent::tei:stage                                 |parent::tei:cell                                 |parent::tei:figure                                )">
+                           test="(ancestor::tei:ab or ancestor::tei:p) and not( ancestor::tei:floatingText |parent::tei:exemplum |parent::tei:item |parent::tei:note |parent::tei:q |parent::tei:quote |parent::tei:remarks |parent::tei:said |parent::tei:sp |parent::tei:stage |parent::tei:cell |parent::tei:figure )">
         Abstract model violation: Paragraphs may not occur inside other paragraphs or ab elements.
       </sch:report>
             </rule>
@@ -4401,7 +4378,7 @@ Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] cant
                <sch:report xmlns="http://www.tei-c.org/ns/1.0"
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
                            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                           test="    (ancestor::tei:l or ancestor::tei:lg)                          and not( ancestor::tei:floatingText                                 |parent::tei:figure                                 |parent::tei:note                                )">
+                           test="(ancestor::tei:l or ancestor::tei:lg) and not( ancestor::tei:floatingText |parent::tei:figure |parent::tei:note )">
         Abstract model violation: Lines may not contain higher-level structural elements such as div, p, or ab, unless p is a child of figure or note, or is a descendant of floatingText.
       </sch:report>
             </rule>
@@ -5273,7 +5250,7 @@ Suggested values include: 1] gloss (gloss); 2] index (index); 3] instructions (i
    </define>
    <define name="noteGrp">
       <element name="noteGrp">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a group of notes [3.9.1.1. Encoding Grouped Notes]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(note group) contains a group of notes [3.9.1.1. Encoding Grouped Notes]</a:documentation>
          <group>
             <zeroOrMore>
                <ref name="desc"/>
@@ -6381,9 +6358,6 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
             <zeroOrMore>
                <ref name="rendition"/>
             </zeroOrMore>
-            <zeroOrMore>
-               <ref name="namespace"/>
-            </zeroOrMore>
          </group>
          <ref name="att.global.attributes"/>
          <optional>
@@ -6392,19 +6366,6 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
                <data type="boolean"/>
             </attribute>
          </optional>
-         <empty/>
-      </element>
-   </define>
-   <define name="namespace">
-      <element name="namespace">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(namespace) supplies the formal name of the namespace to which the elements documented by its children belong. [2.3.4. The Tagging Declaration]</a:documentation>
-         <ref name="att.global.attributes"/>
-         <attribute name="name">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the full formal name of the namespace concerned.</a:documentation>
-            <data type="anyURI">
-               <param name="pattern">\S*</param>
-            </data>
-         </attribute>
          <empty/>
       </element>
    </define>
@@ -7001,8 +6962,7 @@ Suggested values include: 1] WGS84 (World Geodetic System); 2] MGRS (Military Gr
    </define>
    <define name="correspDesc">
       <element name="correspDesc">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(correspondence
-    description) contains a description of the actions related to one act of correspondence. [2.4.6. Correspondence Description]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(correspondence description) contains a description of the actions related to one act of correspondence. [2.4.6. Correspondence Description]</a:documentation>
          <choice>
             <oneOrMore>
                <ref name="model.correspDescPart"/>
@@ -8613,17 +8573,17 @@ The attributes @to and @from on <name/> may each contain only a single value</re
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
-                context="*[ @minOccurs  and  @maxOccurs ]">
+                context="*[ @minOccurs and @maxOccurs ]">
          <sch:let name="min" value="@minOccurs cast as xs:integer"/>
          <sch:let name="max"
-                  value="if ( normalize-space( @maxOccurs ) eq 'unbounded')                         then -1                         else @maxOccurs cast as xs:integer"/>
-         <sch:assert test="$max eq -1  or  $max ge $min">@maxOccurs should be greater than or equal to @minOccurs</sch:assert>
+                  value="if ( normalize-space( @maxOccurs ) eq 'unbounded') then -1 else @maxOccurs cast as xs:integer"/>
+         <sch:assert test="$max eq -1 or $max ge $min">@maxOccurs should be greater than or equal to @minOccurs</sch:assert>
       </sch:rule>
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
-                context="*[ @minOccurs  and  not( @maxOccurs ) ]">
+                context="*[ @minOccurs and not( @maxOccurs ) ]">
          <sch:assert test="@minOccurs cast as xs:integer lt 2">When @maxOccurs is not specified, @minOccurs must be 0 or 1</sch:assert>
       </sch:rule>
    </pattern>
@@ -8695,7 +8655,7 @@ The attributes @to and @from on <name/> may each contain only a single value</re
       <rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
             xmlns:xi="http://www.w3.org/2001/XInclude"
             context="tei:elementSpec[@module]|tei:classSpec[@module]|tei:macroSpec[@module]">
-         <assert test="         (not(ancestor::tei:schemaSpec | ancestor::tei:TEI | ancestor::tei:teiCorpus)) or         (not(@module) or          (not(//tei:moduleSpec) and not(//tei:moduleRef))  or         (//tei:moduleSpec[@ident = current()/@module]) or          (//tei:moduleRef[@key = current()/@module]))         ">
+         <assert test="(not(ancestor::tei:schemaSpec | ancestor::tei:TEI | ancestor::tei:teiCorpus)) or (not(@module) or (not(//tei:moduleSpec) and not(//tei:moduleRef)) or (//tei:moduleSpec[@ident = current()/@module]) or (//tei:moduleRef[@key = current()/@module]))">
         Specification <value-of select="@ident"/>: the value of the module attribute ("<value-of select="@module"/>") 
 should correspond to an existing module, via a moduleSpec or
       moduleRef</assert>
@@ -8722,12 +8682,12 @@ should correspond to an existing module, via a moduleSpec or
          <sch:let name="advance_warning_period"
                   value="current-date() + xs:dayTimeDuration('P60D')"/>
          <sch:let name="me_phrase"
-                  value="if (@ident)                                                then concat('The ', @ident )                                                else concat('This ',                                                            local-name(.),                                                            ' of ',                                                            ancestor::tei:*[@ident][1]/@ident )"/>
-         <sch:assert test="@validUntil cast as xs:date  ge  current-date()">
-            <sch:value-of select="                  concat( $me_phrase,                          ' construct is outdated (as of ',                          @validUntil,                          '); ODD processors may ignore it, and its use is no longer supported'                        )"/>
+                  value="if (@ident) then concat('The ', @ident ) else concat('This ', local-name(.), ' of ', ancestor::tei:*[@ident][1]/@ident )"/>
+         <sch:assert test="@validUntil cast as xs:date ge current-date()">
+            <sch:value-of select="concat( $me_phrase, ' construct is outdated (as of ', @validUntil, '); ODD processors may ignore it, and its use is no longer supported' )"/>
          </sch:assert>
          <sch:assert role="nonfatal"
-                     test="@validUntil cast as xs:date  ge  $advance_warning_period">
+                     test="@validUntil cast as xs:date ge $advance_warning_period">
             <sch:value-of select="concat( $me_phrase, ' construct becomes outdated on ', @validUntil )"/>
          </sch:assert>
       </sch:rule>
@@ -9109,7 +9069,7 @@ Sample values include: 1] TEI; 2] DBK (docbook); 3] XX (unknown); 4] Schematron;
                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
-                      context="( tei:classSpec | tei:dataSpec | tei:elementSpec | tei:macroSpec | tei:moduleSpec | tei:schemaSpec | tei:specGrp )/tei:listRef/tei:ptr                        | ( tei:classSpec | tei:dataSpec | tei:elementSpec | tei:macroSpec | tei:moduleSpec | tei:schemaSpec | tei:specGrp )/tei:listRef/tei:ref">
+                      context="( tei:classSpec | tei:dataSpec | tei:elementSpec | tei:macroSpec | tei:moduleSpec | tei:schemaSpec | tei:specGrp )/tei:listRef/tei:ptr | ( tei:classSpec | tei:dataSpec | tei:elementSpec | tei:macroSpec | tei:moduleSpec | tei:schemaSpec | tei:specGrp )/tei:listRef/tei:ref">
                <sch:assert test="@target and not( matches( @target,'\s') )">In the context of tagset documentation, each ptr or ref element inside a listRef must have a target attribute with only 1 pointer as its value.</sch:assert>
             </sch:rule>
          </pattern>
@@ -9217,7 +9177,7 @@ Sample values include: 1] TEI; 2] DBK (docbook); 3] XX (unknown); 4] Schematron;
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       context="tei:model[ not( parent::tei:modelSequence ) ][ not( @predicate ) ]">
                <sch:let name="output" value="normalize-space( @output )"/>
-               <sch:report test="following-sibling::tei:model                             [ not( @predicate )]                             [ normalize-space( @output ) eq $output ]">
+               <sch:report test="following-sibling::tei:model [ not( @predicate )] [ normalize-space( @output ) eq $output ]">
           There are 2 (or more) 'model' elements in this '<sch:value-of select="local-name(..)"/>'
           that have no predicate, but are targeted to the same output
           ("<sch:value-of select="( $output, parent::modelGrp/@output, 'all')[1]"/>")</sch:report>
@@ -9232,7 +9192,7 @@ Sample values include: 1] TEI; 2] DBK (docbook); 3] XX (unknown); 4] Schematron;
                       context="tei:model[ not( parent::tei:modelSequence ) ][ @predicate ]">
                <sch:let name="predicate" value="normalize-space( @predicate )"/>
                <sch:let name="output" value="normalize-space( @output )"/>
-               <sch:report test="following-sibling::tei:model                             [ normalize-space( @predicate ) eq $predicate ]                             [ normalize-space( @output ) eq $output ]">
+               <sch:report test="following-sibling::tei:model [ normalize-space( @predicate ) eq $predicate ] [ normalize-space( @output ) eq $output ]">
           There are 2 (or more) 'model' elements in this
           '<sch:value-of select="local-name(..)"/>' that have
           the same predicate, and are targeted to the same output
@@ -9595,8 +9555,8 @@ Suggested values include: 1] alternate; 2] default; 3] height; 4] id; 5] label; 
                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
-                      context="tei:attDef[   tei:defaultVal   and   tei:valList[@type eq 'closed']   and   tei:datatype[    @maxOccurs &gt; 1    or    @minOccurs &gt; 1    or    @maxOccurs = 'unbounded'    ]   ]">
-               <sch:assert test="     tokenize(normalize-space(tei:defaultVal),' ')     =     tei:valList/tei:valItem/@ident">In the <sch:value-of select="local-name(ancestor::*[@ident][1])"/> defining
+                      context="tei:attDef[ tei:defaultVal and tei:valList[@type eq 'closed'] and tei:datatype[ @maxOccurs &gt; 1 or @minOccurs &gt; 1 or @maxOccurs = 'unbounded' ] ]">
+               <sch:assert test="tokenize(normalize-space(tei:defaultVal),' ') = tei:valList/tei:valItem/@ident">In the <sch:value-of select="local-name(ancestor::*[@ident][1])"/> defining
         <sch:value-of select="ancestor::*[@ident][1]/@ident"/> the default value of the
         @<sch:value-of select="@ident"/> attribute is not among the closed list of possible
         values</sch:assert>
@@ -9608,8 +9568,8 @@ Suggested values include: 1] alternate; 2] default; 3] height; 4] id; 5] label; 
                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
-                      context="tei:attDef[   tei:defaultVal   and   tei:valList[@type eq 'closed']   and   tei:datatype[    not(@maxOccurs)    or (    if ( @maxOccurs castable as xs:integer )     then ( @maxOccurs cast as xs:integer eq 1 )     else false()    )]   ]">
-               <sch:assert test="string(tei:defaultVal)      =      tei:valList/tei:valItem/@ident">In the <sch:value-of select="local-name(ancestor::*[@ident][1])"/> defining
+                      context="tei:attDef[ tei:defaultVal and tei:valList[@type eq 'closed'] and tei:datatype[ not(@maxOccurs) or ( if ( @maxOccurs castable as xs:integer ) then ( @maxOccurs cast as xs:integer eq 1 ) else false() )] ]">
+               <sch:assert test="string(tei:defaultVal) = tei:valList/tei:valItem/@ident">In the <sch:value-of select="local-name(ancestor::*[@ident][1])"/> defining
         <sch:value-of select="ancestor::*[@ident][1]/@ident"/> the default value of the
         @<sch:value-of select="@ident"/> attribute is not among the closed list of possible
         values</sch:assert>
@@ -18428,10 +18388,7 @@ Suggested values include: 1] cut; 2] rip</a:documentation>
       <element name="extMeta" ns="http://www.music-encoding.org/ns/mei">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(extended metadata) – Provides a container element for non-MEI metadata formats.</a:documentation>
          <zeroOrMore>
-            <choice>
-               <text/>
-               <ref name="mei_macro.anyXML"/>
-            </choice>
+            <text/>
          </zeroOrMore>
          <ref name="mei_att.common.attributes"/>
          <ref name="mei_att.bibl.attributes"/>
