@@ -85,6 +85,10 @@
                     <moduleRef key="linking"/>
                     <moduleRef key="analysis"/>
                     <moduleRef key="tagdocs"/>
+                    <!-- added to pick up settingDesc and particDesc -->
+                    <moduleRef key="corpus"/>
+                    <!-- needed for names and places in settingDesc and particDesc -->
+                    <moduleRef key="namesdates"/>
                     <!--Drama module added -->
                     <moduleRef key="drama"/>
 
@@ -105,7 +109,7 @@
                     
                     <elementSpec module="tagdocs" ident="attRef" mode="delete"/>
                     <elementSpec module="core" ident="biblItem" mode="delete"/>
-                    <elementSpec module="core" ident="biblStruct" mode="delete"/>
+                    <!--  <elementSpec module="core" ident="biblStruct" mode="delete"/> -->
                     <elementSpec module="core" ident="binaryObject" mode="delete"/>
                     <elementSpec module="header" ident="broadcast" mode="delete"/>
                     <elementSpec module="core" ident="cb" mode="delete"/>
@@ -125,14 +129,14 @@
                     <elementSpec module="tagdocs" ident="defaultVal" mode="delete"/>
                     <elementSpec module="core" ident="distinct" mode="delete"/>
                     
-                     <!--SN:  We would want to keep divs if we decide to go with div 1 and div2 -->>
+                     <!--SN:  We would want to keep divs if we decide to go with div 1 and div2 
                     <elementSpec module="textstructure" mode="delete" ident="div1"/>
                     <elementSpec module="textstructure" mode="delete" ident="div2"/>
                     <elementSpec module="textstructure" mode="delete" ident="div3"/>
                     <elementSpec module="textstructure" mode="delete" ident="div4"/>
                     <elementSpec module="textstructure" mode="delete" ident="div5"/>
                     <elementSpec module="textstructure" mode="delete" ident="div6"/>
-                    <elementSpec module="textstructure" mode="delete" ident="div7"/>  
+                    <elementSpec module="textstructure" mode="delete" ident="div7"/>  -->>
                     
                     <elementSpec module="tagdocs" ident="egXML" mode="delete"/>
                     <elementSpec module="tagdocs" ident="elementRef" mode="delete"/>
@@ -141,6 +145,17 @@
                     <elementSpec module="header" ident="equipment" mode="delete"/>
                     <elementSpec module="core" ident="equiv" mode="delete"/>
                     <elementSpec module="tagdocs" ident="exemplum" mode="delete"/>
+                    
+                    <elementSpec module="corpus" ident="activity" mode="delete"/>
+                    <elementSpec module="corpus" ident="channel" mode="delete"/>
+                    <elementSpec module="corpus" ident="constitution" mode="delete"/>
+                    <elementSpec module="corpus" ident="derivation" mode="delete"/>
+                    <elementSpec module="corpus" ident="domain" mode="delete"/>
+                    <elementSpec module="corpus" ident="factuality" mode="delete"/>
+                    <elementSpec module="corpus" ident="interaction" mode="delete"/>
+                    <elementSpec module="corpus" ident="preparedness" mode="delete"/>
+                    <elementSpec module="corpus" ident="purpose" mode="delete"/>
+                    
                     
                     <!--In TEI body-->
                     <!--<elementSpec module="textstructure" ident="floatingText" mode="delete"/>-->
@@ -169,7 +184,7 @@
                     <elementSpec module="analysis" ident="m" mode="delete"/>
                     <elementSpec ident="moduleRef" mode="delete" module="tagdocs"/>
                     <elementSpec ident="moduleSpec" mode="delete" module="tagdocs"/>
-                    <elementSpec module="core" ident="monogr" mode="delete"/>
+                    <!-- <elementSpec module="core" ident="monogr" mode="delete"/> -->
                     <elementSpec module="header" ident="normalization" mode="delete"/>
                     <elementSpec module="analysis" ident="phr" mode="delete"/>
                     <elementSpec module="core" ident="postBox" mode="delete"/>
@@ -213,17 +228,60 @@
                     <elementSpec module="analysis" ident="w" mode="delete"/>
                     <elementSpec module="header" ident="handNote" mode="delete"/>
                     <elementSpec module="header" ident="tagUsage" mode="delete"/>
-                    <elementSpec module="core" ident="imprint" mode="delete"/>
+                    <!-- <elementSpec module="core" ident="imprint" mode="delete"/> -->
                     
                     <!--SN:  keep rendition, at least until shift to doing so outside of TEI doc. -->
                     <!-- <elementSpec module="header" ident="rendition" mode="delete"/>-->
                     <elementSpec module="header" ident="namespace" mode="delete"/> 
 
+                    <!--SN:  see above for keeping rendition.
                     <classSpec ident="att.global" type="atts" mode="change" module="tei">
-                        <!--SN:  see above for keeping rendition.-->
-                        <!--<attList>
+                        
+                        <attList>
                             <attDef ident="rendition" mode="delete"/>
-                         </attList> -->
+                         </attList> 
+                    </classSpec> -->
+                    
+                    <!--this div is from TEI-Drama ODD-->
+                    <classSpec predeclare="true" module="linking" xml:id="CLLINK" type="atts" ident="att.global.linking" mode="change">
+                        <desc xml:lang="en" versionDate="2014-01-12">defines the
+                            attributes used for aggregating partial elements into a
+                            single virtual element.</desc>
+                        <attList>
+                            <attDef ident="corresp" usage="opt" mode="delete"/>
+                            <attDef ident="synch" usage="opt" mode="delete"/>
+                            <attDef ident="sameAs" usage="opt" mode="delete"/>
+                            <attDef ident="copyOf" usage="opt" mode="delete"/>
+                            <attDef ident="next" usage="opt" mode="change">
+                                <valDesc mode="change">a URI which should point to an element of
+                                    the same type, typically within the same document</valDesc>
+                            </attDef>
+                            <attDef ident="prev" usage="opt" mode="change">
+                                <valDesc mode="change">a URI which should point to an element of
+                                    the same type, typically within the same document</valDesc>
+                            </attDef>
+                            <attDef ident="exclude" usage="opt" mode="delete"/>
+                            <attDef ident="select" usage="opt" mode="delete"/>
+                        </attList>
+                        <listRef>
+                            <ptr target="#SAAG"/>
+                        </listRef>
+                    </classSpec>
+                    <classSpec module="tei" xml:id="GLOBAL" type="atts" ident="att.global" mode="change">
+                        <desc xml:lang="en" versionDate="2014-01-12">provides a set
+                            of attributes common to all elements in the
+                            <name>tei_drama</name> customization of the TEI encoding
+                            scheme.</desc>
+                        <classes>
+                            <memberOf key="att.global.linking"/>
+                            <memberOf key="att.global.analytic"/>
+                            <!-- added as test -->
+                            <memberOf key="att.global.rendition"/>
+                        </classes>
+                        <attList>
+                            <attDef ident="xml:space" usage="opt" mode="delete"/>
+                            <attDef ident="xml:base" usage="opt" mode="delete"/>
+                        </attList>
                     </classSpec>
 
                     
@@ -355,45 +413,7 @@
                 
             
             
-                <!--this div is from TEI-Drama ODD-->
-                <classSpec predeclare="true" module="linking" xml:id="CLLINK" type="atts" ident="att.global.linking" mode="change">
-                <desc xml:lang="en" versionDate="2014-01-12">defines the
-            attributes used for aggregating partial elements into a
-            single virtual element.</desc>
-            <attList>
-                <attDef ident="corresp" usage="opt" mode="delete"/>
-                 <attDef ident="synch" usage="opt" mode="delete"/>
-                 <attDef ident="sameAs" usage="opt" mode="delete"/>
-                 <attDef ident="copyOf" usage="opt" mode="delete"/>
-                 <attDef ident="next" usage="opt" mode="change">
-                     <valDesc mode="change">a URI which should point to an element of
-                         the same type, typically within the same document</valDesc>
-                 </attDef>
-                 <attDef ident="prev" usage="opt" mode="change">
-                     <valDesc mode="change">a URI which should point to an element of
-                         the same type, typically within the same document</valDesc>
-                 </attDef>
-                 <attDef ident="exclude" usage="opt" mode="delete"/>
-                 <attDef ident="select" usage="opt" mode="delete"/>
-             </attList>
-                <listRef>
-                    <ptr target="#SAAG"/>
-                </listRef>
-            </classSpec>
-            <classSpec module="tei" xml:id="GLOBAL" type="atts" ident="att.global" mode="change">
-                <desc xml:lang="en" versionDate="2014-01-12">provides a set
-                    of attributes common to all elements in the
-                    <name>tei_drama</name> customization of the TEI encoding
-                    scheme.</desc>
-                <classes>
-                    <memberOf key="att.global.linking"/>
-                    <memberOf key="att.global.analytic"/>
-                </classes>
-                <attList>
-                    <attDef ident="xml:space" usage="opt" mode="delete"/>
-                    <attDef ident="xml:base" usage="opt" mode="delete"/>
-                </attList>
-            </classSpec>
+               
             </schemaSpec>    
         
         
