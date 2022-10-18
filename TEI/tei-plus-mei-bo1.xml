@@ -7539,7 +7539,7 @@
 
                     <notatedMusic xml:id="OUVERTURE" type="score">
 
-                        <xi:include href="mei/Overture.mei" xpointer="m-21">
+                        <xi:include href="mei/Overture.mei" xpointer="f-Overture_m-21">
                             <!-- The xpointer must point to the <music> element in the MEI file -->
                             <xi:fallback>Missing File</xi:fallback>
                         </xi:include>
@@ -7565,7 +7565,7 @@
                                 >&amp;c.</hi></head>
 
                         <notatedMusic xml:id="SCORE_1" type="score">
-                            <xi:include href="mei/10101.mei" xpointer="m-28">
+                            <xi:include href="mei/10101.mei" xpointer="f-10101_m-28">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -7579,7 +7579,7 @@
                                 >&amp;c.</hi></head>
 
                         <notatedMusic xml:id="SCORE_2" type="score">
-                            <xi:include href="mei/10202.mei" xpointer="m-27">
+                            <xi:include href="mei/10202.mei" xpointer="f-10202_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -7593,7 +7593,7 @@
                             >&amp;c.</hi></head>
 
                         <notatedMusic xml:id="SCORE_3" type="score">
-                            <xi:include href="mei/10403.mei" xpointer="m-27">
+                            <xi:include href="mei/10403.mei" xpointer="f-10403_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -7607,7 +7607,7 @@
                                 rend="italics">&amp;c</hi></head>
 
                         <notatedMusic xml:id="SCORE_4" type="score">
-                            <xi:include href="mei/10404.mei" xpointer="m-27">
+                            <xi:include href="mei/10404.mei" xpointer="f-10404_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -7621,7 +7621,7 @@
                                 >&amp;c</hi>.</head>
 
                         <notatedMusic xml:id="SCORE_5" type="score">
-                            <xi:include href="mei/10505.mei" xpointer="m-27">
+                            <xi:include href="mei/10505.mei" xpointer="f-10505_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -7636,7 +7636,7 @@
 
 
                         <notatedMusic xml:id="SCORE_6" type="score">
-                            <xi:include href="mei/10706.mei" xpointer="m-27">
+                            <xi:include href="mei/10706.mei" xpointer="f-10706_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -7650,7 +7650,7 @@
                             Town.</head>
 
                         <notatedMusic xml:id="SCORE_7" type="score">
-                            <xi:include href="mei/10807.mei" xpointer="m-27">
+                            <xi:include href="mei/10807.mei" xpointer="f-10807_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -7664,7 +7664,7 @@
                                 >&amp;c</hi>.</head>
 
                         <notatedMusic xml:id="SCORE_8" type="score">
-                            <xi:include href="mei/10808.mei" xpointer="m-30">
+                            <xi:include href="mei/10808.mei" xpointer="f-10808_m-30">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -7677,7 +7677,7 @@
                         <head>AIR IX. O Jenny, O Jenny, where hast thou been.</head>
 
                         <notatedMusic xml:id="SCORE_9" type="score">
-                            <xi:include href="mei/10809.mei" xpointer="m-27">
+                            <xi:include href="mei/10809.mei" xpointer="f-10809_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -7691,7 +7691,7 @@
                             >&amp;c</hi>.</head>
 
                         <notatedMusic xml:id="SCORE_10" type="score">
-                            <xi:include href="mei/10810.mei" xpointer="m-27">
+                            <xi:include href="mei/10810.mei" xpointer="f-10810_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -7705,7 +7705,7 @@
 
 
                         <notatedMusic xml:id="SCORE_11" type="score">
-                            <xi:include href="mei/10911.mei" xpointer="m-27">
+                            <xi:include href="mei/10911.mei" xpointer="f-10911_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -7718,7 +7718,7 @@
                         <head>AIR XII. Now ponder well, ye Parents dear.</head>
 
                         <notatedMusic xml:id="SCORE_12" type="score">
-                            <xi:include href="mei/11012.mei" xpointer="m-27">
+                            <xi:include href="mei/11012.mei" xpointer="f-11012_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -7731,7 +7731,7 @@
                         <head>AIR XIII. Le printemps rappelle aux armes.</head>
 
                         <notatedMusic xml:id="SCORE_13" type="score">
-                            <xi:include href="mei/11013.mei" xpointer="m-27">
+                            <xi:include href="mei/11013.mei" xpointer="f-11013_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -7744,7 +7744,7 @@
                         <head>AIR XIV. Pretty Parrot, say----</head>
 
                         <notatedMusic xml:id="SCORE_14" type="score">
-                            <xi:include href="mei/11314.mei" xpointer="m-27">
+                            <xi:include href="mei/11314.mei" xpointer="f-11314_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -7757,7 +7757,7 @@
                         <head>AIR XV. Pray, Fair One, be kind----</head>
 
                         <notatedMusic xml:id="SCORE_15" type="score">
-                            <xi:include href="mei/11315.mei" xpointer="m-27">
+                            <xi:include href="mei/11315.mei" xpointer="f-11315_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -7771,7 +7771,7 @@
 
 
                         <notatedMusic xml:id="SCORE_16" type="score">
-                            <xi:include href="mei/11316.mei" xpointer="m-27">
+                            <xi:include href="mei/11316.mei" xpointer="f-11316_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -7784,7 +7784,7 @@
                         <head>AIR XVII. Gin thou wert mine awn thing----</head>
 
                         <notatedMusic xml:id="SCORE_17" type="score">
-                            <xi:include href="mei/11317.mei" xpointer="m-27">
+                            <xi:include href="mei/11317.mei" xpointer="f-11317_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -7798,7 +7798,7 @@
                             >&amp;c</hi>.</head>
 
                         <notatedMusic xml:id="SCORE_18" type="score">
-                            <xi:include href="mei/11318.mei" xpointer="m-27">
+                            <xi:include href="mei/11318.mei" xpointer="f-11318_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -7822,7 +7822,7 @@
                             >&amp;c</hi>.</head>
 
                         <notatedMusic xml:id="SCORE_19" type="score">
-                            <xi:include href="mei/20119.mei" xpointer="m-27">
+                            <xi:include href="mei/20119.mei" xpointer="f-20119_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -7835,7 +7835,7 @@
                         <head>AIR XX. March in Rinaldo, with Drums and Trumpets.</head>
 
                         <notatedMusic xml:id="SCORE_20" type="score">
-                            <xi:include href="mei/20220.mei" xpointer="m-27">
+                            <xi:include href="mei/20220.mei" xpointer="f-20220_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -7849,7 +7849,7 @@
                                 >&amp;c</hi>.</head>
 
                         <notatedMusic xml:id="SCORE_21" type="score">
-                            <xi:include href="mei/20321.mei" xpointer="m-27">
+                            <xi:include href="mei/20321.mei" xpointer="f-20321_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -7862,7 +7862,7 @@
                         <head>AIR XXII. Cotillon.</head>
 
                         <notatedMusic xml:id="SCORE_22" type="score">
-                            <xi:include href="mei/20422.mei" xpointer="m-27">
+                            <xi:include href="mei/20422.mei" xpointer="f-20422_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -7876,7 +7876,7 @@
                                 >&amp;c</hi>.</head>
 
                         <notatedMusic xml:id="SCORE_23" type="score">
-                            <xi:include href="mei/20423.mei" xpointer="m-27">
+                            <xi:include href="mei/20423.mei" xpointer="f-20423_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -7890,7 +7890,7 @@
                                 rend="italics">&amp;c</hi>. </head>
 
                         <notatedMusic xml:id="SCORE_24" type="score">
-                            <xi:include href="mei/20424.mei" xpointer="m-27">
+                            <xi:include href="mei/20424.mei" xpointer="f-20424_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -7904,7 +7904,7 @@
                                 rend="italics">&amp;c</hi>. </head>
 
                         <notatedMusic xml:id="SCORE_25" type="score">
-                            <xi:include href="mei/20525.mei" xpointer="m-27">
+                            <xi:include href="mei/20525.mei" xpointer="f-20525_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -7918,7 +7918,7 @@
                                 rend="italics">&amp;c</hi>.</head>
 
                         <notatedMusic xml:id="SCORE_26" type="score">
-                            <xi:include href="mei/20826.mei" xpointer="m-27">
+                            <xi:include href="mei/20826.mei" xpointer="f-20826_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -7932,7 +7932,7 @@
                                 rend="italics">&amp;c</hi>. </head>
 
                         <notatedMusic xml:id="SCORE_27" type="score">
-                            <xi:include href="mei/20927.mei" xpointer="m-27">
+                            <xi:include href="mei/20927.mei" xpointer="f-20927_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -7947,7 +7947,7 @@
 
 
                         <notatedMusic xml:id="SCORE_28" type="score">
-                            <xi:include href="mei/20928.mei" xpointer="m-27">
+                            <xi:include href="mei/20928.mei" xpointer="f-20928_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -7961,7 +7961,7 @@
                                 rend="italics">&amp;c</hi>. </head>
 
                         <notatedMusic xml:id="SCORE_29" type="score">
-                            <xi:include href="mei/20929.mei" xpointer="m-25">
+                            <xi:include href="mei/20929.mei" xpointer="f-20929_m-25">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -7975,7 +7975,7 @@
 
 
                         <notatedMusic xml:id="SCORE_30" type="score">
-                            <xi:include href="mei/21030.mei" xpointer="m-27">
+                            <xi:include href="mei/21030.mei" xpointer="f-21030_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -7989,7 +7989,7 @@
                                 >Shenkin</hi>. </head>
 
                         <notatedMusic xml:id="SCORE_31" type="score">
-                            <xi:include href="mei/21131.mei" xpointer="m-27">
+                            <xi:include href="mei/21131.mei" xpointer="f-21131_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -8002,7 +8002,7 @@
                         <head>AIR XXXII.</head>
 
                         <notatedMusic xml:id="SCORE_32" type="score">
-                            <xi:include href="mei/21132.mei" xpointer="m-27">
+                            <xi:include href="mei/21132.mei" xpointer="f-21132_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -8015,7 +8015,7 @@
                         <head>AIR XXXIII. <hi rend="italics">London</hi> Ladies.</head>
 
                         <notatedMusic xml:id="SCORE_33" type="score">
-                            <xi:include href="mei/21233.mei" xpointer="m-27">
+                            <xi:include href="mei/21233.mei" xpointer="f-21233_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -8029,7 +8029,7 @@
                                 >&amp;c</hi>.</head>
 
                         <notatedMusic xml:id="SCORE_34" type="score">
-                            <xi:include href="mei/21334.mei" xpointer="m-27">
+                            <xi:include href="mei/21334.mei" xpointer="f-21334_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -8044,7 +8044,7 @@
 
 
                         <notatedMusic xml:id="SCORE_35" type="score">
-                            <xi:include href="mei/21335.mei" xpointer="m-27">
+                            <xi:include href="mei/21335.mei" xpointer="f-21335_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -8059,7 +8059,7 @@
 
 
                         <notatedMusic xml:id="SCORE_36" type="score">
-                            <xi:include href="mei/21336.mei" xpointer="m-27">
+                            <xi:include href="mei/21336.mei" xpointer="f-21336_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -8072,7 +8072,7 @@
                         <head>AIR XXXVII.</head>
 
                         <notatedMusic xml:id="SCORE_37" type="score">
-                            <xi:include href="mei/21337.mei" xpointer="m-27">
+                            <xi:include href="mei/21337.mei" xpointer="f-21337_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -8086,7 +8086,7 @@
                                 >Joan</hi>.</head>
 
                         <notatedMusic xml:id="SCORE_38" type="score">
-                            <xi:include href="mei/21338.mei" xpointer="m-27">
+                            <xi:include href="mei/21338.mei" xpointer="f-21338_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -8099,7 +8099,7 @@
                         <head>AIR XXXIX. <hi rend="italics">Irish</hi> Howl.</head>
 
                         <notatedMusic xml:id="SCORE_39" type="score">
-                            <xi:include href="mei/21439.mei" xpointer="m-27">
+                            <xi:include href="mei/21439.mei" xpointer="f-21439_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -8113,7 +8113,7 @@
                                 <hi rend="italics">&amp;c</hi>.</head>
 
                         <notatedMusic xml:id="SCORE_40" type="score">
-                            <xi:include href="mei/21540.mei" xpointer="m-27">
+                            <xi:include href="mei/21540.mei" xpointer="f-21540_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -8136,7 +8136,7 @@
                                 >&amp;c</hi>.</head>
 
                         <notatedMusic xml:id="SCORE_41" type="score">
-                            <xi:include href="mei/30141.mei" xpointer="m-27">
+                            <xi:include href="mei/30141.mei" xpointer="f-30141_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -8149,7 +8149,7 @@
                         <head>AIR XLII. <hi rend="italics">South-Sea</hi> Ballad.</head>
 
                         <notatedMusic xml:id="SCORE_42" type="score">
-                            <xi:include href="mei/30142.mei" xpointer="m-27">
+                            <xi:include href="mei/30142.mei" xpointer="f-30142_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -8163,7 +8163,7 @@
                             Pound.</head>
 
                         <notatedMusic xml:id="SCORE_43" type="score">
-                            <xi:include href="mei/30243.mei" xpointer="m-27">
+                            <xi:include href="mei/30243.mei" xpointer="f-30243_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -8176,7 +8176,7 @@
                         <head>AIR XLIV. Lillibullero.</head>
 
                         <notatedMusic xml:id="SCORE_44" type="score">
-                            <xi:include href="mei/30444.mei" xpointer="m-27">
+                            <xi:include href="mei/30444.mei" xpointer="f-30444_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -8190,7 +8190,7 @@
                                 >&amp;c</hi>.</head>
 
                         <notatedMusic xml:id="SCORE_45" type="score">
-                            <xi:include href="mei/30545.mei" xpointer="m-27">
+                            <xi:include href="mei/30545.mei" xpointer="f-30545_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -8204,7 +8204,7 @@
                                 >&amp;c</hi>.</head>
 
                         <notatedMusic xml:id="SCORE_46" type="score">
-                            <xi:include href="mei/30646.mei" xpointer="m-27">
+                            <xi:include href="mei/30646.mei" xpointer="f-30646_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -8218,7 +8218,7 @@
                                 rend="italics">&amp;c</hi>.</head>
 
                         <notatedMusic xml:id="SCORE_47" type="score">
-                            <xi:include href="mei/30747.mei" xpointer="m-27">
+                            <xi:include href="mei/30747.mei" xpointer="f-30747_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -8232,7 +8232,7 @@
                             Son.</head>
 
                         <notatedMusic xml:id="SCORE_48" type="score">
-                            <xi:include href="mei/30848.mei" xpointer="m-27">
+                            <xi:include href="mei/30848.mei" xpointer="f-30848_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -8245,7 +8245,7 @@
                         <head>AIR XLIX. O Bessy Bell.</head>
 
                         <notatedMusic xml:id="SCORE_49" type="score">
-                            <xi:include href="mei/30849.mei" xpointer="m-27">
+                            <xi:include href="mei/30849.mei" xpointer="f-30849_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -8259,7 +8259,7 @@
                             give</head>
 
                         <notatedMusic xml:id="SCORE_50" type="score">
-                            <xi:include href="mei/30850.mei" xpointer="m-27">
+                            <xi:include href="mei/30850.mei" xpointer="f-30850_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -8273,7 +8273,7 @@
                             >&amp;c</hi>.</head>
 
                         <notatedMusic xml:id="SCORE_51" type="score">
-                            <xi:include href="mei/30851.mei" xpointer="m-27">
+                            <xi:include href="mei/30851.mei" xpointer="f-30851_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -8286,7 +8286,7 @@
                         <head>AIR LII. The last time I went o'er the Moor.</head>
 
                         <notatedMusic xml:id="SCORE_52" type="score">
-                            <xi:include href="mei/31152.mei" xpointer="m-27">
+                            <xi:include href="mei/31152.mei" xpointer="f-31152_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -8299,7 +8299,7 @@
                         <head>AIR LIII. Tom Tinkers my true Love.</head>
 
                         <notatedMusic xml:id="SCORE_53" type="score">
-                            <xi:include href="mei/31153.mei" xpointer="m-27">
+                            <xi:include href="mei/31153.mei" xpointer="f-31153_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -8312,7 +8312,7 @@
                         <head>AIR LIV. I am a poor Shepherd undone.</head>
 
                         <notatedMusic xml:id="SCORE_54" type="score">
-                            <xi:include href="mei/31154.mei" xpointer="m-27">
+                            <xi:include href="mei/31154.mei" xpointer="f-31154_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -8326,7 +8326,7 @@
                             >&amp;c</hi>.</head>
 
                         <notatedMusic xml:id="SCORE_55" type="score">
-                            <xi:include href="mei/31155.mei" xpointer="m-27">
+                            <xi:include href="mei/31155.mei" xpointer="f-31155_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -8340,7 +8340,7 @@
                                 >&amp;c</hi>.</head>
 
                         <notatedMusic xml:id="SCORE_56" type="score">
-                            <xi:include href="mei/31156.mei" xpointer="m-27">
+                            <xi:include href="mei/31156.mei" xpointer="f-31156_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -8353,7 +8353,7 @@
                         <head>AIR LVII. Bonny <hi rend="italics">Dundee</hi>.</head>
 
                         <notatedMusic xml:id="SCORE_57" type="score">
-                            <xi:include href="mei/31157.mei" xpointer="m-27">
+                            <xi:include href="mei/31157.mei" xpointer="f-31157_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -8367,7 +8367,7 @@
 
 
                         <notatedMusic xml:id="SCORE_58" type="score">
-                            <xi:include href="mei/31358.mei" xpointer="m-27">
+                            <xi:include href="mei/31358.mei" xpointer="f-31358_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -8380,7 +8380,7 @@
                         <head>AIR LIX. Of all the Girls that are so smart.</head>
 
                         <notatedMusic xml:id="SCORE_59" type="score">
-                            <xi:include href="mei/31359.mei" xpointer="m-27">
+                            <xi:include href="mei/31359.mei" xpointer="f-31359_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -8393,7 +8393,7 @@
                         <head>AIR LX. Britons strike home.</head>
 
                         <notatedMusic xml:id="SCORE_60" type="score">
-                            <xi:include href="mei/31360.mei" xpointer="m-27">
+                            <xi:include href="mei/31360.mei" xpointer="f-31360_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -8406,7 +8406,7 @@
                         <head>AIR LXI. Chevy Chase.</head>
 
                         <notatedMusic xml:id="SCORE_61" type="score">
-                            <xi:include href="mei/31361.mei" xpointer="m-27">
+                            <xi:include href="mei/31361.mei" xpointer="f-31361_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -8419,7 +8419,7 @@
                         <head>AIR LXII. To old Sir Simon the King.</head>
 
                         <notatedMusic xml:id="SCORE_62" type="score">
-                            <xi:include href="mei/31362.mei" xpointer="m-27">
+                            <xi:include href="mei/31362.mei" xpointer="f-31362_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -8432,7 +8432,7 @@
                         <head>AIR LXIII. Joy to great Caesar.</head>
 
                         <notatedMusic xml:id="SCORE_63" type="score">
-                            <xi:include href="mei/31363.mei" xpointer="m-27">
+                            <xi:include href="mei/31363.mei" xpointer="f-31363_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -8445,7 +8445,7 @@
                         <head>AIR LXIV. There was an Old Woman.</head>
 
                         <notatedMusic xml:id="SCORE_64" type="score">
-                            <xi:include href="mei/31364.mei" xpointer="m-27">
+                            <xi:include href="mei/31364.mei" xpointer="f-31364_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -8458,7 +8458,7 @@
                         <head>AIR LXV. Did you ever hear of a gallant Sailor.</head>
 
                         <notatedMusic xml:id="SCORE_65" type="score">
-                            <xi:include href="mei/31365.mei" xpointer="m-27">
+                            <xi:include href="mei/31365.mei" xpointer="f-31365_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -8471,7 +8471,7 @@
                         <head>AIR LXVI. Why are mine Eyes still flowing.</head>
 
                         <notatedMusic xml:id="SCORE_66" type="score">
-                            <xi:include href="mei/31366.mei" xpointer="m-27">
+                            <xi:include href="mei/31366.mei" xpointer="f-31366_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -8484,7 +8484,7 @@
                         <head>AIR LXVII. Green Sleeves.</head>
 
                         <notatedMusic xml:id="SCORE_67" type="score">
-                            <xi:include href="mei/31367.mei" xpointer="m-27">
+                            <xi:include href="mei/31367.mei" xpointer="f-31367_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -8498,7 +8498,7 @@
                                 rend="italics">&amp;c</hi>.</head>
 
                         <notatedMusic xml:id="SCORE_68" type="score">
-                            <xi:include href="mei/31568.mei" xpointer="m-27">
+                            <xi:include href="mei/31568.mei" xpointer="f-31568_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
@@ -8512,7 +8512,7 @@
                             >&amp;c</hi>.</head>
 
                         <notatedMusic xml:id="SCORE_69" type="score">
-                            <xi:include href="mei/31769.mei" xpointer="m-27">
+                            <xi:include href="mei/31769.mei" xpointer="f-31769_m-27">
                                 <!-- The xpointer must point to the <music> element in the MEI file -->
                                 <xi:fallback>Missing File</xi:fallback>
                             </xi:include>
