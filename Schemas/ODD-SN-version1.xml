@@ -285,60 +285,22 @@
                     </classSpec>
 
                     
-                    <elementSpec xmlns="http://www.tei-c.org/ns/1.0" module="figures" ident="notatedMusic" mode="change">                   
-                        <equiv/> 
-                       <desc>encodes the presence of music notation in a text. Some MEI elements are allowed within.</desc>
-                        <classes>
-                            <memberOf key="model.global"/>
-                            <memberOf key="att.global"/>
-                            <memberOf key="att.placement"/>
-                            <memberOf key="att.typed"/>
-                        </classes>
+                    <elementSpec xmlns="http://www.tei-c.org/ns/1.0" module="figures" ident="notatedMusic" mode="change"> 
                         <content>
-                            <zeroOrMore xmlns="http://relaxng.org/ns/structure/1.0">
-                                <choice>
-                                    <ref name="model.labelLike"/>
-                                    <ref name="model.ptrLike"/>
-                                    <ref name="graphic"/>
-                                    <ref name="binaryObject"/>
-                                </choice>
-                            </zeroOrMore>
-                            <rng:optional>
-                                <rng:choice>
-                                    <rng:ref name="mei_mei"/>
-                                    <rng:ref name="mei_music"/>
-                                    <rng:ref name="mei_mdiv"/>
-                                    <rng:ref name="mei_layer"/>
-                                </rng:choice>
-                            </rng:optional>
+                            <alternate minOccurs="0" maxOccurs="unbounded">
+                                <elementRef key="mei_mei"/>
+                                <elementRef key="mei_music"/>
+                                <elementRef key="mei_mdiv"/>
+                                <elementRef key="mei_layer"/>
+                            </alternate>
+                            <alternate minOccurs="0" maxOccurs="unbounded">
+                                <classRef key="model.labelLike"/>
+                                <classRef key="model.ptrLike"/>
+                                <elementRef key="graphic"/>
+                                <elementRef key="binaryObject"/>
+                                <elementRef key="seg"/>
+                            </alternate>
                         </content>
-                  
-                        <exemplum xml:lang="en">
-                            <egXML xmlns="http://www.tei-c.org/ns/Examples">
-                                <notatedMusic>
-                                    <ptr target="bar1.xml"/>
-                                    <graphic url="bar1.jpg"/>
-                                    <desc>First bar of Chopin's Scherzo No.3 Op.39</desc>
-                                </notatedMusic>
-                            </egXML>
-                        </exemplum>
-                        <remarks> <p>It is possible to describe
-                            the content of the notation using elements from the model.labelLike class and it is possible
-                            to point to an external representation using elements from model.ptrLike. It is possible to
-                            specify the location of digital objects representing the notated music in other media such
-                            as images or audio-visual files. The encoder's interpretation of the correspondence between
-                            the notated music and these digital objects is not encoded explicitly. 
-                            
-
-                            We recommend the use
-                            of graphic and binaryObject mainly as a fallback mechanism when the notated music format is
-                            not displayable by the application using the encoding. The alignment of encoded notated
-                            music, images carrying the notation, and audio files is a complex matter for which we refer
-                            the encoder to other formats and specifications such as MPEG-SMR.</p>
-                            <p>In this TEI with Music Notation customisation, some
-                                elements from MEI are allowed to occur within the element to
-                                encode the music notation.</p></remarks>
-                        
                     </elementSpec>
 
 
@@ -355,24 +317,30 @@
                     <!--<moduleRef key="MEI.mensural" source="mei-source.xml"/>
                     <moduleRef key="MEI.neumes" source="mei-source.xml"/>-->
                             
-                    <moduleRef key="MEI.analysis" source="mei-source.xml"/>
+                    <moduleRef key="MEI.analytical" source="mei-source.xml"/>
                     <moduleRef key="MEI.cmnOrnaments" source="mei-source.xml"/>
-                    <moduleRef key="MEI.corpus" source="mei-source.xml"/>
+                    <!--<moduleRef key="MEI.corpus" source="mei-source.xml"/>-->
                     <moduleRef key="MEI.critapp" source="mei-source.xml"/>
+                    <!--<moduleRef key="MEI.drama" source="mei-source.xml"/>-->
                     <moduleRef key="MEI.edittrans" source="mei-source.xml"/>
+                    <moduleRef key="MEI.externalsymbols" source="mei-source.xml"/>
                     <moduleRef key="MEI.facsimile" source="mei-source.xml"/>
                     <moduleRef key="MEI.figtable" source="mei-source.xml"/>
+                    <moduleRef key="MEI.fingering" source="mei-source.xml"/>
                     <moduleRef key="MEI.frbr" source="mei-source.xml"/>
+                    <!--<moduleRef key="MEI.genetic" source="mei-source.xml"/>-->
+                    <moduleRef key="MEI.gestural" source="mei-source.xml"/>
                     <moduleRef key="MEI.harmony" source="mei-source.xml"/>
-                    <moduleRef key="MEI.linkalign" source="mei-source.xml"/>
                     <moduleRef key="MEI.lyrics" source="mei-source.xml"/>
                     <moduleRef key="MEI.midi" source="mei-source.xml"/>
+                    <moduleRef key="MEI.msDesc" source="mei-source.xml"/>
                     <moduleRef key="MEI.namesdates" source="mei-source.xml"/>
                     <moduleRef key="MEI.performance" source="mei-source.xml"/>
                     <moduleRef key="MEI.ptrref" source="mei-source.xml"/>
-                    <moduleRef key="MEI.tablature" source="mei-source.xml"/>
+                    <moduleRef key="MEI.stringtab" source="mei-source.xml"/>
                     <moduleRef key="MEI.text" source="mei-source.xml"/>
                     <moduleRef key="MEI.usersymbols" source="mei-source.xml"/>
+                    <moduleRef key="MEI.visual" source="mei-source.xml"/>
 
                     <!-- == Changes to MEI components == -->
                     
