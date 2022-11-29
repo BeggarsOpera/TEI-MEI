@@ -364,7 +364,7 @@
                             </alternate>
                         </content>
                     </elementSpec>
-                    <macroSpec ident="mei_macro.anyXML" module="MEI.shared" type="pe" mode="delete" />
+                    <macroSpec ident="mei_macro.anyXML" module="MEI.shared" mode="delete" />
 
                     <!-- Make @source mandatory when applicable. -->
                               
