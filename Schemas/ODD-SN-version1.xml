@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<?oxygen RNGSchema="tei_odds.rng" type="xml"?>
+<?xml-model href="https://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_odds.rng type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0"
     xml:lang="en">
     <teiHeader>
@@ -9,8 +9,8 @@
                 <author>Steve Newman</author>
             </titleStmt>
             <publicationStmt>
+                <publisher>Copyright 2010 TEI Consortium.</publisher>
                          <availability>
-                    <p><hi>Copyright 2010 TEI Consortium.</hi></p>
                     <p>This is free software; you can redistribute it and/or modify it under the
                         terms of the GNU General Public License as published by the Free Software
                         Foundation; either version 2 of the License, or (at your option) any later
@@ -136,7 +136,7 @@
                     <elementSpec module="textstructure" mode="delete" ident="div4"/>
                     <elementSpec module="textstructure" mode="delete" ident="div5"/>
                     <elementSpec module="textstructure" mode="delete" ident="div6"/>
-                    <elementSpec module="textstructure" mode="delete" ident="div7"/>  -->>
+                    <elementSpec module="textstructure" mode="delete" ident="div7"/>  -->
                     
                     <elementSpec module="tagdocs" ident="egXML" mode="delete"/>
                     <elementSpec module="tagdocs" ident="elementRef" mode="delete"/>
@@ -223,7 +223,7 @@
                     <elementSpec module="tagdocs" ident="valDesc" mode="delete"/>-->
                     <elementSpec module="tagdocs" ident="valItem" mode="delete"/>
                     <elementSpec module="tagdocs" ident="valList" mode="delete"/>
-                    <elezmentSpec module="header" ident="variantEncoding" mode="delete"/>
+                    <elementSpec module="header" ident="variantEncoding" mode="delete"/>
                     <elementSpec module="linking" ident="when" mode="delete"/>
                     <elementSpec module="analysis" ident="w" mode="delete"/>
                     <elementSpec module="header" ident="handNote" mode="delete"/>
@@ -372,7 +372,7 @@
                         <desc>signifies the staff on which a notated event occurs or to
                             which a control event applies.</desc>
                         <attList>
-                            <attDef ident="staff" usage="mwa"/>
+                            <attDef ident="staff" usage="opt"/>
                         </attList>
                         <remarks><p>The attribute is made mandatory when applicable instead of always mandatory to allow MEI fragments.</p></remarks>
                     </classSpec>
