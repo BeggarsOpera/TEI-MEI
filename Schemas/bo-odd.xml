@@ -1,0 +1,350 @@
+<?xml version="1.0"?>
+<?xml-model href="https://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_odds.rng type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0"
+    xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ODD for Musical Theater</title>
+                <author>Steve Newman</author>
+                <author>Fred Rowland</author>
+                <author>Raffaele Viglianti</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Beggar's Opera Productions</publisher>
+                <availability>
+                    <p><hi>Copyright 2010 TEI Consortium.</hi></p>
+                    <p>This is free software; you can redistribute it and/or modify it under the
+                        terms of the GNU General Public License as published by the Free Software
+                        Foundation; either version 2 of the License, or (at your option) any later
+                        version.</p>
+                    <p>This material is distributed in the hope that it will be useful, but
+                            <emph>without any warranty</emph>; without even the implied warranty of
+                            <emph>merchantability</emph> or <emph>fitness for a particular
+                            purpose.</emph> See the GNU General Public License for more details.</p>
+                    <p>A copy of the GNU General Public License is stored on the TEI web site along
+                        with this file; you can also contact the Free Software Foundation, Inc., 59
+                        Temple Place, Suite 330, Boston, MA 02111-1307, USA, for a copy.</p>
+
+                    <p>Copyright (c) 2010 by the Music Encoding Initiative (MEI) Council.</p>
+
+                    <p>Licensed under the Educational Community License, Version 2.0 (the
+                        "License"); you may not use this file except in compliance with the License.
+                        You may obtain a copy of the License at
+                        http://www.osedu.org/licenses/ECL-2.0.</p>
+
+                    <p>Unless required by applicable law or agreed to in writing, software
+                        distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+                        WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+                        License for the specific language governing permissions and limitations
+                        under the License.</p>
+
+                    <p>This is a derivative work based on earlier versions of the schema copyright
+                        (c) 2001-2006 Perry Roland and the Rector and Visitors of the University of
+                        Virginia; licensed under the Educational Community License version 1.0.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>TEI U5 (derived from TEI U1: An Introduction to TEI Tagging (derived from TEI
+                    ED W21: Living with the Guidelines)</bibl>
+                <bibl>TEI Lite Customization, downloaded from http://www.tei-c.org/Roma</bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+
+                <head><title>ODD for Musical Theater</title></head>
+                <p>This ODD is designed for those engaged in TEI projects in musical theater, having
+                    its origins in a project on _The Beggar's Opera_. It takes as its template TEI
+                    Lite with MEI for Common Music Notation, authored by Raffaele Viglianti, and
+                    imports material from the TEI with Drama template, authored by Syd Bauman and
+                    Sebastian Rahtz. It also makes alterations required by the specificities of
+                    musical theater. Much of the coding was done by Fred Rowland in consultation
+                    with Raffaele Viglianti, who helped work through many challenges in validation.
+                    TEI Lite with MEI for Common Music Notation combines the TEI Lite customization
+                    and the MEI modules for Common Music Notation. Moreover, it builds upon the TEI
+                    with Music Notation customization distributed on the Music SIG webspace at
+                    http://www.tei-c.org/SIG/Music</p>
+
+                <p> As noted in the TEI with Drama ODD: In addition to the four
+                        <soCalled>required</soCalled> modules (<name>header</name>,
+                        <name>core</name>, <name>tei</name>, and <name>textstructure</name>, so
+                    called because among them the contain the underpinnings of the TEI class system,
+                    and all of the elements that are actually required for a conformant TEI schema),
+                    this customization loads the modules for drama and for linking, segmentation,
+                    and alignment. The latter provides the <att>next</att> and <att>prev</att>
+                    attributes which are often useful when dramatic speeches overlap verse lines in
+                    a non-hierarchical manner. Other global attributes which are normally provided
+                    by this module have been deleted from this customization. In addition the global
+                        <att>xml:base</att> and <att>xml:space</att> attributes have been removed.
+                    Some deleted elements that the authors of _The Beggar's Opera_ TEI/MEI have
+                    found necessary to the document or useful for data processing (e. g.,
+                    names/dates) have been restored through commenting those lines out. </p>
+
+            </div>
+        </body>
+        <back>
+            <div>
+
+                <head>Appendix</head>
+                <p>This is the ODD customzation.</p>
+                <schemaSpec ident="tei-lite_mei-cmn" start="TEI teiCorpus"
+                    defaultExceptions="http://www.tei-c.org/ns/1.0 teix:egXML http://www.music-encoding.org/ns/mei">
+
+                    <!-- == TEI modules == -->
+
+                    <moduleRef key="tei"/>
+                    <moduleRef key="core"/>
+                    <moduleRef key="header"/>
+                    <moduleRef key="textstructure"/>
+                    <moduleRef key="figures"/>
+                    <moduleRef key="linking"/>
+                    <moduleRef key="analysis"/>
+                    <moduleRef key="tagdocs"/>
+                    <!-- corpus module added -->
+                    <moduleRef key="corpus"/>
+                    <!-- namesdates module added -->
+                    <moduleRef key="namesdates"/>
+                    <!--Drama module added -->
+                    <moduleRef key="drama"/>
+
+                    <!-- == Changes to TEI components == -->
+
+                    <elementSpec module="linking" ident="ab" mode="delete"/>
+                    <elementSpec module="linking" ident="altGrp" mode="delete"/>
+                    <elementSpec module="tagdocs" ident="altIdent" mode="delete"/>
+                    <elementSpec module="linking" ident="alt" mode="delete"/>
+                    <elementSpec module="core" ident="analytic" mode="delete"/>
+                    <elementSpec module="tagdocs" ident="attRef" mode="delete"/>
+                    <elementSpec module="core" ident="biblItem" mode="delete"/>
+                    <elementSpec module="core" ident="binaryObject" mode="delete"/>
+                    <elementSpec module="header" ident="broadcast" mode="delete"/>
+                    <elementSpec module="core" ident="cb" mode="delete"/>
+                    <elementSpec module="analysis" ident="cl" mode="delete"/>
+                    <elementSpec module="analysis" ident="c" mode="delete"/>
+                    <elementSpec module="tagdocs" ident="content" mode="delete"/>
+                    <elementSpec module="tagdocs" ident="classRef" mode="delete"/>
+                    <elementSpec ident="constraint" mode="delete" module="tagdocs"/>
+                    <elementSpec ident="constraintSpec" mode="delete" module="tagdocs"/>
+                    <!--<elementSpec module="header" ident="correction" mode="delete"/>-->
+                    <elementSpec module="tagdocs" ident="datatype" mode="delete"/>
+                    <elementSpec module="tagdocs" ident="defaultVal" mode="delete"/>
+                    <elementSpec module="core" ident="distinct" mode="delete"/>
+                    <elementSpec module="tagdocs" ident="egXML" mode="delete"/>
+                    <elementSpec module="tagdocs" ident="elementRef" mode="delete"/>
+                    <elementSpec module="core" ident="email" mode="delete"/>
+                    <elementSpec module="tagdocs" ident="elementSpec" mode="delete"/>
+                    <elementSpec module="header" ident="equipment" mode="delete"/>
+                    <elementSpec module="core" ident="equiv" mode="delete"/>
+                    <elementSpec module="tagdocs" ident="exemplum" mode="delete"/>
+                    <elementSpec module="corpus" ident="activity" mode="delete"/>
+                    <elementSpec module="corpus" ident="channel" mode="delete"/>
+                    <elementSpec module="corpus" ident="constitution" mode="delete"/>
+                    <elementSpec module="corpus" ident="derivation" mode="delete"/>
+                    <elementSpec module="corpus" ident="domain" mode="delete"/>
+                    <elementSpec module="corpus" ident="factuality" mode="delete"/>
+                    <elementSpec module="corpus" ident="interaction" mode="delete"/>
+                    <elementSpec module="corpus" ident="preparedness" mode="delete"/>
+                    <elementSpec module="corpus" ident="purpose" mode="delete"/>
+                    <elementSpec module="header" ident="fsdDecl" mode="delete"/>
+                    <elementSpec module="core" ident="headItem" mode="delete"/>
+                    <elementSpec module="core" ident="headLabel" mode="delete"/>
+                    <elementSpec module="header" ident="hyphenation" mode="delete"/>
+                    <!--<elementSpec module="header" ident="interpretation" mode="delete"/>-->
+                    <elementSpec module="linking" ident="joinGrp" mode="delete"/>
+                    <elementSpec module="linking" ident="join" mode="delete"/>
+                    <elementSpec module="linking" ident="linkGrp" mode="delete"/>
+                    <elementSpec module="linking" ident="link" mode="delete"/>
+                    <elementSpec module="tagdocs" ident="macroRef" mode="delete"/>
+                    <!--<elementSpec module="tagdocs" ident="macroSpec" mode="delete"/>-->
+                    <elementSpec module="core" ident="measure" mode="delete"/>
+                    <elementSpec module="core" ident="meeting" mode="delete"/>
+                    <elementSpec module="header" ident="metDecl" mode="delete"/>
+                    <elementSpec module="header" ident="metSym" mode="delete"/>
+                    <elementSpec module="analysis" ident="m" mode="delete"/>
+                    <elementSpec ident="moduleRef" mode="delete" module="tagdocs"/>
+                    <elementSpec ident="moduleSpec" mode="delete" module="tagdocs"/>
+                    <!--<elementSpec module="header" ident="normalization" mode="delete"/>-->
+                    <elementSpec module="analysis" ident="phr" mode="delete"/>
+                    <elementSpec module="core" ident="postBox" mode="delete"/>
+                    <elementSpec module="core" ident="postCode" mode="delete"/>
+                    <elementSpec module="header" ident="quotation" mode="delete"/>
+                    <!--<elementSpec module="header" ident="recording" mode="delete"/>-->
+                    <!--<elementSpec module="header" ident="recordingStmt" mode="delete"/>-->
+                    <elementSpec module="tagdocs" ident="remarks" mode="delete"/>
+                    <!--<elementSpec module="tagdocs" ident="schemaSpec" mode="delete"/>-->
+                    <!--<elementSpec module="header" ident="scriptStmt" mode="delete"/>-->
+                    <elementSpec module="header" ident="segmentation" mode="delete"/>
+                    <elementSpec module="core" ident="series" mode="delete"/>
+                    <elementSpec module="analysis" ident="spanGrp" mode="delete"/>
+                    <!--<elementSpec module="analysis" ident="span" mode="delete"/>-->
+                    <elementSpec module="tagdocs" ident="specDesc" mode="delete"/>
+                    <elementSpec module="tagdocs" ident="specGrp" mode="delete"/>
+                    <elementSpec module="tagdocs" ident="specGrpRef" mode="delete"/>
+                    <elementSpec module="tagdocs" ident="specList" mode="delete"/>
+                    <elementSpec module="header" ident="stdVals" mode="delete"/>
+                    <elementSpec module="tagdocs" ident="stringVal" mode="delete"/>
+                    <elementSpec module="tagdocs" ident="tag" mode="delete"/>
+                    <elementSpec module="linking" ident="timeline" mode="delete"/>
+                    <elementSpec module="tagdocs" ident="valItem" mode="delete"/>
+                    <elementSpec module="tagdocs" ident="valList" mode="delete"/>
+                    <elementSpec module="header" ident="variantEncoding" mode="delete"/>
+                    <elementSpec module="linking" ident="when" mode="delete"/>
+                    <elementSpec module="analysis" ident="w" mode="delete"/>
+                    <elementSpec module="header" ident="handNote" mode="delete"/>
+                    <elementSpec module="header" ident="tagUsage" mode="delete"/>
+                    <elementSpec module="header" ident="namespace" mode="delete"/>
+
+                    <!-- from TEI-Drama ODD-->
+                    <classSpec predeclare="true" module="linking" xml:id="CLLINK" type="atts"
+                        ident="att.global.linking" mode="change">
+                        <desc xml:lang="en" versionDate="2014-01-12">defines the attributes used for
+                            aggregating partial elements into a single virtual element.</desc>
+                        <attList>
+                            <attDef ident="corresp" usage="opt" mode="delete"/>
+                            <attDef ident="synch" usage="opt" mode="delete"/>
+                            <attDef ident="sameAs" usage="opt" mode="delete"/>
+                            <attDef ident="copyOf" usage="opt" mode="delete"/>
+                            <attDef ident="next" usage="opt" mode="change">
+                                <valDesc mode="change">a URI which should point to an element of the
+                                    same type, typically within the same document</valDesc>
+                            </attDef>
+                            <attDef ident="prev" usage="opt" mode="change">
+                                <valDesc mode="change">a URI which should point to an element of the
+                                    same type, typically within the same document</valDesc>
+                            </attDef>
+                            <attDef ident="exclude" usage="opt" mode="delete"/>
+                            <attDef ident="select" usage="opt" mode="delete"/>
+                        </attList>
+                        <listRef>
+                            <ptr target="#SAAG"/>
+                        </listRef>
+                    </classSpec>
+                    <classSpec module="tei" xml:id="GLOBAL" type="atts" ident="att.global"
+                        mode="change">
+                        <desc xml:lang="en" versionDate="2014-01-12">provides a set of attributes
+                            common to all elements in the <name>tei_drama</name> customization of
+                            the TEI encoding scheme.</desc>
+                        <classes>
+                            <memberOf key="att.global.linking"/>
+                            <memberOf key="att.global.analytic"/>
+                            <!-- added -->
+                            <memberOf key="att.global.rendition"/>
+                        </classes>
+                        <attList>
+                            <attDef ident="xml:space" usage="opt" mode="delete"/>
+                            <attDef ident="xml:base" usage="opt" mode="delete"/>
+                        </attList>
+                    </classSpec>
+
+
+                    <elementSpec xmlns="http://www.tei-c.org/ns/1.0" module="figures"
+                        ident="notatedMusic" mode="change">
+                        <content>
+                            <alternate minOccurs="0" maxOccurs="unbounded">
+                                <elementRef key="mei_mei"/>
+                                <elementRef key="mei_music"/>
+                                <elementRef key="mei_mdiv"/>
+                                <elementRef key="mei_layer"/>
+                            </alternate>
+                            <alternate minOccurs="0" maxOccurs="unbounded">
+                                <classRef key="model.labelLike"/>
+                                <classRef key="model.ptrLike"/>
+                                <elementRef key="graphic"/>
+                                <elementRef key="binaryObject"/>
+                                <elementRef key="seg"/>
+                            </alternate>
+                        </content>
+                    </elementSpec>
+
+
+                    <!-- ==== MEI Modules ==== -->
+                    <!-- NB. @source *MUST* point to MEI's ODD source-->
+
+
+                    <moduleRef key="MEI" source="mei-source.xml"/>
+                    <moduleRef key="MEI.shared" source="mei-source.xml"/>
+                    <moduleRef key="MEI." source="mei-source.xml"/>
+                    <moduleRef key="MEI.cmn" source="mei-source.xml"/>
+
+
+                    <!--<moduleRef key="MEI.mensural" source="mei-source.xml"/>
+                    <moduleRef key="MEI.neumes" source="mei-source.xml"/>-->
+
+                    <moduleRef key="MEI.analytical" source="mei-source.xml"/>
+                    <moduleRef key="MEI.cmnOrnaments" source="mei-source.xml"/>
+                    <!--<moduleRef key="MEI.corpus" source="mei-source.xml"/>-->
+                    <moduleRef key="MEI.critapp" source="mei-source.xml"/>
+                    <!--<moduleRef key="MEI.drama" source="mei-source.xml"/>-->
+                    <moduleRef key="MEI.edittrans" source="mei-source.xml"/>
+                    <moduleRef key="MEI.externalsymbols" source="mei-source.xml"/>
+                    <moduleRef key="MEI.facsimile" source="mei-source.xml"/>
+                    <moduleRef key="MEI.figtable" source="mei-source.xml"/>
+                    <moduleRef key="MEI.fingering" source="mei-source.xml"/>
+                    <moduleRef key="MEI.frbr" source="mei-source.xml"/>
+                    <!--<moduleRef key="MEI.genetic" source="mei-source.xml"/>-->
+                    <moduleRef key="MEI.gestural" source="mei-source.xml"/>
+                    <moduleRef key="MEI.harmony" source="mei-source.xml"/>
+                    <moduleRef key="MEI.lyrics" source="mei-source.xml"/>
+                    <moduleRef key="MEI.midi" source="mei-source.xml"/>
+                    <moduleRef key="MEI.msDesc" source="mei-source.xml"/>
+                    <moduleRef key="MEI.namesdates" source="mei-source.xml"/>
+                    <moduleRef key="MEI.performance" source="mei-source.xml"/>
+                    <moduleRef key="MEI.ptrref" source="mei-source.xml"/>
+                    <moduleRef key="MEI.stringtab" source="mei-source.xml"/>
+                    <moduleRef key="MEI.text" source="mei-source.xml"/>
+                    <moduleRef key="MEI.usersymbols" source="mei-source.xml"/>
+                    <moduleRef key="MEI.visual" source="mei-source.xml"/>
+
+                    <!-- == Changes to MEI components == -->
+
+                    <!-- Declare MEI and XLink namespaces for use in Schematron -->
+
+                    <constraintSpec ident="set_ns" scheme="isoschematron" mode="add">
+                        <constraint>
+                            <sch:ns xmlns:sch="http://purl.oclc.org/dsdl/schematron" prefix="mei"
+                                uri="http://www.music-encoding.org/ns/mei"/>
+                            <sch:ns xmlns:sch="http://purl.oclc.org/dsdl/schematron" prefix="xlink"
+                                uri="http://www.w3.org/1999/xlink"/>
+                        </constraint>
+                    </constraintSpec>
+
+                    <!-- replace macro.anyXML with pureODD solution -->
+                    <elementSpec ident="mei_extMeta" mode="change">
+                        <content>
+                            <alternate>
+                                <textNode/>
+                                <anyElement/>
+                            </alternate>
+                        </content>
+                    </elementSpec>
+                    <macroSpec ident="mei_macro.anyXML" module="MEI.shared" mode="delete"/>
+
+                    <!-- Make @source mandatory when applicable. -->
+
+                    <classSpec type="atts" module="MEI.shared" ident="mei_att.staffident"
+                        mode="replace">
+                        <desc>signifies the staff on which a notated event occurs or to which a
+                            control event applies.</desc>
+                        <attList>
+                            <attDef ident="staff" usage="opt"/>
+                        </attList>
+                        <remarks>
+                            <p>The attribute is made mandatory when applicable instead of always
+                                mandatory to allow MEI fragments.</p>
+                        </remarks>
+                    </classSpec>
+
+
+
+
+
+
+                </schemaSpec>
+            </div>
+
+        </back>
+    </text>
+</TEI>
