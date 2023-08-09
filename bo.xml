@@ -22,7 +22,7 @@
             </titleStmt>
             <editionStmt>
                 <edition>
-                    <lb/>2022-11-22</edition>
+                    <lb/>2023-8-9</edition>
             </editionStmt>
             <extent/>
             <publicationStmt>
@@ -69,7 +69,7 @@
                         (1973), David Fuller (1983), and Hal Gladfelder (2013). Thanks to Prof.
                         Gladfelder for making an electronic version of his edition available.
                         Further discussion of the editorial principles and notes on specific
-                        editorial decisions are available on the associated website.</p>
+                        editorial decisions are available on the associated website: </p>
                 </interpretation>
 
                 <correction>
@@ -79,7 +79,7 @@
 
                 <normalization>
                     <p>As per editorial guidelines, original spelling and typography is retained,
-                        except that long s and ligaturedforms are not encoded.</p>
+                        except that long s and ligatured forms are not encoded.</p>
                 </normalization>
 
                 <punctuation>
@@ -663,7 +663,7 @@
                                 <actor>Mr. <hi rend="italic">Pit</hi></actor></castItem>
                             <castItem><role>Harry Padington.</role>
                                 <actor>Mr. <hi rend="italic">Eaton.</hi></actor></castItem>
-                            <castItem><role>Matt <hi rend="italic">of the</hi> Mint.</role>
+                            <castItem><role>Mat <hi rend="italic">of the</hi> Mint.</role>
                                 <actor>Mr. <hi rend="italic">Spiller.</hi></actor></castItem>
                             <castItem><role>Ben Budge.</role>
                                 <actor>Mr. <hi rend="italic">Morgan.</hi></actor></castItem>
@@ -4913,7 +4913,7 @@
                     <sp who="L">
 
                         <speaker><hi rend="italic">Lock.</hi></speaker>
-                        <p> Why, Boy, thou lookest as if thou wert half starvd; like a shotten
+                        <p> Why, Boy, thou lookest as if thou wert half starv'd; like a shotten
                             Herring.</p>
                     </sp>
 
@@ -4923,8 +4923,8 @@
                         <p> One had need have the Constitution of a Horse to go thorough the
                             Business.———Since the favourite Child-getter was disabled by a Mis-hap,
                             I have pickd up a little Money by helping the Ladies to a Pregnancy
-                            against their being calld down to Sentence.———But if a Man cannot get
-                            an honest Livelyhood any easier way, I am sure, tis what I cant
+                            against their being call'd down to Sentence.———But if a Man cannot get
+                            an honest Livelyhood any easier way, I am sure, 'tis what I cant
                             undertake for another Session.</p>
                     </sp>
 
@@ -4932,7 +4932,7 @@
 
                         <speaker><hi rend="italic">Lock.</hi></speaker>
                         <p> Truly, if that great Man should tip off, twould be an irreparable Loss.
-                            The Vigor and Prowess of a Knight-Errant never savd half the Ladies in
+                            The Vigor and Prowess of a Knight-Errant never sav'd half the Ladies in
                             Distress that he hath done.———But, Boy, canst thou tell me where thy
                             Master is to be found?</p>
                     </sp>
@@ -4954,7 +4954,7 @@
 
                         <speaker><hi rend="italic">Lock.</hi></speaker>
                         <p> I'll go to him there, for I have many important Affairs to settle with
-                            him; and in the way of those Transactions, Ill artfully get into his
+                            him; and in the way of those Transactions, I'll artfully get into his
                             Secret.———So that <hi rend="italic">Macheath</hi> shall not remain a
                             Day longer out of my Clutches.</p>
                     </sp>
@@ -5196,13 +5196,13 @@
                                     <speaker>Lock.</speaker>
                                     <lg rend="italic">
                                         <l>What Gudgeons are we Men!</l>
-                                        <l rend="indent(1)">Evry Womans easy Prey.</l>
+                                        <l rend="indent(1)">Ev'ry Woman's easy Prey.</l>
                                         <l>Though we have felt the Hook, agen</l>
                                         <l rend="indent(1)">We bite and they betray.</l>
 
                                         <l>The Bird that hath been trapt,</l>
                                         <l rend="indent(1)">When he hears his calling Mate,</l>
-                                        <l>To her he flies, again hes clapt</l>
+                                        <l>To her he flies, again he's clapt</l>
                                         <l rend="indent(1)">Within the wiry Grate.</l>
                                     </lg>
 
@@ -5373,7 +5373,7 @@
                             always pay according to their Dress, from half a Crown to two Guineas;
                             and yet those Hussies make nothing of bilking of me.———Then too,
                             allowing for Accidents.———I have eleven fine Customers now down under
-                            the Surgeons Hands,--what with Fees and other Expences, there are great
+                            the Surgeon's Hands,--what with Fees and other Expences, there are great
                             Goings-out, and no Comings-in, and not a Farthing to pay for at least a
                             Months cloathing.———We run great Risques———great Risques indeed.</p>
                     </sp>
@@ -5390,7 +5390,7 @@
                         <speaker><hi rend="italic">Trapes. </hi></speaker>
                         <p> Yes, Sir.———To be sure I stript her of a Suit of my own Cloaths about
                             two hours ago; and have left her as she should be, in her Shift, with a
-                            Lover of hers at my House. She calld him up Stairs, as he was going to
+                            Lover of hers at my House. She call'd him up Stairs, as he was going to
                                 <placeName ref="Marylebone"><hi rend="italic"
                                 >Marybone</hi></placeName> in a Hackney Coach.———And I hope, for
                             her own sake and mine, she will perswade the Captain to redeem her, for
@@ -5426,7 +5426,7 @@
                         <speaker><hi rend="italic">Trapes.</hi></speaker>
                         <p> Though he thinks I have forgot him; no Body knows him better. I have
                             taken a great deal of the Captain's Money in my Time at second-hand, for
-                            he always lovd to have his Ladies well drest.</p>
+                            he always lov'd to have his Ladies well drest.</p>
                     </sp>
 
                     <sp who="P">
@@ -5448,7 +5448,7 @@
                         <speaker><hi rend="italic">Trapes.</hi></speaker>
                         <p> I don't enquire after your Affairs———so whatever happens, I wash my
                             Hands on't.———It hath always been my Maxim, that one Friend should
-                            assist another———But if you please———Ill take one of the Scarfs home
+                            assist another———But if you please———I'll take one of the Scarfs home
                             with me, 'Tis always good to have something in Hand.</p>
                     </sp>
                 </div2>
@@ -5543,13 +5543,13 @@
                     <floatingText xml:lang="en" xml:id="FT_48">
                         <body>
                             <div type="song" xml:id="AIR_48">
-                                <head>AIR XLVIII. Now Roger, Ill tell thee, because thou'rt my
+                                <head>AIR XLVIII. Now Roger, I'll tell thee, because thou'rt my
                                     Son.</head>
 
                                 <sp who="LL">
                                     <lg rend="italic">
-                                        <l>When a Wifes in her Pout,</l>
-                                        <l>(As shes sometimes, no doubt;)</l>
+                                        <l>When a Wife's in her Pout,</l>
+                                        <l>(As she's sometimes, no doubt;)</l>
                                         <l rend="indent(1)">The good Husband as meek as a Lamb,</l>
                                         <l rend="indent(2)">Her Vapours to still,</l>
                                         <l rend="indent(2)">First grants her her Will,</l>
@@ -5603,9 +5603,9 @@
                         <p> I am sorry, Madam, my Health will not allow me to accept of your
                             Offer.———I should not have left you in the rude Manner I did when we
                             met last, Madam, had not my Papa hauld me away so unexpectedly———I was
-                            indeed somewhat provokd, and perhaps might use some Expressions that
+                            indeed somewhat provok'd, and perhaps might use some Expressions that
                             were disrespectful.———But really, Madam, the Captain treated me with so
-                            much Contempt and Cruelty, that I deservd your Pity, rather than your
+                            much Contempt and Cruelty, that I deserv'd your Pity, rather than your
                             Resentment.</p>
                     </sp>
 
@@ -5638,7 +5638,7 @@
                     <floatingText xml:lang="en" xml:id="FT_49">
                         <body>
                             <div type="song" xml:id="AIR_49">
-                                <head>AIR XLIX. O Bessy Bell.</head>
+                                <head>AIR XLIX. O <hi rend="italic">Bessy Bell.</hi></head>
 
                                 <spGrp n="2">
 
@@ -5705,7 +5705,7 @@
 
                         <speaker><hi rend="italic">Polly.</hi></speaker>
                         <p> But really, Mistress Lucy, by his last Behaviour, I think I ought to
-                            envy you.———When I was forcd from him, he did not shew the least
+                            envy you.———When I was forc'd from him, he did not shew the least
                             Tenderness.———But perhaps, he hath a Heart not capable of it.</p>
                     </sp>
 
@@ -5751,10 +5751,10 @@
                                 <sp who="LL">
                                     <lg rend="italic">
                                         <l rend="indent(1)">Come, sweet Lass,</l>
-                                        <l rend="indent(1)">Lets banish Sorrow</l>
-                                        <l rend="indent(1)">Till To-morrow;</l>
+                                        <l rend="indent(1)">Let's banish Sorrow</l>
+                                        <l rend="indent(1)">'Till To-morrow;</l>
                                         <l rend="indent(1)">Come, sweet Lass,</l>
-                                        <l>Lets take a chirping Glass.</l>
+                                        <l>Let's take a chirping Glass.</l>
                                         <l rend="indent(1)">Wine can clear</l>
                                         <l rend="indent(1)">The Vapours of Despair;</l>
                                         <l rend="indent(1)">And make us light as Air;</l>
@@ -6013,9 +6013,9 @@
                                         <l>Which way shall I turn me? How can I decide?</l>
                                         <l>Wives, the Day of our Death, are as fond as a Bride.</l>
                                         <l>One Wife is too much for most Husbands to hear,</l>
-                                        <l>But two at a time theres no Mortal can bear.</l>
+                                        <l>But two at a time there's no Mortal can bear.</l>
                                         <l>This way, and that way, and which way I will,</l>
-                                        <l>What would comfort the one, tother Wife would take
+                                        <l>What would comfort the one, t'other Wife would take
                                             ill.</l>
                                     </lg>
 
@@ -6044,10 +6044,10 @@
                                     <lg rend="italic">
                                         <l>When my Hero in Court appears,</l>
                                         <l rend="indent(1)">And stands arraignd for his Life;</l>
-                                        <l>Then think of poor <hi rend="normal">Polly's</hi>
+                                        <l>Then think of poor <hi rend="normal">Polly</hi>'s
                                             Tears;</l>
                                         <l rend="indent(1)">For Ah! Poor <hi rend="normal"
-                                                >Polly's</hi> his Wife.</l>
+                                                >Polly</hi>'s his Wife.</l>
                                         <l>Like the Sailor he holds up his Hand,</l>
                                         <l rend="indent(1)">Distrest on the dashing Wave.</l>
                                         <l>To die a dry Death at Land,</l>
@@ -6082,8 +6082,8 @@
 
                                 <sp who="LL">
                                     <lg rend="italic">
-                                        <l>When he holds up his Hand arraignd for his Life,</l>
-                                        <l>O think of your Daughter, and think Im his Wife!</l>
+                                        <l>When he holds up his Hand arraign'd for his Life,</l>
+                                        <l>O think of your Daughter, and think I'm his Wife!</l>
                                         <l>What are Cannons, or Bombs, or clashing of Swords?</l>
                                         <l>For Death is more certain by Witnesses Words.</l>
                                         <l>Then nail up their Lips; that dread Thunder allay;</l>
@@ -6117,7 +6117,7 @@
                                         <l>When Matters require it, must give up our Gang:</l>
                                         <l rend="indent(1)">And good reason why,</l>
                                         <l rend="indent(1)">Or, instead of the Fry,</l>
-                                        <l rend="indent(1)">Evn <hi rend="normal">Peachum</hi> and
+                                        <l rend="indent(1)">Ev'n <hi rend="normal">Peachum</hi> and
                                             I,</l>
                                         <l>Like poor petty Rascals, might hang, hang;</l>
                                         <l>Like poor petty Rascals, might hang.</l>
@@ -6131,7 +6131,7 @@
 
                         <speaker><hi rend="italic">Peach.</hi></speaker>
                         <p> Set your Heart at rest, <hi rend="italic">Polly</hi>.———Your Husband is
-                            to dye to-day.———Therefore, if you are not already provided, tis high
+                            to dye to-day.———Therefore, if you are not already provided, 'tis high
                             time to look about for another. There's Comfort for you, you Slut.</p>
                     </sp>
 
@@ -6224,7 +6224,7 @@
                 <div2 type="scene" xml:id="A3_S13">
                     <head rend="align(center)">SCENE XIII.</head>
 
-                    <stage type="setting" rend="align(center)">The Condemn'd Hold.</stage>
+                    <stage type="setting" rend="align(center)"><hi rend="italic">The Condemn'd Hold.</hi></stage>
 
                     <stage type="setting" rend="align(center)">Macheath, <hi rend="italic">in a melancholy
                             Posture</hi>.</stage>
@@ -6411,7 +6411,7 @@
                                                   rend="normal">Tyburn</hi> Tree</placeName>!</l>
                                         <l>But Gold from Law can take out the Sting;</l>
                                         <l>And if rich Men like us were to swing,</l>
-                                        <l>Twoud thin the Land, such Numbers to string</l>
+                                        <l>'Twou'd thin the Land, such Numbers to string</l>
                                         <l rend="indent(2)">Upon <placeName ref="#Tyburn"><hi
                                                   rend="normal">Tyburn</hi> Tree</placeName>!</l>
                                     </lg>
@@ -6445,7 +6445,7 @@
                         <p> For my having broke Prison, you see, Gentlemen, I am order'd immediate
                             Execution.———The Sheriffs Officers, I believe, are now at the
                             Door.———That <hi rend="italic">Jemmy Twitcher</hi> should peach me, I
-                            own surprizd me!———'Tis a plain Proof that the World is all alike, and
+                            own surpriz'd me!———'Tis a plain Proof that the World is all alike, and
                             that even our Gang can no more trust one another than other People.
                             Therefore, I beg you, Gentlemen, look well to yourselves, for in all
                             probability you may live some Months longer.</p>
@@ -6536,7 +6536,7 @@
                                     <sp who="LL">
                                         <speaker>Lucy.</speaker>
                                         <lg rend="italic">
-                                            <l>Would I might be hangd!</l>
+                                            <l>Would I might be hang'd!</l>
                                         </lg>
                                     </sp>
 
@@ -6551,7 +6551,7 @@
                                     <sp who="LL">
                                         <speaker>Lucy.</speaker>
                                         <lg rend="italic">
-                                            <l>To be hangd with you.</l>
+                                            <l>To be hang'd with you.</l>
                                         </lg>
                                     </sp>
 
@@ -6680,7 +6680,7 @@
                         <p> Most certainly, Sir.———To make the Piece perfect, I was for doing
                             strict poetical Justice.———<hi rend="italic">Macheath</hi> is to be
                             hangd; and for the other Personages of the Drama, the Audience must have
-                            supposd they were all either hang'd or transported.</p>
+                            suppos'd they were all either hang'd or transported.</p>
                     </sp>
 
                     <sp who="PL">
@@ -6694,7 +6694,7 @@
 
                         <speaker><hi rend="italic">Beggar.</hi></speaker>
                         <p> Your Objection, Sir, is very just; and is easily remov'd. For you must
-                            allow, that in this kind of Drama, tis no matter how absurdly things are
+                            allow, that in this kind of Drama, 'tis no matter how absurdly things are
                             brought about.———So———you Rabble there———run and cry a
                             Reprieve———let the Prisoner be brought back to his Wives in
                             Triumph.</p>
