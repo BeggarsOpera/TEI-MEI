@@ -17,8 +17,9 @@
       </fileDesc>
   </teiHeader>
   <text>
-      <body>
-         POLLY:
+     <front>
+      
+        POLLY:
 
 AN
 
@@ -31,6 +32,7 @@ SECOND PART
 OF THE
 
 BEGGAR's OPERA.
+        
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬______________________________
 Written by Mr. GAY 
 _________________________________
@@ -40,6 +42,8 @@ ____________________________________
 ____________________________________
 LONDON: 
 Printed for the AUTHOR.  M DCCCXXIX.
+
+        
 
 PREFACE.
 
@@ -72,7 +76,9 @@ March 25, 1729.
 E R R A T A.
 Air 5. L. 15. Read Neighbours.       Air 9. l. 1  r. all my senses.
 
+     </front>
 
+     <body>
 INTRODUCTION.
 POET. PLAYER.
 Poet. A sequel to a Play is like more last words. 'Tis a kind of absurdity; and really, Sir, you have prevail'd upon me to  pursue this subject against my judgment. 
@@ -625,6 +631,6 @@ O love, my honest vow regard!
 A faithful wife reward.   			[Exit. 
 
 
-      </body>
+     </body>
   </text>
 </TEI>
