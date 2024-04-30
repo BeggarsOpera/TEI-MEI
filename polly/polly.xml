@@ -3,7 +3,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Title</title>
@@ -15,616 +15,663 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
-      <body>
-         POLLY:
-
-AN
-
-OPERA.
-
-BEING THE
-
-SECOND PART
-
-OF THE
-
-BEGGAR's OPERA.
-¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬______________________________
-Written by Mr. GAY 
-_________________________________
-Raro antecedentum scelestum
-Deseruit pede pæna claudo.	 Hor.
-____________________________________
-____________________________________
-LONDON: 
-Printed for the AUTHOR.  M DCCCXXIX.
-
-PREFACE.
-
-After Mr. Rich and I were agreed upon terms and conditions for bringing this Piece on the Stage, and that every Thing was ready for a Rehearsal; The Lord Chamberlain sent an order from the country to prohibit Mr. Rich to suffer any Play to be rehears'd upon his Stage till it had been first of all supervis'd by his Grace. As soon as Mr. Rich came from his Grace's Secretary (who had sent for him to receive the before-mentioned order) he came to my lodgings and acquainted me with the orders he had received.
-    Upon the Lord Chamberlain's coming to town, I was confined by sickness, but in four or five days I went abroad on purpose to wait upon his Grace with a faithful and genuine copy of this Piece, excepting the erratas of the transcriber. 
-     It was transcribed in great haste by Mr. Stede the Prompter of the Playhouse, that it might be ready against his Grace's return from the country: As my illness at that time would not allow me to read it over, I since find in it many small faults, and here and there a line or two omitted. But lest it should be said I had made any one alteration from the copy I deliver'd to the Lord Chamberlain: I have caused every error in the said copy to be printed (litteral faults excepted) and have taken notice of every omission. I have also pointed out every amendment I have made upon the revisal of my own copy for the Press, that the reader may at one view see what alterations and amendments have been made. 
-
-ERRORS as they stood in the copy delivered to the Lord Chamberlain (occasion'd by the haste of the transcriber) corrected in this edition; by which will appear the most minute difference between that and my own copy. 
-
-P for page. 1. for line. sc for scene. what was added mark'd thus ∗. What was left out, thus † . 
-The names of all the tunes †. The scenes not divided and number'd. The marginal directions for the Actors were often omitted. 
-Act 1. p. 2. l. 16. ever †. l. 18. after more, too∗. p. 4. l. 1. before part not∗. l. 11. take †. sc. 2. l. 12. to †. Air 5. l. 10. thus instead of they, p. 9. l. 20. wherewith for wherewithal. l. 19. my †. l. 26. will †. p. 10. l. 1. you for it. p. 11. l. 20. no †. Air  10. l. 5. with a twinkum twankum †. p. 14. l. 18. complaisance for compliance. sc. 9. l. 1. part from. p. 18. l. 9. surely for sure. l. 13. And t. sc. 14. l. 20. insult me thus. p. 24. l. 18. her †. l. 21. young and handsome. Act. 2. Air 25. l. 8. charms for arms. p. 29. the speech between Air 25. and Air 26 †.  Air 27. l. 2. why for who. Air 29. with a mirleton, &c. †. sc. 7. l. 2. a bawdyhouse bully. p. 42. l. 26 is †. Air 42. l. 6. is for are. p. 44. l. 7. none for no more. Act 3. p. 52. l. 18. are all at stake. p. 53. l. 9. ever t. p. 54. l. 9. found †. Air 51. Thus to battle we will go  †. Air 52. with a fa, la, la, †. sc. 8. l. 4. prey for pay. p. 63. l. 26. no notions. p. 65. l. 28. or redress 'em . Air 71. the repetition of the Chorus. . 
-EMENDATIONS of my own copy on revising it for the Quarto Edition. 
-∗Is the mark for any thing added. 
-†The mark for what is left out. 
-‡The mark of what stood in the original Copy. 
-Act 1. p. 2. l. 36: pictures ∗. sc. 4. l. 2. thousand ∗. p. 18. l. 28. But unhappy love, the more virtuous that is ‡. Air 21. l. 13. my steps direct, my truth protect a faithful, &c. ‡. Act. 2. Air 23. l. 3. sick imagination ‡. l. 4. then alone I forget to weep ‡. l. 7. for whole years ‡. l. 11. 'Tis a dream ‡. l. 12. 'Tis our utmost ‡. Air 27. l. 9. you ne'er were drawn to cringe and fawn among the spawn who &c. ‡. Air 28. l. 2. for. ∗. l. 4. alike for both. p. 40. l. 12. all women expect ‡. Air 39. l. 3. thus costs let loose, by want of use grow ‡. Air 40. unexstinguish'd ray ‡. Recitative Away for Hence, ‡. p. 46. l. 1. pardons for persons ‡. Air 45. l. 1. when as ambition's ‡. l. 2. mighty ∗. l. 4. fraud and ∗. Air. 48. l. 2. Thus ∗. l. 3. what expence and what care ‡. l. 7. sage politicians ‡. Act. 3. sc. 1, 2, 3, 4, 5, 6. are transpos'd with no alteration of the words, but instead of On then; hope and conquer, is put. p. 55. l. 2. let us then to our posts. p. 57. l. 12. after enterprize, let us now to our posts ‡. Air 58. l. 4. cheers my breast. ‡. Air 62. l. 7. by turns we take ‡Air 63. l. 7. Tis jealous rage ‡. Air 64. l. 3. is of the noxious ‡. folded arms hide its charms, all the night free from blight, &c. ‡. Polly's speech before Air 64. was plac'd after it, but without any alteration ‡. Air 69. l. 7. sure to virtue ‡. 
-Excepting these errors and emendations, this Edition is a true and faithful Copy as I my-self in my own hand writing delivered it to Mr. Rich, and afterwards to the Lord Chamberlain, for the truth of which I appeal to his Grace. 
-    As I have heard several suggestions and false insinuations concerning the copy: I take this occasion in the most solemn manner to affirm, that the very copy I delivered to Mr. Rich was written in my own hand some months before at the Bath from my own first foul blotted papers; from this, that for the Playhouse was transcribed, from whence the above-mentioned Mr. Stede copied that which I delivered to the Lord Chamberlain, and excepting my own foul blotted papers; I do protest I know of no other copy whatsoever, than those I have mention'd. 
-      The Copy I gave into the hands of Mr. Rich had been seen before by several Persons of the greatest distinction and veracity, who will be ready to do me the honour and justice to attest it; so that not only by them, but by Mr. Rich and Mr. Stede, I can (against all insinuation or positive affirmation) prove in the most clear and undeniable manner, if occasion required, what I have here upon my own honour and credit asserted. The Introduction indeed was not shown to the Lord Chamberlain, which, as I had not then quite settled, was never transcribed in the Playhouse copy. 
-     'Twas on Saturday morning December 7th, 1728. that I waited upon the Lord Chamberlain; I desir'd, to have the honour of reading the Opera to his Grace, but he order'd me to leave it with him, which I did upon expectation of having it return'd on the Monday following, but I had it not till Thursday December 12, when I receiv'd it from his Grace with this answer; that it was not allow'd to be acted, but commanded to be supprest. This was told me in general without any reasons assign'd, or any charge against me of my having given any particular offence. 
-     Since this prohibition I have been told that I am accused, in general terms, of having written many disaffected libels and seditious pamphlets. As it hath ever been my utmost ambition (if that word may be us'd upon this occasion) to lead a quiet and inoffensive life, I thought my innocence in this particular would never have requir'd a justification; and as this kind of writing is, what I have ever detested, and never practis'd, I am persuaded so groundless a calumny can never be believ'd but by those who do not know me. But when general Aspersions of this Sort have been cast upon me, I think myself call'd upon to declare my principles; and I do with the strictest truth affirm, that I am as loyal a subject and as firmly attach'd to the present happy establishment as any of those who have the greatest places or pensions. I have been inform'd too, that in the following Play, I have been charg'd with writing immoralities; that it is fill'd with slander and calumny against particular great persons, and that Majesty itself is endeavour'd to be brought into ridicule and contempt. 
-     As I knew that every one of these charges was in every point absolutely false and without the least grounds, at first I was not at all affected by them; but when I found they were still insisted upon, and that particular passages which were not in the Play were quoted and propagated to support what had been suggested, I could no longer bear to lye under these false accusations; so by printing it, I have submitted and given up all present views of profit which might accrue from the Stage, which undoubtedly will be some satisfaction to the worthy gentlemen who have treated me with so much candour and humanity, and represented me in such favourable colours. 
-     But as I am conscious to myself that my only intention was to lash in general the reigning and fashionable vices, and to recommend and set virtue in as amiable a light as I could; to justify and vindicate my own character, I thought myself obliged to print the Opera without delay in the manner I have done. 
-     As the Play was principally design'd for representation, I hope when it is read it will be considered in that light: And when all that hath been said against it shall appear to be intirely misunderstood or misrepresented; if, some time hence, it should be permitted to appear on the Stage, I think it necessary to acquaint the publick, that as far as a contract of this kind can be binding; I am engag'd to Mr. Rich to have it represented upon his Theatre. 
-
-March 25, 1729. 
-
-
-E R R A T A.
-Air 5. L. 15. Read Neighbours.       Air 9. l. 1  r. all my senses.
-
-
-INTRODUCTION.
-POET. PLAYER.
-Poet. A sequel to a Play is like more last words. 'Tis a kind of absurdity; and really, Sir, you have prevail'd upon me to  pursue this subject against my judgment. 
-   1st Player. Be the success as it will, you are sure of what you have contracted for; and upon the inducement of gain no body can blame you for undertaking it. 
-   Poet. I know, I must have been look'd upon as whimsical, and particular if I had scrupled to have risqu'd my reputation for my profit, for why should I be more squeamish than my Betters; and so, Sir, contrary to my opinion I bring Polly once again upon the Stage. 
-   1st Player. Consider, Sir, you have prepossession on your side. 
-    Poet. But then the pleasure of novelty is lost; and in a thing of this kind I am afraid I shall hardly be pardon'd for imitating my self, for sure pieces of this sort are not to be followed as precedents. My dependance, like a tricking bookseller's, is, that the kind reception the first part met with will carry off the second be it what it will. 
-  1st Player. You should not disparage your own works; you will have criticks enough who will be glad to do that for you: and let me tell you, Sir, after the success you have had, you must expect envy. 
-  Poet. Since I have had more applause than I can deserve, I must, with other authors, be content, if criticks allow me less. I  should be an arrant courtier or an arrant beggar indeed, if as soon as I have receiv'd one undeserved favour I should lay claim to another; I don't flatter myself with the like success. 
-  1st Player. I hope, Sir, in the catastrophe you have not run into the absurdity of your last Piece. 
-  Poet.  I know that I have been unjustly accus'd of having given up my moral for a joke, like a fine gentleman in conversation; but whatever be the event now, I will not so much as seem to give up my moral. 
-[Page vi] 
-  1st Player. Really, Sir, an author should comply with the customs and taste of the town.—I am indeed afraid too that your Satyr here and there is too free. A man should be cautious how he mentions any vice whatsoever before good company, lest somebody present should apply it to himself. 
-  Poet. The Stage, Sir, hath the privilege of the pulpit to attack vice however dignified or distinguish'd, and preachers and poets should not be too well bred upon these occasions: Nobody can overdo it when he attacks the vice and not the person. 
-  1st Player.  But how can you hinder malicious applications? 
-  Poet.  Let those answer for 'em who make 'em. I aim at no particular persons; my strokes are at vice in general: but if any men particularly vicious are hurt, I make no apology, but leave them to the cure of their flatterers. If an author write in character, the lower people reflect on the follies and vices of the rich and great, and an Indian judges and talks of Europeans by those he hath seen and convers'd with, &c. And I will venture to own that I wish every man of power or riches were really and apparently virtuous, which would soon amend and reform the common people who act by imitation. 
-  1st Player.  But a little indulgence and partiality to the vices of your own country without doubt would be look'd upon as more discreet. Tho' your Satyr, Sir, is on vices in general, it must and will give offence; every vicious man thinks you particular, for conscience will make self-application. And why will you make yourself so many enemies? I say no more upon this head. As to us I hope you are satisfied we have done all we could for you; for you will now have the advantage of all our best singers. 
-Enter 2d Player.
-  2d Player. 'Tis impossible to perform the Opera to night, all the fine singers within are out of humour with their parts. The Tenor, says he was never offer'd such an indignity, and in a rage flung his clean lambskin gloves into the fire; he swears that in his whole life he never did sing, would sing, or could sing but in true kid. 
-  1st Player. Musick might tame and civilize wild beasts, but 'tis evident it never yet could tame and civilize musicians. 
-[Page vii] 
-Enter 3d Player.
- 3d Player. Sir, Signora Crotchetta says she finds her character so low that she had rather dye than sing it. 
-    1st Player. Tell her by her contract I can make her sing it. 
-Enter Signora Crotchetta.
-   Crotchetta. Barbarous Tramontane! Where are all the lovers of Virtue? Will they not all rise in arms in my defence? make me sing it! good Gods! should I tamely submit to such usage I should debase myself thro' all Europe. 
-  1st Player. In the Opera nine or ten years ago, I remember, Madam, your appearance in a character little better than a fish. 
-  Crotchetta. A fish! monstrous! Let me inform you, Sir, that a Mermaid or Syren is not many removes from a sea-Goddess; or I had never submitted to be that fish which you are pleas'd to call me by way of reproach. I have a cold, Sir; I am sick. I don't see, why I may not be allowed the privilege of sickness now and then as well as others. If a singer may not be indulg'd in her humours, I am sure she will soon become of no consequence with the town. And so, Sir, I have a cold; I am hoarse. I hope now you are satisfied. 
-[Exit Crotchetta in a fury. 
-Enter 4th Player.
-   4th Player. Sir, the base voice insists upon pearl-colour'd stockings and red-heel'd shoes. 
-   1st Player. There is no governing caprice. But how shall we make our excuses to the house? 
-  4th Player. Since the town was last year so good as to encourage an Opera without singers; the favour I was then shown obliges me to offer myself once more, rather than the audience should be dismiss'd. All the other Comedians upon this emergency are willing to do their best, and hope for your favour and indulgence. 
-  1st Player. Ladies and Gentlemen, as we wish to do every thing for your diversion, and that singers only will come when they will come, we beg you to excuse this unforeseen accident, and to accept the proposal of the Comedians, who relye wholly on your courtesie and protection. 
-[Exeunt. 
- 
-DRAMATIS PERSONAE
-
-Ducat.  
-Morano.  
-Vanderbluff.  
-Capstern.  
-Hacker.  
-Culverin.  
-Laguerre.  
-Cutlace.  
-Pohetohee.  
-Cawwawkee.  
-Servants. Indians. Pyrates. Guards, &c.
-
-
-Polly.  
-Mrs. Ducat.  
-Trapes.  
-Jenny Diver.  
-Flimzy.  
-Damaris.  
-
-SCENE. In the WEST-INDIES.
- 
- 
-__________________________________________________
-__________________________________________________
-POLLY:
-AN
-OPERA.
-
-ACT I. SCENE I.
-SCENE Ducat's House. 
-DUCAT. TRAPES.
-Trapes` Though you were born and bred and live in the Indies, as you are subject of Britain, you should live up to our customs. Prodigality there, is a fashion that is among all Ranks of people. Why, our very younger brothers push themselves into the polite world by squandering more than they are worth. You are wealthy, very wealthy, Mr. Ducat; and I grant you the more you have, that taste of getting more should grow stronger upon you: 'Tis just so with us. But then the richest of our Lords and Gentlemen, who live elegantly, always run out. 'Tis genteel to be in debt. Your luxury should distinguish you from the vulgar. You cannot be too expensive in your pleasures. 
-AIR I. The disappointed Widow.
-
-The manners of the Great affect;
-    Stint not your pleasure,
-If conscience had the genius checkt,
-    How got they treasure?
-The more in debt, run in debt the more,
-    Careless who is undone,
-Morals and honesty leave to the poor,
-    As they do at London. 
- 
-   Ducat. I never thought to have heard thrift laid to my charge. There is not a man, though I say it, in all the Indies, who lives more plentifully than myself; nor, who enjoys the necessaries of life in so handsome a manner. 
-   Trapes. There it is now! Whoever heard a man of fortune in England talk of the necessaries of life? If the necessaries of life would have satisfy'd such a poor body as me, to be sure I had never come to mend my fortune to the Plantations. Whether we can afford it or no, we must have superfluities. We never stint our Expence to our own fortunes, but are miserable, if we do not live up to the profuseness of our neighbours. If we could content ourselves with the necessaries of life, no man alive ever need be dishonest. As to woman now; why, look ye, Mr. Ducat, a man hath what we may call every thing that is necessary in a wife. 
-  Ducat.  Ay, and more! 
- Trapes.  But for all that, d'ye see, your married Men are my best Customers. It keeps wives upon their good behaviours. 
-  Ducat.  But there are jealousies and family lectures, Mrs. Trapes. 
-   Trapes. Bless us all! how little are our customs known on this side the herring-pond! Why, jealousy is out of fashion even among our common country-gentlemen: I hope you are better bred, than to be jealous. A husband and wife should have a mutual complaisance for each other. Sure, your wife is not so unreasonable to expect to have you always to herself. 
-   Ducat. As I have a good estate, Mrs. Trapes, I would willingly run into every thing that is suitable to my dignity and fortune. No body throws himself into the extravagancies of life with a freer spirit. As to conscience and musty morals, I have as few drawbacks upon my profits or pleasures as any man of [50] quality in England; in those I am not in the least vulgar. Besides, Madam, in most of my expences I run into the polite taste. I have a fine library of books that I never read; I have a fine stable of horses that I never ride: I build, I buy plate, jewels, pictures, or any thing that is valuable and curious, as your great men do, merely out of ostentation. But indeed I must own, I do still cohabit with my wife; and she is very uneasy and vexatious upon account of my visits to you. 
-   Trapes. Indeed, indeed, Mr. Ducat, you should break thro' all this Usurpation at once, and keep—. Now too is your time; for I have a fresh cargo of ladies just arriv'd: no body alive shall set eyes upon them, 'till you have provided yourself. You should keep your lady in awe by her maid; place a handsome, sprightly wench near your wife, and she will be a spy upon her into the bargain. I would have you show your self a fine gentleman in every thing. 
-   Ducat.  But I am somewhat advanc'd in life, Mrs. Trapes, and my duty to my wife lies very hard upon me; I must leave keeping to younger husbands and old batchelors. 
-   Trapes. There it is again now! Our very vulgar pursue pleasures in the flush of youth and inclination; but our great men are modishly profligate when their appetite hath left 'em. 
-AIR II. The Irish ground.
-
-BASS.
-Ducat.  What can wealth
- When we're old?
-Youth and health 
-  Are not sold.
- 	
-                TREBLE.
-Trapes.  When love in the pulse beats low,
- (As haply it may with you)
-              A girl can fresh youth bestow, 
- And kindle desire a-new.
-             Thus numm'd in the brake,
-             Without motion, the snake 
-                 Sleeps cold winter away;
-            But in every vein
-            Life quickens again
-            On the bosom of May.
- 
-We are not here, I must tell you, as we are at London, where we can have fresh goods every week by the waggon. My maid is again gone aboard the vessel; she is perfectly charm'd with one of the ladies; 'twill be a credit to you to keep her. I have obligations to you, Mr. Ducat, and I would part with her to no Man alive but your self. If I had her at London, such a lady would be sufficient to make my fortune; but in truth, she is not impudent enough to make herself agreeable to the sailors in a publick house in this country. By all accounts, she hath a behaviour only fit for a private family. 
-    Ducat.  But how shall I manage matters with my wife? 
-    Trapes.  Just as the fine gentlemen do with us. We could bring you many great precedents for treating a wife with indifference, contempt, and neglect; but that, indeed, would be running into too high life. I would have you keep some decency, and use her with civility. You should be so obliging as to leave her to her liberties, and take them too your self. Why, all our fine ladies, in what they call pin-money, have no other views; 'tis what they all expect. 
-    Ducat.  But I am afraid it will be hard to make my wife think like a gentlewoman upon this subject; so that if I take her, I must act discreetly, and keep the affair a dead secret. 
-   Trapes.  As to that, Sir, you may do as you please. Should it ever come to her knowledge, custom and education, perhaps may make her at first think it somewhat odd. But this I can affirm with a safe conscience, that many a lady of quality have servants of this sort in their families, and you can afford an expence as well as the best of them. 
-   Ducat.  I have a fortune, Mrs. Trapes, and would fain make a fashionable figure in life; if we can agree upon the price, I'll take her into the family. 
-   Trapes.  I am glad to see you fling your self into the polite taste with a spirit. Few, indeed, have the turn or talents to get money; but fewer know how to spend it handsomely after they have got it. The elegance of luxury consists in variety, and love requires it as much as any of our appetites and passions, and there is a time of life when a man's appetite ought to be whetted by a delicacy. 
-   Ducat.  Nay, Mrs. Trapes, now you are too hard upon me.  Sure, you cannot think me such a clown as to be really in love with my Wife! We are not so ignorant here as you imagine; why, I married her in a reasonable way, only for her money. 
-AIR III. Noel Hills.
-He that weds a beauty
-  Soon will find her cloy;
- When pleasure grows a duty,
-  Farewell love and joy;
-He that weds for treasure,
-  (Though he hath a wife)
-Hath chose one lasting pleasure
-  In a married life. 
-
-SCENE II.
-DUCAT, TRAPES, DAMARIS 
-   Ducat. Damaris [calling at the door] Damaris, I charge you not to stir from the door; and the instant you see your lady at a distance, returning from her walk, besure to give me notice. 
- 
-  Trapes.  She is in most charming rigging; she won't cost you a penny, Sir, in cloaths at first setting out. But, lack-a-day! no bargain could ever thrive with dry lips; a glass of liquor makes every thing go so glibly. 
-Ducat.  Here, Damaris; a glass of Rum for Mrs. Dye. 
-[Damaris goes out, and returns with a bottle and glass.] 
-  Trapes.  But as I was saying, Sir, I would not part with her to any body alive but your self; for, to be sure, I could turn her ten times the profit by jobbs and chance customers. Come Sir, here's to the young lady's health. 
-
-
-
-SCENE III.
-DUCAT, TRAPES, FLIMZY
-   Trapes.  Well, Flimzy; are all the ladies safely landed, and have you done as I order'd you? 
-   Flimzy.  Yes, Madam. The three ladies for the run of the house are safely lodged at home; the other is without in the hall to wait your commands. She is a most delicious creature, that's certain. Such lips, such eyes, and such flesh and blood! If you had her in London you could not fail of the custom of all the foreign Ministers. As I hope to be sav'd, Madam, I was forc'd to tell her ten thousand lyes before I could prevail upon her to come with me. Oh Sir, you are the most lucky, happy man in the world! Shall I go call her in? 
-    Trapes.  'Tis necessary for me first to instruct her in her duty and the ways of the family. The girl is bashful and modest, so I must beg leave to prepare her by a little private conversation, and afterwards, Sir, I shall leave you to your private conversations. 
-   Flimzy.  But I hope, Sir, you won't forget poor Flimzy; for the richest man alive could not be more scrupulous than I am upon these occasions, and the bribe only can make me excuse, it to my conscience, I hope, Sir, you will pardon my freedom. 
-[He gives her money.] 
-AIR IV. Sweetheart, think upon me.
-My conscience is of courtly mold,
-   Fit for highest station.
-Where's the hand when touch'd with gold, 
-   Proof against temptation?
-[Ex. Flimzy. 
- 
-   Ducat.  We can never sufficiently encourage such useful qualifications. You will let me know when you are ready for me. 
-
-
-
-SCENE IV.
-TRAPES.
-   Trapes.  I wonder I am not more wealthy; for o' my conscience, I have as few scruples as those that are ten thousand times as rich. But, alack-a-day! I am forc'd to play at small game. I now and then betray and ruin an innocent girl. And what of that? Can I in conscience expect to be equally rich with those who betray and ruin provinces and countries? In troth, all their great fortunes are owing to situation; as for genius and capacity I can match them to a hair: were they in my circumstance they would act like me; were I in theirs, I should be rewarded as a most profound penetrating politician. 
-
-AIR. V. 'Twas within a furlong.
-In pimps and politicians
-   The genius is the same;
-Both raise their own conditions 
-   On others guilt and shame:
-With a tongue well-tip'd with lyes
-Each the want of parts supplies,
-And with a heart that's all disguise 
-  Keeps his schemes unknown.
-Seducing as the devil, 
-  They play the tempter's part,
-And have, when most they're civil, 
-   Most mischief in their heart.
-Each a secret commerce drives,
-First corrupts and then connives,
-And by his neighbours vices thrives, 
-   For they are all his own. 
- 
-
-
-SCENE V.
-TRAPES, FLIMZY, POLLY.
-   Trapes.  Bless my eyesight! what do I see? I am in a dream, or it is Miss Polly Peachum! mercy upon me! Child, what brought you on this side of the water? 
-   Polly. Love, Madam, and the misfortunes of our family. But I am equally surpriz'd to find an acquaintance here; you cannot be ignorant of my unhappy story, and perhaps from you, Mrs. Dye, I may receive some information that may be useful to me. 
-  Trapes.  You need not be much concern'd, Miss Polly, at a sentence of transportation, for a young lady of your beauty hath wherewithal to make her fortune in any country. 
-   Polly. Pardon me, Madam; you mistake me. Though I was educated among the most profligate in low life, I never engag'd in my father's affairs as a thief or a thief-catcher, for indeed I abhorr'd his profession. Would my Papa had never taken it up, he then still had been alive and I had never known Macheath. 
-AIR VI. Sortez des vos retraites.
-
-She who hath felt a real pain
-  By Cupid's dart.
-Finds that all absence is in vain 
-  To cure her heart.
-Though from my lover cast 
-  Far as from Pole to Pole,
-Still the pure flame must last,
-For love is in the soul. 
-
-You must have heard, Madam, that I was unhappy in my marriage. When Macheath was transported all my peace was banished with him; and my Papa's death hath now given me liberty to pursue my inclinations. 
-   Trapes. Good lack-a-day! poor Mr. Peachum! Death was so much oblig'd to him that I wonder he did not allow him a reprieve for his own sake. Truly, I think he was oblig'd to no-body more except the physicians: but they die it seems too. Death is very impartial; he takes all alike, friends and foes. 
-   Polly. Every monthly Sessions-paper like the Apothecary's files, (if I may make the comparison) was a record of his services. But my Papa kept company with Gentlemen, and ambition is catching. He was in too much haste to be rich. I wish all Great Men would take warning. 'Tis now seven months since my Papa was hang'd. 
-   Trapes. This will be a great check indeed to your men of enterprizing genius; and it will be unsafe to push at making a great fortune, if such accidents grow common. But sure child, you are not so mad as to think of following Macheath. 
-   Polly. In following him I am in pursuit of my quiet. I love him, and like a troubled ghost shall never be at rest till I appear to him. If I can receive any information of him from you, it will be a cordial to a wretch in despair. 
-   Trapes.  My dear Miss Polly, you must not think of it. 'Tis now above a year and a half since he robb'd his master, ran away from the Plantation and turn'd pyrate. Then too what puts you beyond all possibility of redress, is, that since he came over he married a transported slave, one Jenny Diver, and she is gone off with him. You must give over all thoughts of him, for he is a very devil to our sex; not a woman of the greatest vivacity shifts her inclinations half so fast as he can. Besides, he would disown you, for like an upstart he hates an old acquaintance. I am sorry to see those tears, Child, but I love you too well to flatter you. 
-   Polly.  Why have I a heart so constant? cruel love! 
-
-AIR. VII. O Waly, Waly, up the bank.
-
-Farewell, farewell, all hope of bliss!
-For Polly always must be thine.
-Shall then my heart be never his,
-Which never can again be mine?
-O Love, you play a cruel part,
-Thy shaft still festers in the wound;
-You should reward a constant heart,
-Since 'tis, alas, so seldom found! 
-
-   Trapes. I tell you once again, Miss Polly, you must think no more of him. You are like a child who is crying after a butterfly that is hopping and fluttering upon every flower in the field; there is not a Woman that comes in his way but he must have a taste of; besides there is no catching him. But my dear girl, I hope you took care, at your leaving England, to bring off wherewithal to support you. 
-   Polly.  Since he is lost, I am insensible of every other misfortune. I brought indeed a sum of money with me, but  my Chest was broke open at sea, and I am now a wretched vagabond expos'd to hunger and want, unless charity relieve me. 
-   Trapes. Poor child! your father and I have had great dealings together, and I shall be grateful to his memory. I will look upon you as my daughter; you shall be with me. 
-    Polly.  As soon as I can have remittances from England, I shall be able to acknowledge your goodness: I have still five hundred pounds there which will be return'd to me upon demand; but I had rather undertake any honest service that might afford me a maintenance than be burthensome to my friends. 
-   Trapes. Sure never any thing happened so luckily! Madam Ducat just now wants a servant, and I know she will take my recommendation; and one so tight and handy as you must please her: then too, her husband is the civilest, bestbred man alive. You are now in her house, and I won't leave it 'till I have settled you. Be cheerful, my dear child, for who knows but all these misfortunes may turn to your advantage? you are in a rich credible family, and I dare say your person and behaviour will soon make you a favourite. As to captain Macheath, you may now safely look upon yourself as a widow, and who knows, if Madam Ducat should tip off, what may happen? I shall recommend you, Miss Polly, as a gentlewoman. 
-
-AIR. VIII. O Jenny come tye me.
-Despair is all folly;
-    Hence melancholy,
-Fortune attends you while youth is in flower.
-   By beauty's possession
-       Us'd with discretion,
-Woman at all times hath joy in her power. 
-
-   Polly. The service, Madam, you offer me, makes me as happy as I can be in my circumstance, and I accept of it with ten thousand obligations. 
-   Trapes. Take a turn in the hall with my maid for a minute or two, and I'll take care to settle all matters and conditions for your reception. Be assur'd, Miss Polly, I'll do my best for you. 
- 
-
-
-SCENE VI.
-TRAPES, DUCAT.
-   Trapes.  Mr. Ducat, Sir. You may come in. I have had this very girl in my eye for you, ever since you and I were first acquainted; and to be plain with you, Sir, I have run great risques for her: I had many a stratagem, to be sure, to inviegle her away from her relations! she too herself was exceeding difficult. And I can assure you, to ruin a girl of severe education is no small addition to the pleasure of our fine gentlemen. I can be answerable for it too, that you will have the first of her. I am sure I could have dispos'd of her upon the same account for at least a hundred guineas to an Alderman of London; and then too I might have had the disposal of her again as soon as she was out of keeping; but you are my friend, and I shall not deal hard with you. 
-   Ducat.  But if I like her I would agree upon terms beforehand; for should I grow fond of her, I know you have the conscience of other trades-people and would grow more imposing; and I love to be upon a certainty 
-   Trapes.  Sure you cannot think a hundred pistoles too much; I mean for me. I leave her wholly to your generosity. Why your fine men, who never pay any body else, pay their pimps and bawds well; always ready money. I ever dealt conscientiously, and set the lowest price upon my ladies; when you see her, I am sure you will allow her to be as choice a piece of beauty as ever you laid eyes on. 
-   Ducat. But, dear Mrs. Dye, a hundred pistoles say you? why, I could have half a dozen negro princesses for the price. Trapes. But sure you cannot expect to buy a fine handsome christian at that rate. You are not us'd to see such goods on this  side of the water. For the women, like the cloaths, are all tarnish'd and half worn out before they are sent hither. Do but cast your eye upon her, Sir; the door stands half open; see, yonder she trips in conversation with my maid Flimzy in the hall. 
-   Ducat. Why truly I must own she is handsome. 
-   Trapes. Bless me, you are no more mov'd by her, than if she were your wife. Handsome! what a cold husband-like expression is that! nay, there is no harm done. If I take her home, I don't question the making more money of her.  She was never in any body's house but your own since she was landed. She is pure, as she was imported, without the least adulteration. 
-   Ducat. I'll have her. I'll pay you down upon the nail. You shall leave her with with me. Come, count your money, Mrs. Dye. 
-   Trapes. What a shape is there! she's of the finest growth. 
-   Ducat. You make me mis-reckon. She even takes off my eyes from gold. 
-   Trapes. What a curious pair of sparkling eyes! 
-   Ducat. As vivifying as the sun. I have paid you ten. 
-   Trapes. What a racy flavour must breath from those lips! 
-   Ducat.  I want no provoking commendations. I'm in youth; I'm on fire! twenty more makes it thirty; and this here makes it just fifty. 
-   Trapes.  What a most inviting complexion! how charming a colour! In short, a fine woman has all the perfections of fine wine, and is a cordial that is ten times as restorative. 
-   Ducat.  This fifty then makes it just the sum. So now, Madam, you may deliver her up. 
-
-
-
- SCENE VII.
-DUCAT, TRAPES, DAMARIS.
-   Damaris. Sir, Sir, my Mistress is just at the door. 					[Exit. 
-   Ducat. Get you out of the way this moment, dear Mrs. Dye; for I would not have my wife see you. But don't stir out of the house till I am put in possession. I'll get rid of her immediately.         [Exit Trapes. 
-
-
-SCENE VIII.
-DUCAT, Mrs. DUCAT
-   Mrs. Ducat.  I can never be out of the way, for an hour or so, but you are with that filthy creature. If you were young, and I took liberties, you could not use me worse; you could not, you beastly fellow. Such usage might force the most vertuous woman to resentment. I don't see why the wives in this country should not put themselves upon as easy a foot as in England. In short, Mr. Ducat, if you behave your self like an English husband, I will behave my self like an English wife. 
-AIR IX. Red House. 
-I will have my humours, I'll please all my senses,
-I will not be stinted—in love or expences.
-I'll dress with profusion, I'll game without measure;
-You shall have the business, I will have the pleasure: 
-    Thus every day I'll pass my life,
-   My home shall be my least resort;
-   For sure 'tis fitting that your wife
-   Shou'd copy ladies of the court. 
-
-   Ducat.  All these things I know are natural to the sex, my dear. But husbands like colts, are restif, and they require a long time to break e'm. Besides, 'tis not the fashion as yet, for husbands to be govern'd in this country. That tongue of yours, my dear, hath not eloquence enough to persuade me out of my reason. A woman's tongue, like a trumpet, only serves to raise my courage. 
-AIR. X. Old Orpheus tickl'd, &c.
-When billows come breaking on the strand,
-The rocks are deaf and unshaken stand:
-Old oaks can defy the thunder's roar,
-And I can stand woman's tongue—that's more, 
-   With a twinkum, twankum, &c. 
-
-With that weapon, women, like pyrates, are at war with the whole world. But I thought, my dear, your pride would have kept you from being jealous. 'Tis the whole business of my life to please you; but wives are like children, the more they are flatter'd and humour'd the more perverse they are. Here now have I been laying out my money, purely to make you a present, and I have nothing but these freaks and reproaches in return. You wanted a maid, and I have bought you the handiest creature; she will indeed make a very creditable servant. 
-   Mrs. Ducat. I will have none of your hussies about me. And so, Sir, you would make me your convenience, your bawd. Out upon it?    
-  Ducat.  But I bought her on purpose for you, Madam. 
-   Mrs. Ducat.  For your own filthy inclinations, you mean.  I won't bear it. What keep an impudent strumpet under my nose! Here's fine doings indeed! 
-   Ducat.  I will have the directions of my family. 'Tis my pleasure it shall be so. So, Madam, be satisfy'd. 
-                    AIR XI. Christ-Church Bells. 
-                   When a woman jealous grows, 
-                     Farewell all peace of life! 
-Mrs Ducat. But e'er man roves, he should pay what he owes. 
-                           And with her due content his wife. 
-Ducat.           T'is man's the weaker sex to sway. 
-Mrs. Ducat. We too, whene'er we list obey. 
-Ducat.             'Tis just and fit
-                      You should submit. 
-Mrs. Ducat. But sweet kind husband—not to day. 
-Ducat.                  Let your clack be still. 
-Mrs Ducat.           Not till I have my will. 
-                               If thus you reason slight, 
-                               There's never an hour 
-                               While breath has power. 
-                                But I will assert my right. 
-
-Would I had you in England; I should have all the women there rise in arms in my defence. For the honour and prerogative of the sex, they would not suffer such a precedent of submission. And so Mr. Ducat, I tell you once again, that you shall keep your trollops out of the house, or I will not stay in it. 
-Ducat. Look'ee, Wife; you will be able to bring about nothing by pouting and vapours. I have resolution enough to withstand either obstinacy or stratagem. And I will break this jealous spirit of yours before it gets a head. And so, my dear, I order that upon my account you behave your self to the girl as you ought. 
-Mrs. Ducat.  I wish you would behave your self to your Wife as you ought; that is to say, with good manners, and compliance. And so, Sir, I leave you and your minx together. I tell you once again, that I would sooner die upon the spot, than not be mistress in my own house.    [Exit in a Passion. 
-
-
-
-SCENE IX.
-DUCAT, DAMARIS
-Ducat.  If by these perverse humours, I should be forc'd to part with her, and allow her a separate maintenance; the thing is so common among people of condition, that it could not prove to my discredit. Family divisions, and matrimonial controversies are a kind of proof of a man's riches; for the poor people are happy in marriage out of necessity, because they cannot afford to disagree. Damaris, saw you my Wife? 
-Enter Damaris.
-Is she in her own room? What said she? Which way went she? 
-
-   Damaris.  Bless me, I was perfectly frighten'd, she look'd so like a fury! Thank my stars, I never saw her look so before in all my life; tho' mayhap you may have seen her look so before a thousand times. Woe be to the servants that fall in her way! I'm sure I'm glad to be out of it. 
-AIR XII. Cheshire-rounds. 
-When kings by their huffing
-Have blown up a squable, 
-All the charge and cuffing Light upon the rabble. 
-Thus when Man and Wife 
-By their mutual snubbing, 
-Kindle civil strife, 
-Servants get the the drubbing, 
-
-Ducat.  I would have you, Damaris have an eye upon your mistress. You should have her good at heart, and inform me when she has any schemes a-foot; it may be the means to reconcile us. 
-Damaris.  She's wild, Sir. There is no speaking to her. she's flown into the garden! Mercy upon us all, say I, How can you be so unreasonable to contradict a woman, when you know we can't bear it? 
-Ducat.  I depend upon you, Damaris, for intelligence. You may observe her at a distance; and as soon as she comes into her own room, bring me word. There is the sweetest pleasure in the revenge that I have now in my head! I'll this instant go and take my charge from Mrs. Trapes. [aside]  Damaris, you know your instructions. 										[Exit. 
-
-
-
-SCENE X.
-DAMARIS.
-Damaris.  Sure all masters and mistresses, like politicians, judge of the conscience of mankind by their own, and require treachery of their servants as a duty! I am employ'd by my master to watch my mistress, and by my mistress to watch my master. Which party shall I espouse? To be sure my mistress's. For in hers, juridiction and power, the common cause of the whole sex, are at stake. But my master I see is coming this way. I'll avoid him, and make my observations.    				[Exit. 
-
-
-SCENE XI.
-DUCAT, POLLY.
-   Ducat.  Be cheerful, Polly, for your good fortune hath thrown you into a family, where, if you rightly consult your own interest, as every body now-a-days does, you may make your self perfectly easy. Those eyes of yours, Polly, are a sufficient fortune for any woman, if she have but conduct and knew how to make the most of e'm. 
-Polly.  As I am your servant, Sir, my duty obliges me not to contradict you; and I must hear your flattery tho' I know my self undeserving. But sure, Sir, in handsome women, you must have observ'd that their hearts often oppose their interest; and beauty certainly has ruin'd more women than it has made happy. 
-AIR XIII. The bush a boon traquair. 
-The crow or daw thro' all the year 
-   No fowler seeks to ruin; 
-But birds of voice or feather rare 
-   He's all day long persuing.
-Beware, fair maids; so scape the net 
-    That other beauties fell in; 
-For sure at heart was never yet 
-   So great a wretch as Helen! 
-
-If my lady, Sir, will let me know my duty, gratitude will make me study to please her. 
-
-Ducat. I have a mind to have a little conversation with you, and I would not be interrupted.  
-[bars the door. 
-Polly.  I wish, Sir, you would let me receive my lady's commands. 
-Ducat.  And so, Polly, by these downcast looks of yours you would have me believe you don't know you are handsome, and that you have no faith in your looking-glass. Why, every pretty woman studies her face, and a looking-glass to her is what a book is to a Pedant; she is poring upon it all day long. In troth, a man can never know how much love is in him by conversations with his Wife. A kiss on those lips would make me young again. 								[Kisses her. 
-AIR XIV. Bury Fair. 
-Polly.     How can you be so teazing? 
-Ducat.       Love will excuse my fault. 
-               How can you be so pleasing! 	[going to kiss her. 
-Polly.          I vow I'll not be naught. 
-Ducat.    All maids I know at first resist. 	[struggling.
- 	      A master may command. 
-Polly.      You're monstrous rude; I'll not be kiss'd: 
-       Nay, fie, let go my hand, 
-Ducat       'Tis foolish pride— 
-Polly.			  'Tis vile, 'tis base 
-     Poor innocence to wrong; 
-Ducat.      I'll force you, 
-Polly.		         Guard me from disgrace. 
-                   You find that virtue's strong.    [pushing him away. 
- 
-'Tis barbarous in you, Sir, to take the occasion of my necessities to insult me. 
-   Ducat. Nay, hussy, I'll give you money. 
-   Polly. I despise it. No, Sir, tho' I was born and bred in England, I can dare to be poor, which is the only thing now-a-days men are asham'd of. 
-   Ducat. I shall humble these saucy airs of yours, Mrs. Minx. Is this language from a servant! from a slave! 
-   Polly. Am I then betray'd and sold! 
-   Ducat. Yes, hussy, that you are; and as legally my property, as any woman is her husband's, who fells her self in marriage. 
-   Polly. Climates that change constitutions have no effect upon manners. What a profligate is that Trapes! 
-   Ducat. Your fortune, your happiness depends upon your compliance. What proof against a bribe! Sure, hussy, you belye your country, or you must have had a very vulgar education. 'Tis unnatural. 
-AIR XV. Bobbing Joan. 
-Maids like courtiers must be woo'd, 
-Most by flattery are subdu'd; 
-Some capricious, coy or nice 
-Out of pride protract the vice? 
-But they fall, 
-One and all, 
-When we bid up to their price. 
-
-Besides, hussy, your consent may make me your slave; there's power to tempt you into the bargain. You must be more than woman if you can stand that too. 
-  Polly. Sure you only mean to try me! but 'tis barbarous to trifle with my distresses. 
-    Ducat. I'll have none of these airs. 'Tis impertinent in a servant, to have scruples of any kind. I hire honour, conscience and all, for I will not be serv'd by halves. And so, to be plain with you, you obstinate slut, you shall either contribute to my pleasure or my profit; and if you refuse play in the bed-chamber, you shall go work in the fields among the planters. I hope now I have explain'd myself. 
-   Polly. My freedom may be lost, but you cannot rob me of my vertue and integrity; and whatever is my lot, having that, I shall have the comfort of hope, and find pleasure in reflection. 
-AIR XVI. A swain long tortur'd with Disdain. 
-Can I or toil or hunger fear? 
-For love's a pain that's more severe. 
-The slave, with virtue in his breast, 
-Can wake in peace, and sweetly rest. 
-
-But love, when unhappy, the more vertuous it is, the more it suffers. 	[Aside. 
-   Ducat. What noise is that? 
-   Damaris. [Without] Sir, Sir.
-    Ducat. Step into the closet; I'll call you out immediately to present you to my wife. Don't let bashfulness ruin your fortune? The next Opportunity I hope you will be better disposed.   [Exit Polly. 
-      Damaris. Open the door, Sir. This moment, this moment. 
-
-
-
-SCENE XII. 
-DUCAT, DAMARIS, Servants, Mrs. DUCAT, &c. 
-
-   Ducat. What's the matter? Was any body about to ravish you? Is the house o'fire? Or my Wife in a passion? 
-   Damaris. O, Sir, the whole country is in an uproar! The pyrates are all coming down upon us; and if they should raise the Militia, you are an officer, you know. I hope you have Time enough to fling up your commission.		 [Enter 1st Footman. 
-    1st Footm.  The neighbours, Sir, are all frighted out of their wits; they leave their houses, and fly to yours for protection. Where's my lady, your Wife? Heaven grant they have not taken her! 
-   Ducat. If they only took what one could spare. 
-   1st Footman.  That's true, there were no great harm done. 
-   Ducat.  How are the musquets? 
-   1st Footman. Rusty, Sir, all rusty and peaceable! For we never clean 'em, but against training-day. 
-   Damaris.  Then, Sir, your honour is safe, for now you have a just excuse against fighting. [Enter 2d Footman. 
-   2d Footman. The Indians, Sir, with whom we are in alliance are all in arms; there will be bloody work to be sure. I hope they will  decide the matter before we can get ready. [Enter Mrs. Ducat. 
-   Mrs. Ducat. O dear Husband, I'm frighten'd to death! What will become of us all! I thought a punishment for your wicked lewdness would light upon you at last. 
-    Ducat. Presence of mind, my dear, is as necessary in dangers as courage. 
-    Damaris. But you are too rich to have courage. You should fight by deputy. 'Tis only for poor people to be brave and desperate, who cannot afford to live.  [Enter Maids, &c. one after another.
-   1st Maid.  The pyrates, Sir, the pyrates! Mercy upon us! what will become of us poor helpless Women!
-   2d Maid. We shall all be ravish'd! 
-   1st Old Woman. All be ravish'd!
-   2d Old Woman.  Ay to be sure, we shall be ravish'd; all be ravish'd! 
-   1st Old Woman.  But if fortune will have it so, patience is a vertue; and we must undergo it. 
-   2d Old Woman. Ay, for certain we must all bear it, Mrs. Damaris. 
-   3d Footm. A soldier, Sir, from the Indian Camp, desires admittance. He's here, Sir. [Enter Indian. 
-   Indian. I come, Sir, to the English colony, with whom we are in alliance, from the mighty King Pohetohee, my lord and  master, and address my self to you, as you are of the council, for succours. The pyrates are ravaging and plund'ring the country, and we are now in arms, ready for battle, to oppose 'em. 
-    Ducat. Does Macheath command the enemy? 
-   Indian.  Report says he is dead. Above twelve moons are pass'd since we heard of him. Morano, a Negro villain, is their chief, who in rapine and barbarities is even equal to him. 
-   Ducat. I shall inform the council, and we shall soon be ready to join you. So acquaint the King your master. 		[Exit Indian.
-
-               AIR XVII. March in Scipio.
-                    Brave Boys prepare.   [to the men. 
-                  Ah! Cease, fond Wife, to cry.  [to her. 
-Servant.     For when the danger's near, 
-                    We've time enough to fly. 
-Mrs. Ducat. How can you be disgrac'd! 
-                     For Wealth secures your fame. 
-Servant.      The rich are always plac'd 
-                     Above the sense of shame. 
-Mrs. Ducat. Let honour spur the slave, 
-                      To fight for fighting's sake: 
-Ducat.          But even the rich are brave 
-                       When money is at stake. 
-
-Be satisfy'd, my dear, I shall be discreet. My servants here will take care that I be not over-rash, for their wages depend upon me. But before I go to council—come hither Polly; I intreat you, Wife, to take her into your service.  [Enter Polly.] And use her civilly. Indeed, my dear, your suspicions are very frivolous and unreasonable. 
-   Mrs. Ducat.  I hate to have a handsome wench about me. They are always so saucy! 
-   Ducat. Women, by their jealousies, put one in mind of doing that which otherwise we should never think of. Why you  are a proof, my dear, that a handsome woman may be honest. 
-   Mrs. Ducat. I find you can say a civil thing to me still. 
-   Ducat.  Affairs, you see, call me hence. And so I leave her under your protection. 
- 
-
-
-SCENE XIII.
-Mrs. DUCAT, DAMARIS
-    Mrs. Ducat. Away, into the other room again. When I want you, I'll call you.  [Exit Polly.]  Well, Damaris, to be sure you have observ'd all that has pass'd. I will know all. I'm sure she's a hussy. 
-Damaris. Nay, Madam, I can't say so much. But—  
-   Mrs. Ducat.  But what? 
-   Damaris. I hate to make mischief. 
-AIR XVIII. Jig-it-o'Foot. 
-     Better to doubt 
-    All that's doing, 
-    Than to find out 
-    Proofs of ruin. 
-What servants hear and see 
-   Should they tattle, 
-Marriage all day would be 
-   Feuds and battle. 
-
-A servant's legs and hands should be under your command, but, for the sake of quiet, you should leave their tongues to their own discretion. 
-   Mrs. Ducat.  I vow, Damaris, I will know it. 
-   Damaris. To be sure, Madam, the door was bolted, and I could only listen. There was a sort of a bustle between 'em, that's certain. What past I know not: But the noise they made, to my thinking, did not sound very honest. 
-   Mrs. Ducat.  Noises that did not sound very honest, said you? 
-   Damaris.  Nay, Madam, I am a maid, and have no experience. If you had heard them, you would have been a better judge of the matter. 
-   Mrs. Ducat. An impudent slut! I'll have her before me. If she be not a thorough profligate, I shall make a discovery by her behaviour. Go call her to me.    [Exit Damaris and returns. 
-
-
-SCENE XIV.
-Mrs. DUCAT, DAMARIS, POLLY.  
-   Mrs Ducat. In my own house! before my face! I'll have you sent to the house of correction, strumpet. By that overhonest look, I guess her to be a horrid jade. A mere hypocrite, that is perfectly white-wash'd with innocence. My blood rises at the sight of all strumpets, for they are smuglers in love, that ruin us fair traders in matrimony. Look upon me, Mr. brazen. She has no feeling of shame. She is so us'd to impudence, that she has not a blush within her. Do you know, Madam, that I am Mr. Ducat's wife? 
-   Polly. As your servant, Madam, I think my self happy. 
-   Mrs. Ducat. You know Mr. Ducat, I suppose. She has beauty enough to make any woman alive hate her. 
-AIR XIX. Trumpet Minuet. 
-  Abroad after misses most husbands will roam, 
-  Tho' sure they find woman sufficient at home. 
-To be nos'd by a strumpet! Hence, hussy you'd best. 
-Would he give me my due, I wou'd give her the rest. 
-
-I vow I had rather have a thief in my house. For to be sure she is that besides. 
-   Polly. If you were acquainted with my misfortunes, Madam, you could not insult me. 
-   Mrs. Ducat. What does the wench mean? 
-   Damaris. There's not one of these common creatures, but like common beggars, hath a moving story at her finger's ends, which they tell over, when they are maudlin, to their lovers. I had a sweetheart, Madam, who was a rake, and I know their ways very well, by hear-say. 
-   Polly. What villains are hypocrites! For they rob those of relief, who are in real distress. I know what it is to be unhappy in marriage. 
-   Mrs. Ducat. Married! 
-   Polly. Unhappily. 
-   Mrs. Ducat.  When, where, to whom? 
-   Polly.  If woman can have faith in woman, may my words find belief. Protestations are to be suspected, so I shall use none. If truth can prevail, I know you will pity me. 
-   Mrs. Ducat.  Her manner and behaviour are so particular, that is say, so sincere, that I must hear her story. Unhappily married! That is a misfortune not to be remedied. 
-   Polly.  A constant woman hath but one chance to be happy; an inconstant woman, tho' she hath no chance to be very happy, can never be very unhappy. 
-   Damaris.  Believe me, Mrs. Polly, as to pleasures of all sorts, 'tis a much more agreeable way to be inconstant. 
-AIR XX. Polwart on the Green. 
-Love now is nought but art, 
-   'Tis who can juggle best; 
-To all men seem to give your heart 
-   But keep it in your breast. 
-What gain and pleasure do we find, 
-   Who change whene'er we list!
-The mill that turns with every wind 
-   Must bring the owner grist. 
-
-   Polly. My case, Madam. may in these times be look'd upon as singular; for I married a man only because I lov'd him. For this I was look'd upon as a fool by all my acquaintance; I was us'd inhumanly by my father and mother; and to compleat my misfortunes, my husband, by his wild behaviour, incurr'd the sentence of the law, and was separated from me by banishment. Being inform'd he was in this country, upon the death of my father and mother, with most of my small fortune, I came here to seek him. 
-   Mrs. Ducat.  But how then fell you into the hands of that consummate bawd, Trapes? 
-   Polly. In my voyage, Madam, I was robb'd of all I had. Upon my landing in a strange country, and in want, I was found out by this inhuman woman, who had been an acquaintance of my father: She offered me at first the civilities of her own house. When she was inform'd of my necessities, she proposed to me the service of a Lady; of which I readily accepted. 'Twas under that pretence that she treacherously sold me to your husband as a mistress. This, Madam, is in short the whole truth. I fling my self at your feet for protection. By relieving me, you make your self easy. 
-   Mrs. Ducat. What is't you propose? 
-   Polly.  In conniving at my escape, you save me from your husband's worrying me with threats and violence, and at the same time quiet your own fears and jealousies. If it is ever in my power, Madam, with gratitude I will repay you my ransom.  
-   Damaris. Besides, Madam, you will effectually revenge your self upon your husband; for the loss of the money he paid for her will touch him to the quick. 
-   Mrs. Ducat. But have you considered what you request? We are invaded by the pyrates: The Indians are in arms; the whole country is in commotion, and you will every where be expos'd to danger. 
-   Damaris. Get rid of her at any rate. For such is the vanity of man, that when once he has begun with a woman, out of pride he will insist upon his point. 
-   Polly. In staying with you, Madam, I make two people unhappy. And I chuse to bear my own misfortunes, without being the cause of another's. 
-   Mrs. Ducat. If I let her escape before my husband's return, he will imagin she got off by the favour of this bustle and confusion. 
-   Polly. May heaven reward your charity. 
-    Mrs. Ducat.  A woman so young and so handsome must be expos'd to continual dangers. I have a suit of cloaths by me of my nephew's, who is dead. In a man's habit you will run fewer risques. I'll assist you too for the present with some money; and, as a traveller, you may with greater safety make enquiries after your husband. 
-   Polly. How shall I ever make a return for so much goodness? 
-   Mrs. Ducat.  May love reward your constancy. As for that perfidious monster Trapes, I will deliver her into the hands of the magistrate. Come Damaris, let us this instant equip her for her adventures. 
-   Damaris. When she is out of the house, without doubt, Madam, you will be more easy. And I wish she may be so too. 
-   Polly.  May vertue be my protection; for I feel within me hope, cheerfulness and resolution. 
-AIR. XXI. St. Martin's Lane.
-    As pilgrims thro' devotion 
-To some shrine pursue their way, 
-They tempt the raging ocean, 
-   And thro' desarts stray. 
-With zeal their hope desiring, 
-The saint their breast inspiring 
-   With cheerful air, 
-   Devoid of fear, 
-   They every danger bear. 
-Thus equal zeal possessing, 
-  I seek my only blessing. 
-O love, my honest vow regard! 
-   My truth protect, 
-   My steps direct,
-    His flight detect, 
-A faithful wife reward.   			[Exit. 
-
-
-      </body>
-  </text>
+   </teiHeader>
+   <text>
+      <front>
+         <titlePage><docTitle>
+               <titlePart type="main">POLLY:</titlePart>
+
+               <titlePart type="sub">AN OPERA. BEING THE SECOND PART OF THE BEGGAR's OPERA.
+               </titlePart>
+            </docTitle> ¬¬¬<byline>Written by
+                  <docAuthor>Mr. GAY</docAuthor>
+            </byline> _________________________________ 
+            <epigraph><cit><span>Raro antecedentum scelestum Deseruit pede
+               pæna claudo.</span></cit> <bibl>Hor.</bibl> </epigraph>
+            
+            ____________________________________
+            ____________________________________ LONDON: Printed for the AUTHOR. M DCCCXXIX.
+            
+            
+         </titlePage> 
+         
+         
+         PREFACE. After Mr. Rich and I were agreed upon terms and conditions for
+         bringing this Piece on the Stage, and that every Thing was ready for a Rehearsal; The Lord
+         Chamberlain sent an order from the country to prohibit Mr. Rich to suffer any Play to be
+         rehears'd upon his Stage till it had been first of all supervis'd by his Grace. As soon as
+         Mr. Rich came from his Grace's Secretary (who had sent for him to receive the
+         before-mentioned order) he came to my lodgings and acquainted me with the orders he had
+         received. Upon the Lord Chamberlain's coming to town, I was confined by sickness, but in
+         four or five days I went abroad on purpose to wait upon his Grace with a faithful and
+         genuine copy of this Piece, excepting the erratas of the transcriber. It was transcribed in
+         great haste by Mr. Stede the Prompter of the Playhouse, that it might be ready against his
+         Grace's return from the country: As my illness at that time would not allow me to read it
+         over, I since find in it many small faults, and here and there a line or two omitted. But
+         lest it should be said I had made any one alteration from the copy I deliver'd to the Lord
+         Chamberlain: I have caused every error in the said copy to be printed (litteral faults
+         excepted) and have taken notice of every omission. I have also pointed out every amendment
+         I have made upon the revisal of my own copy for the Press, that the reader may at one view
+         see what alterations and amendments have been made. ERRORS as they stood in the copy
+         delivered to the Lord Chamberlain (occasion'd by the haste of the transcriber) corrected in
+         this edition; by which will appear the most minute difference between that and my own copy.
+         P for page. 1. for line. sc for scene. what was added mark'd thus ∗. What was left out,
+         thus † . The names of all the tunes †. The scenes not divided and number'd. The marginal
+         directions for the Actors were often omitted. Act 1. p. 2. l. 16. ever †. l. 18. after
+         more, too∗. p. 4. l. 1. before part not∗. l. 11. take †. sc. 2. l. 12. to †. Air 5. l. 10.
+         thus instead of they, p. 9. l. 20. wherewith for wherewithal. l. 19. my †. l. 26. will †.
+         p. 10. l. 1. you for it. p. 11. l. 20. no †. Air 10. l. 5. with a twinkum twankum †. p. 14.
+         l. 18. complaisance for compliance. sc. 9. l. 1. part from. p. 18. l. 9. surely for sure.
+         l. 13. And t. sc. 14. l. 20. insult me thus. p. 24. l. 18. her †. l. 21. young and
+         handsome. Act. 2. Air 25. l. 8. charms for arms. p. 29. the speech between Air 25. and Air
+         26 †. Air 27. l. 2. why for who. Air 29. with a mirleton, &amp;c. †. sc. 7. l. 2. a
+         bawdyhouse bully. p. 42. l. 26 is †. Air 42. l. 6. is for are. p. 44. l. 7. none for no
+         more. Act 3. p. 52. l. 18. are all at stake. p. 53. l. 9. ever t. p. 54. l. 9. found †. Air
+         51. Thus to battle we will go †. Air 52. with a fa, la, la, †. sc. 8. l. 4. prey for pay.
+         p. 63. l. 26. no notions. p. 65. l. 28. or redress 'em . Air 71. the repetition of the
+         Chorus. . EMENDATIONS of my own copy on revising it for the Quarto Edition. ∗Is the mark
+         for any thing added. †The mark for what is left out. ‡The mark of what stood in the
+         original Copy. Act 1. p. 2. l. 36: pictures ∗. sc. 4. l. 2. thousand ∗. p. 18. l. 28. But
+         unhappy love, the more virtuous that is ‡. Air 21. l. 13. my steps direct, my truth protect
+         a faithful, &amp;c. ‡. Act. 2. Air 23. l. 3. sick imagination ‡. l. 4. then alone I forget to
+         weep ‡. l. 7. for whole years ‡. l. 11. 'Tis a dream ‡. l. 12. 'Tis our utmost ‡. Air 27.
+         l. 9. you ne'er were drawn to cringe and fawn among the spawn who &amp;c. ‡. Air 28. l. 2.
+         for. ∗. l. 4. alike for both. p. 40. l. 12. all women expect ‡. Air 39. l. 3. thus costs
+         let loose, by want of use grow ‡. Air 40. unexstinguish'd ray ‡. Recitative Away for Hence,
+         ‡. p. 46. l. 1. pardons for persons ‡. Air 45. l. 1. when as ambition's ‡. l. 2. mighty ∗.
+         l. 4. fraud and ∗. Air. 48. l. 2. Thus ∗. l. 3. what expence and what care ‡. l. 7. sage
+         politicians ‡. Act. 3. sc. 1, 2, 3, 4, 5, 6. are transpos'd with no alteration of the
+         words, but instead of On then; hope and conquer, is put. p. 55. l. 2. let us then to our
+         posts. p. 57. l. 12. after enterprize, let us now to our posts ‡. Air 58. l. 4. cheers my
+         breast. ‡. Air 62. l. 7. by turns we take ‡Air 63. l. 7. Tis jealous rage ‡. Air 64. l. 3.
+         is of the noxious ‡. folded arms hide its charms, all the night free from blight, &amp;. ‡.
+         Polly's speech before Air 64. was plac'd after it, but without any alteration ‡. Air 69. l.
+         7. sure to virtue ‡. Excepting these errors and emendations, this Edition is a true and
+         faithful Copy as I my-self in my own hand writing delivered it to Mr. Rich, and afterwards
+         to the Lord Chamberlain, for the truth of which I appeal to his Grace. As I have heard
+         several suggestions and false insinuations concerning the copy: I take this occasion in the
+         most solemn manner to affirm, that the very copy I delivered to Mr. Rich was written in my
+         own hand some months before at the Bath from my own first foul blotted papers; from this,
+         that for the Playhouse was transcribed, from whence the above-mentioned Mr. Stede copied
+         that which I delivered to the Lord Chamberlain, and excepting my own foul blotted papers; I
+         do protest I know of no other copy whatsoever, than those I have mention'd. The Copy I gave
+         into the hands of Mr. Rich had been seen before by several Persons of the greatest
+         distinction and veracity, who will be ready to do me the honour and justice to attest it;
+         so that not only by them, but by Mr. Rich and Mr. Stede, I can (against all insinuation or
+         positive affirmation) prove in the most clear and undeniable manner, if occasion required,
+         what I have here upon my own honour and credit asserted. The Introduction indeed was not
+         shown to the Lord Chamberlain, which, as I had not then quite settled, was never
+         transcribed in the Playhouse copy. 'Twas on Saturday morning December 7th, 1728. that I
+         waited upon the Lord Chamberlain; I desir'd, to have the honour of reading the Opera to his
+         Grace, but he order'd me to leave it with him, which I did upon expectation of having it
+         return'd on the Monday following, but I had it not till Thursday December 12, when I
+         receiv'd it from his Grace with this answer; that it was not allow'd to be acted, but
+         commanded to be supprest. This was told me in general without any reasons assign'd, or any
+         charge against me of my having given any particular offence. Since this prohibition I have
+         been told that I am accused, in general terms, of having written many disaffected libels
+         and seditious pamphlets. As it hath ever been my utmost ambition (if that word may be us'd
+         upon this occasion) to lead a quiet and inoffensive life, I thought my innocence in this
+         particular would never have requir'd a justification; and as this kind of writing is, what
+         I have ever detested, and never practis'd, I am persuaded so groundless a calumny can never
+         be believ'd but by those who do not know me. But when general Aspersions of this Sort have
+         been cast upon me, I think myself call'd upon to declare my principles; and I do with the
+         strictest truth affirm, that I am as loyal a subject and as firmly attach'd to the present
+         happy establishment as any of those who have the greatest places or pensions. I have been
+         inform'd too, that in the following Play, I have been charg'd with writing immoralities;
+         that it is fill'd with slander and calumny against particular great persons, and that
+         Majesty itself is endeavour'd to be brought into ridicule and contempt. As I knew that
+         every one of these charges was in every point absolutely false and without the least
+         grounds, at first I was not at all affected by them; but when I found they were still
+         insisted upon, and that particular passages which were not in the Play were quoted and
+         propagated to support what had been suggested, I could no longer bear to lye under these
+         false accusations; so by printing it, I have submitted and given up all present views of
+         profit which might accrue from the Stage, which undoubtedly will be some satisfaction to
+         the worthy gentlemen who have treated me with so much candour and humanity, and represented
+         me in such favourable colours. But as I am conscious to myself that my only intention was
+         to lash in general the reigning and fashionable vices, and to recommend and set virtue in
+         as amiable a light as I could; to justify and vindicate my own character, I thought myself
+         obliged to print the Opera without delay in the manner I have done. As the Play was
+         principally design'd for representation, I hope when it is read it will be considered in
+         that light: And when all that hath been said against it shall appear to be intirely
+         misunderstood or misrepresented; if, some time hence, it should be permitted to appear on
+         the Stage, I think it necessary to acquaint the publick, that as far as a contract of this
+         kind can be binding; I am engag'd to Mr. Rich to have it represented upon his Theatre.
+         March 25, 1729. E R R A T A. Air 5. L. 15. Read Neighbours. Air 9. l. 1 r. all my senses. </front>
+
+      <body> INTRODUCTION. POET. PLAYER. Poet. A sequel to a Play is like more last words. 'Tis a
+         kind of absurdity; and really, Sir, you have prevail'd upon me to pursue this subject
+         against my judgment. 1st Player. Be the success as it will, you are sure of what you have
+         contracted for; and upon the inducement of gain no body can blame you for undertaking it.
+         Poet. I know, I must have been look'd upon as whimsical, and particular if I had scrupled
+         to have risqu'd my reputation for my profit, for why should I be more squeamish than my
+         Betters; and so, Sir, contrary to my opinion I bring Polly once again upon the Stage. 1st
+         Player. Consider, Sir, you have prepossession on your side. Poet. But then the pleasure of
+         novelty is lost; and in a thing of this kind I am afraid I shall hardly be pardon'd for
+         imitating my self, for sure pieces of this sort are not to be followed as precedents. My
+         dependance, like a tricking bookseller's, is, that the kind reception the first part met
+         with will carry off the second be it what it will. 1st Player. You should not disparage
+         your own works; you will have criticks enough who will be glad to do that for you: and let
+         me tell you, Sir, after the success you have had, you must expect envy. Poet. Since I have
+         had more applause than I can deserve, I must, with other authors, be content, if criticks
+         allow me less. I should be an arrant courtier or an arrant beggar indeed, if as soon as I
+         have receiv'd one undeserved favour I should lay claim to another; I don't flatter myself
+         with the like success. 1st Player. I hope, Sir, in the catastrophe you have not run into
+         the absurdity of your last Piece. Poet. I know that I have been unjustly accus'd of having
+         given up my moral for a joke, like a fine gentleman in conversation; but whatever be the
+         event now, I will not so much as seem to give up my moral. [Page vi] 1st Player. Really,
+         Sir, an author should comply with the customs and taste of the town.—I am indeed afraid too
+         that your Satyr here and there is too free. A man should be cautious how he mentions any
+         vice whatsoever before good company, lest somebody present should apply it to himself.
+         Poet. The Stage, Sir, hath the privilege of the pulpit to attack vice however dignified or
+         distinguish'd, and preachers and poets should not be too well bred upon these occasions:
+         Nobody can overdo it when he attacks the vice and not the person. 1st Player. But how can
+         you hinder malicious applications? Poet. Let those answer for 'em who make 'em. I aim at no
+         particular persons; my strokes are at vice in general: but if any men particularly vicious
+         are hurt, I make no apology, but leave them to the cure of their flatterers. If an author
+         write in character, the lower people reflect on the follies and vices of the rich and
+         great, and an Indian judges and talks of Europeans by those he hath seen and convers'd
+         with, &amp;. And I will venture to own that I wish every man of power or riches were really
+         and apparently virtuous, which would soon amend and reform the common people who act by
+         imitation. 1st Player. But a little indulgence and partiality to the vices of your own
+         country without doubt would be look'd upon as more discreet. Tho' your Satyr, Sir, is on
+         vices in general, it must and will give offence; every vicious man thinks you particular,
+         for conscience will make self-application. And why will you make yourself so many enemies?
+         I say no more upon this head. As to us I hope you are satisfied we have done all we could
+         for you; for you will now have the advantage of all our best singers. Enter 2d Player. 2d
+         Player. 'Tis impossible to perform the Opera to night, all the fine singers within are out
+         of humour with their parts. The Tenor, says he was never offer'd such an indignity, and in
+         a rage flung his clean lambskin gloves into the fire; he swears that in his whole life he
+         never did sing, would sing, or could sing but in true kid. 1st Player. Musick might tame
+         and civilize wild beasts, but 'tis evident it never yet could tame and civilize musicians.
+         [Page vii] Enter 3d Player. 3d Player. Sir, Signora Crotchetta says she finds her character
+         so low that she had rather dye than sing it. 1st Player. Tell her by her contract I can
+         make her sing it. Enter Signora Crotchetta. Crotchetta. Barbarous Tramontane! Where are all
+         the lovers of Virtue? Will they not all rise in arms in my defence? make me sing it! good
+         Gods! should I tamely submit to such usage I should debase myself thro' all Europe. 1st
+         Player. In the Opera nine or ten years ago, I remember, Madam, your appearance in a
+         character little better than a fish. Crotchetta. A fish! monstrous! Let me inform you, Sir,
+         that a Mermaid or Syren is not many removes from a sea-Goddess; or I had never submitted to
+         be that fish which you are pleas'd to call me by way of reproach. I have a cold, Sir; I am
+         sick. I don't see, why I may not be allowed the privilege of sickness now and then as well
+         as others. If a singer may not be indulg'd in her humours, I am sure she will soon become
+         of no consequence with the town. And so, Sir, I have a cold; I am hoarse. I hope now you
+         are satisfied. [Exit Crotchetta in a fury. Enter 4th Player. 4th Player. Sir, the base
+         voice insists upon pearl-colour'd stockings and red-heel'd shoes. 1st Player. There is no
+         governing caprice. But how shall we make our excuses to the house? 4th Player. Since the
+         town was last year so good as to encourage an Opera without singers; the favour I was then
+         shown obliges me to offer myself once more, rather than the audience should be dismiss'd.
+         All the other Comedians upon this emergency are willing to do their best, and hope for your
+         favour and indulgence. 1st Player. Ladies and Gentlemen, as we wish to do every thing for
+         your diversion, and that singers only will come when they will come, we beg you to excuse
+         this unforeseen accident, and to accept the proposal of the Comedians, who relye wholly on
+         your courtesie and protection. [Exeunt.   DRAMATIS PERSONAE Ducat. Morano. Vanderbluff.
+         Capstern. Hacker. Culverin. Laguerre. Cutlace. Pohetohee. Cawwawkee. Servants. Indians.
+         Pyrates. Guards, &amp;. Polly. Mrs. Ducat. Trapes. Jenny Diver. Flimzy. Damaris. SCENE. In the
+         WEST-INDIES.   __________________________________________________
+         __________________________________________________ POLLY: AN OPERA. ACT I. SCENE I. SCENE
+         Ducat's House. DUCAT. TRAPES. Trapes` Though you were born and bred and live in the Indies,
+         as you are subject of Britain, you should live up to our customs. Prodigality there, is a
+         fashion that is among all Ranks of people. Why, our very younger brothers push themselves
+         into the polite world by squandering more than they are worth. You are wealthy, very
+         wealthy, Mr. Ducat; and I grant you the more you have, that taste of getting more should
+         grow stronger upon you: 'Tis just so with us. But then the richest of our Lords and
+         Gentlemen, who live elegantly, always run out. 'Tis genteel to be in debt. Your luxury
+         should distinguish you from the vulgar. You cannot be too expensive in your pleasures. AIR
+         I. The disappointed Widow. The manners of the Great affect; Stint not your pleasure, If
+         conscience had the genius checkt, How got they treasure? The more in debt, run in debt the
+         more, Careless who is undone, Morals and honesty leave to the poor, As they do at London.
+         Ducat. I never thought to have heard thrift laid to my charge. There is not a man, though I
+         say it, in all the Indies, who lives more plentifully than myself; nor, who enjoys the
+         necessaries of life in so handsome a manner. Trapes. There it is now! Whoever heard a man
+         of fortune in England talk of the necessaries of life? If the necessaries of life would
+         have satisfy'd such a poor body as me, to be sure I had never come to mend my fortune to
+         the Plantations. Whether we can afford it or no, we must have superfluities. We never stint
+         our Expence to our own fortunes, but are miserable, if we do not live up to the profuseness
+         of our neighbours. If we could content ourselves with the necessaries of life, no man alive
+         ever need be dishonest. As to woman now; why, look ye, Mr. Ducat, a man hath what we may
+         call every thing that is necessary in a wife. Ducat. Ay, and more! Trapes. But for all
+         that, d'ye see, your married Men are my best Customers. It keeps wives upon their good
+         behaviours. Ducat. But there are jealousies and family lectures, Mrs. Trapes. Trapes. Bless
+         us all! how little are our customs known on this side the herring-pond! Why, jealousy is
+         out of fashion even among our common country-gentlemen: I hope you are better bred, than to
+         be jealous. A husband and wife should have a mutual complaisance for each other. Sure, your
+         wife is not so unreasonable to expect to have you always to herself. Ducat. As I have a
+         good estate, Mrs. Trapes, I would willingly run into every thing that is suitable to my
+         dignity and fortune. No body throws himself into the extravagancies of life with a freer
+         spirit. As to conscience and musty morals, I have as few drawbacks upon my profits or
+         pleasures as any man of [50] quality in England; in those I am not in the least vulgar.
+         Besides, Madam, in most of my expences I run into the polite taste. I have a fine library
+         of books that I never read; I have a fine stable of horses that I never ride: I build, I
+         buy plate, jewels, pictures, or any thing that is valuable and curious, as your great men
+         do, merely out of ostentation. But indeed I must own, I do still cohabit with my wife; and
+         she is very uneasy and vexatious upon account of my visits to you. Trapes. Indeed, indeed,
+         Mr. Ducat, you should break thro' all this Usurpation at once, and keep—. Now too is your
+         time; for I have a fresh cargo of ladies just arriv'd: no body alive shall set eyes upon
+         them, 'till you have provided yourself. You should keep your lady in awe by her maid; place
+         a handsome, sprightly wench near your wife, and she will be a spy upon her into the
+         bargain. I would have you show your self a fine gentleman in every thing. Ducat. But I am
+         somewhat advanc'd in life, Mrs. Trapes, and my duty to my wife lies very hard upon me; I
+         must leave keeping to younger husbands and old batchelors. Trapes. There it is again now!
+         Our very vulgar pursue pleasures in the flush of youth and inclination; but our great men
+         are modishly profligate when their appetite hath left 'em. AIR II. The Irish ground. BASS.
+         Ducat. What can wealth When we're old? Youth and health Are not sold. TREBLE. Trapes. When
+         love in the pulse beats low, (As haply it may with you) A girl can fresh youth bestow, And
+         kindle desire a-new. Thus numm'd in the brake, Without motion, the snake Sleeps cold winter
+         away; But in every vein Life quickens again On the bosom of May. We are not here, I must
+         tell you, as we are at London, where we can have fresh goods every week by the waggon. My
+         maid is again gone aboard the vessel; she is perfectly charm'd with one of the ladies;
+         'twill be a credit to you to keep her. I have obligations to you, Mr. Ducat, and I would
+         part with her to no Man alive but your self. If I had her at London, such a lady would be
+         sufficient to make my fortune; but in truth, she is not impudent enough to make herself
+         agreeable to the sailors in a publick house in this country. By all accounts, she hath a
+         behaviour only fit for a private family. Ducat. But how shall I manage matters with my
+         wife? Trapes. Just as the fine gentlemen do with us. We could bring you many great
+         precedents for treating a wife with indifference, contempt, and neglect; but that, indeed,
+         would be running into too high life. I would have you keep some decency, and use her with
+         civility. You should be so obliging as to leave her to her liberties, and take them too
+         your self. Why, all our fine ladies, in what they call pin-money, have no other views; 'tis
+         what they all expect. Ducat. But I am afraid it will be hard to make my wife think like a
+         gentlewoman upon this subject; so that if I take her, I must act discreetly, and keep the
+         affair a dead secret. Trapes. As to that, Sir, you may do as you please. Should it ever
+         come to her knowledge, custom and education, perhaps may make her at first think it
+         somewhat odd. But this I can affirm with a safe conscience, that many a lady of quality
+         have servants of this sort in their families, and you can afford an expence as well as the
+         best of them. Ducat. I have a fortune, Mrs. Trapes, and would fain make a fashionable
+         figure in life; if we can agree upon the price, I'll take her into the family. Trapes. I am
+         glad to see you fling your self into the polite taste with a spirit. Few, indeed, have the
+         turn or talents to get money; but fewer know how to spend it handsomely after they have got
+         it. The elegance of luxury consists in variety, and love requires it as much as any of our
+         appetites and passions, and there is a time of life when a man's appetite ought to be
+         whetted by a delicacy. Ducat. Nay, Mrs. Trapes, now you are too hard upon me. Sure, you
+         cannot think me such a clown as to be really in love with my Wife! We are not so ignorant
+         here as you imagine; why, I married her in a reasonable way, only for her money. AIR III.
+         Noel Hills. He that weds a beauty Soon will find her cloy; When pleasure grows a duty,
+         Farewell love and joy; He that weds for treasure, (Though he hath a wife) Hath chose one
+         lasting pleasure In a married life. SCENE II. DUCAT, TRAPES, DAMARIS Ducat. Damaris
+         [calling at the door] Damaris, I charge you not to stir from the door; and the instant you
+         see your lady at a distance, returning from her walk, besure to give me notice. Trapes. She
+         is in most charming rigging; she won't cost you a penny, Sir, in cloaths at first setting
+         out. But, lack-a-day! no bargain could ever thrive with dry lips; a glass of liquor makes
+         every thing go so glibly. Ducat. Here, Damaris; a glass of Rum for Mrs. Dye. [Damaris goes
+         out, and returns with a bottle and glass.] Trapes. But as I was saying, Sir, I would not
+         part with her to any body alive but your self; for, to be sure, I could turn her ten times
+         the profit by jobbs and chance customers. Come Sir, here's to the young lady's health.
+         SCENE III. DUCAT, TRAPES, FLIMZY Trapes. Well, Flimzy; are all the ladies safely landed,
+         and have you done as I order'd you? Flimzy. Yes, Madam. The three ladies for the run of the
+         house are safely lodged at home; the other is without in the hall to wait your commands.
+         She is a most delicious creature, that's certain. Such lips, such eyes, and such flesh and
+         blood! If you had her in London you could not fail of the custom of all the foreign
+         Ministers. As I hope to be sav'd, Madam, I was forc'd to tell her ten thousand lyes before
+         I could prevail upon her to come with me. Oh Sir, you are the most lucky, happy man in the
+         world! Shall I go call her in? Trapes. 'Tis necessary for me first to instruct her in her
+         duty and the ways of the family. The girl is bashful and modest, so I must beg leave to
+         prepare her by a little private conversation, and afterwards, Sir, I shall leave you to
+         your private conversations. Flimzy. But I hope, Sir, you won't forget poor Flimzy; for the
+         richest man alive could not be more scrupulous than I am upon these occasions, and the
+         bribe only can make me excuse, it to my conscience, I hope, Sir, you will pardon my
+         freedom. [He gives her money.] AIR IV. Sweetheart, think upon me. My conscience is of
+         courtly mold, Fit for highest station. Where's the hand when touch'd with gold, Proof
+         against temptation? [Ex. Flimzy. Ducat. We can never sufficiently encourage such useful
+         qualifications. You will let me know when you are ready for me. SCENE IV. TRAPES. Trapes. I
+         wonder I am not more wealthy; for o' my conscience, I have as few scruples as those that
+         are ten thousand times as rich. But, alack-a-day! I am forc'd to play at small game. I now
+         and then betray and ruin an innocent girl. And what of that? Can I in conscience expect to
+         be equally rich with those who betray and ruin provinces and countries? In troth, all their
+         great fortunes are owing to situation; as for genius and capacity I can match them to a
+         hair: were they in my circumstance they would act like me; were I in theirs, I should be
+         rewarded as a most profound penetrating politician. AIR. V. 'Twas within a furlong. In
+         pimps and politicians The genius is the same; Both raise their own conditions On others
+         guilt and shame: With a tongue well-tip'd with lyes Each the want of parts supplies, And
+         with a heart that's all disguise Keeps his schemes unknown. Seducing as the devil, They
+         play the tempter's part, And have, when most they're civil, Most mischief in their heart.
+         Each a secret commerce drives, First corrupts and then connives, And by his neighbours
+         vices thrives, For they are all his own. SCENE V. TRAPES, FLIMZY, POLLY. Trapes. Bless my
+         eyesight! what do I see? I am in a dream, or it is Miss Polly Peachum! mercy upon me!
+         Child, what brought you on this side of the water? Polly. Love, Madam, and the misfortunes
+         of our family. But I am equally surpriz'd to find an acquaintance here; you cannot be
+         ignorant of my unhappy story, and perhaps from you, Mrs. Dye, I may receive some
+         information that may be useful to me. Trapes. You need not be much concern'd, Miss Polly,
+         at a sentence of transportation, for a young lady of your beauty hath wherewithal to make
+         her fortune in any country. Polly. Pardon me, Madam; you mistake me. Though I was educated
+         among the most profligate in low life, I never engag'd in my father's affairs as a thief or
+         a thief-catcher, for indeed I abhorr'd his profession. Would my Papa had never taken it up,
+         he then still had been alive and I had never known Macheath. AIR VI. Sortez des vos
+         retraites. She who hath felt a real pain By Cupid's dart. Finds that all absence is in vain
+         To cure her heart. Though from my lover cast Far as from Pole to Pole, Still the pure flame
+         must last, For love is in the soul. You must have heard, Madam, that I was unhappy in my
+         marriage. When Macheath was transported all my peace was banished with him; and my Papa's
+         death hath now given me liberty to pursue my inclinations. Trapes. Good lack-a-day! poor
+         Mr. Peachum! Death was so much oblig'd to him that I wonder he did not allow him a reprieve
+         for his own sake. Truly, I think he was oblig'd to no-body more except the physicians: but
+         they die it seems too. Death is very impartial; he takes all alike, friends and foes.
+         Polly. Every monthly Sessions-paper like the Apothecary's files, (if I may make the
+         comparison) was a record of his services. But my Papa kept company with Gentlemen, and
+         ambition is catching. He was in too much haste to be rich. I wish all Great Men would take
+         warning. 'Tis now seven months since my Papa was hang'd. Trapes. This will be a great check
+         indeed to your men of enterprizing genius; and it will be unsafe to push at making a great
+         fortune, if such accidents grow common. But sure child, you are not so mad as to think of
+         following Macheath. Polly. In following him I am in pursuit of my quiet. I love him, and
+         like a troubled ghost shall never be at rest till I appear to him. If I can receive any
+         information of him from you, it will be a cordial to a wretch in despair. Trapes. My dear
+         Miss Polly, you must not think of it. 'Tis now above a year and a half since he robb'd his
+         master, ran away from the Plantation and turn'd pyrate. Then too what puts you beyond all
+         possibility of redress, is, that since he came over he married a transported slave, one
+         Jenny Diver, and she is gone off with him. You must give over all thoughts of him, for he
+         is a very devil to our sex; not a woman of the greatest vivacity shifts her inclinations
+         half so fast as he can. Besides, he would disown you, for like an upstart he hates an old
+         acquaintance. I am sorry to see those tears, Child, but I love you too well to flatter you.
+         Polly. Why have I a heart so constant? cruel love! AIR. VII. O Waly, Waly, up the bank.
+         Farewell, farewell, all hope of bliss! For Polly always must be thine. Shall then my heart
+         be never his, Which never can again be mine? O Love, you play a cruel part, Thy shaft still
+         festers in the wound; You should reward a constant heart, Since 'tis, alas, so seldom
+         found! Trapes. I tell you once again, Miss Polly, you must think no more of him. You are
+         like a child who is crying after a butterfly that is hopping and fluttering upon every
+         flower in the field; there is not a Woman that comes in his way but he must have a taste
+         of; besides there is no catching him. But my dear girl, I hope you took care, at your
+         leaving England, to bring off wherewithal to support you. Polly. Since he is lost, I am
+         insensible of every other misfortune. I brought indeed a sum of money with me, but my Chest
+         was broke open at sea, and I am now a wretched vagabond expos'd to hunger and want, unless
+         charity relieve me. Trapes. Poor child! your father and I have had great dealings together,
+         and I shall be grateful to his memory. I will look upon you as my daughter; you shall be
+         with me. Polly. As soon as I can have remittances from England, I shall be able to
+         acknowledge your goodness: I have still five hundred pounds there which will be return'd to
+         me upon demand; but I had rather undertake any honest service that might afford me a
+         maintenance than be burthensome to my friends. Trapes. Sure never any thing happened so
+         luckily! Madam Ducat just now wants a servant, and I know she will take my recommendation;
+         and one so tight and handy as you must please her: then too, her husband is the civilest,
+         bestbred man alive. You are now in her house, and I won't leave it 'till I have settled
+         you. Be cheerful, my dear child, for who knows but all these misfortunes may turn to your
+         advantage? you are in a rich credible family, and I dare say your person and behaviour will
+         soon make you a favourite. As to captain Macheath, you may now safely look upon yourself as
+         a widow, and who knows, if Madam Ducat should tip off, what may happen? I shall recommend
+         you, Miss Polly, as a gentlewoman. AIR. VIII. O Jenny come tye me. Despair is all folly;
+         Hence melancholy, Fortune attends you while youth is in flower. By beauty's possession Us'd
+         with discretion, Woman at all times hath joy in her power. Polly. The service, Madam, you
+         offer me, makes me as happy as I can be in my circumstance, and I accept of it with ten
+         thousand obligations. Trapes. Take a turn in the hall with my maid for a minute or two, and
+         I'll take care to settle all matters and conditions for your reception. Be assur'd, Miss
+         Polly, I'll do my best for you. SCENE VI. TRAPES, DUCAT. Trapes. Mr. Ducat, Sir. You may
+         come in. I have had this very girl in my eye for you, ever since you and I were first
+         acquainted; and to be plain with you, Sir, I have run great risques for her: I had many a
+         stratagem, to be sure, to inviegle her away from her relations! she too herself was
+         exceeding difficult. And I can assure you, to ruin a girl of severe education is no small
+         addition to the pleasure of our fine gentlemen. I can be answerable for it too, that you
+         will have the first of her. I am sure I could have dispos'd of her upon the same account
+         for at least a hundred guineas to an Alderman of London; and then too I might have had the
+         disposal of her again as soon as she was out of keeping; but you are my friend, and I shall
+         not deal hard with you. Ducat. But if I like her I would agree upon terms beforehand; for
+         should I grow fond of her, I know you have the conscience of other trades-people and would
+         grow more imposing; and I love to be upon a certainty Trapes. Sure you cannot think a
+         hundred pistoles too much; I mean for me. I leave her wholly to your generosity. Why your
+         fine men, who never pay any body else, pay their pimps and bawds well; always ready money.
+         I ever dealt conscientiously, and set the lowest price upon my ladies; when you see her, I
+         am sure you will allow her to be as choice a piece of beauty as ever you laid eyes on.
+         Ducat. But, dear Mrs. Dye, a hundred pistoles say you? why, I could have half a dozen negro
+         princesses for the price. Trapes. But sure you cannot expect to buy a fine handsome
+         christian at that rate. You are not us'd to see such goods on this side of the water. For
+         the women, like the cloaths, are all tarnish'd and half worn out before they are sent
+         hither. Do but cast your eye upon her, Sir; the door stands half open; see, yonder she
+         trips in conversation with my maid Flimzy in the hall. Ducat. Why truly I must own she is
+         handsome. Trapes. Bless me, you are no more mov'd by her, than if she were your wife.
+         Handsome! what a cold husband-like expression is that! nay, there is no harm done. If I
+         take her home, I don't question the making more money of her. She was never in any body's
+         house but your own since she was landed. She is pure, as she was imported, without the
+         least adulteration. Ducat. I'll have her. I'll pay you down upon the nail. You shall leave
+         her with with me. Come, count your money, Mrs. Dye. Trapes. What a shape is there! she's of
+         the finest growth. Ducat. You make me mis-reckon. She even takes off my eyes from gold.
+         Trapes. What a curious pair of sparkling eyes! Ducat. As vivifying as the sun. I have paid
+         you ten. Trapes. What a racy flavour must breath from those lips! Ducat. I want no
+         provoking commendations. I'm in youth; I'm on fire! twenty more makes it thirty; and this
+         here makes it just fifty. Trapes. What a most inviting complexion! how charming a colour!
+         In short, a fine woman has all the perfections of fine wine, and is a cordial that is ten
+         times as restorative. Ducat. This fifty then makes it just the sum. So now, Madam, you may
+         deliver her up. SCENE VII. DUCAT, TRAPES, DAMARIS. Damaris. Sir, Sir, my Mistress is just
+         at the door. [Exit. Ducat. Get you out of the way this moment, dear Mrs. Dye; for I would
+         not have my wife see you. But don't stir out of the house till I am put in possession. I'll
+         get rid of her immediately. [Exit Trapes. SCENE VIII. DUCAT, Mrs. DUCAT Mrs. Ducat. I can
+         never be out of the way, for an hour or so, but you are with that filthy creature. If you
+         were young, and I took liberties, you could not use me worse; you could not, you beastly
+         fellow. Such usage might force the most vertuous woman to resentment. I don't see why the
+         wives in this country should not put themselves upon as easy a foot as in England. In
+         short, Mr. Ducat, if you behave your self like an English husband, I will behave my self
+         like an English wife. AIR IX. Red House. I will have my humours, I'll please all my senses,
+         I will not be stinted—in love or expences. I'll dress with profusion, I'll game without
+         measure; You shall have the business, I will have the pleasure: Thus every day I'll pass my
+         life, My home shall be my least resort; For sure 'tis fitting that your wife Shou'd copy
+         ladies of the court. Ducat. All these things I know are natural to the sex, my dear. But
+         husbands like colts, are restif, and they require a long time to break e'm. Besides, 'tis
+         not the fashion as yet, for husbands to be govern'd in this country. That tongue of yours,
+         my dear, hath not eloquence enough to persuade me out of my reason. A woman's tongue, like
+         a trumpet, only serves to raise my courage. AIR. X. Old Orpheus tickl'd, &amp;. When billows
+         come breaking on the strand, The rocks are deaf and unshaken stand: Old oaks can defy the
+         thunder's roar, And I can stand woman's tongue—that's more, With a twinkum, twankum, &amp;.
+         With that weapon, women, like pyrates, are at war with the whole world. But I thought, my
+         dear, your pride would have kept you from being jealous. 'Tis the whole business of my life
+         to please you; but wives are like children, the more they are flatter'd and humour'd the
+         more perverse they are. Here now have I been laying out my money, purely to make you a
+         present, and I have nothing but these freaks and reproaches in return. You wanted a maid,
+         and I have bought you the handiest creature; she will indeed make a very creditable
+         servant. Mrs. Ducat. I will have none of your hussies about me. And so, Sir, you would make
+         me your convenience, your bawd. Out upon it? Ducat. But I bought her on purpose for you,
+         Madam. Mrs. Ducat. For your own filthy inclinations, you mean. I won't bear it. What keep
+         an impudent strumpet under my nose! Here's fine doings indeed! Ducat. I will have the
+         directions of my family. 'Tis my pleasure it shall be so. So, Madam, be satisfy'd. AIR XI.
+         Christ-Church Bells. When a woman jealous grows, Farewell all peace of life! Mrs Ducat. But
+         e'er man roves, he should pay what he owes. And with her due content his wife. Ducat. T'is
+         man's the weaker sex to sway. Mrs. Ducat. We too, whene'er we list obey. Ducat. 'Tis just
+         and fit You should submit. Mrs. Ducat. But sweet kind husband—not to day. Ducat. Let your
+         clack be still. Mrs Ducat. Not till I have my will. If thus you reason slight, There's
+         never an hour While breath has power. But I will assert my right. Would I had you in
+         England; I should have all the women there rise in arms in my defence. For the honour and
+         prerogative of the sex, they would not suffer such a precedent of submission. And so Mr.
+         Ducat, I tell you once again, that you shall keep your trollops out of the house, or I will
+         not stay in it. Ducat. Look'ee, Wife; you will be able to bring about nothing by pouting
+         and vapours. I have resolution enough to withstand either obstinacy or stratagem. And I
+         will break this jealous spirit of yours before it gets a head. And so, my dear, I order
+         that upon my account you behave your self to the girl as you ought. Mrs. Ducat. I wish you
+         would behave your self to your Wife as you ought; that is to say, with good manners, and
+         compliance. And so, Sir, I leave you and your minx together. I tell you once again, that I
+         would sooner die upon the spot, than not be mistress in my own house. [Exit in a Passion.
+         SCENE IX. DUCAT, DAMARIS Ducat. If by these perverse humours, I should be forc'd to part
+         with her, and allow her a separate maintenance; the thing is so common among people of
+         condition, that it could not prove to my discredit. Family divisions, and matrimonial
+         controversies are a kind of proof of a man's riches; for the poor people are happy in
+         marriage out of necessity, because they cannot afford to disagree. Damaris, saw you my
+         Wife? Enter Damaris. Is she in her own room? What said she? Which way went she? Damaris.
+         Bless me, I was perfectly frighten'd, she look'd so like a fury! Thank my stars, I never
+         saw her look so before in all my life; tho' mayhap you may have seen her look so before a
+         thousand times. Woe be to the servants that fall in her way! I'm sure I'm glad to be out of
+         it. AIR XII. Cheshire-rounds. When kings by their huffing Have blown up a squable, All the
+         charge and cuffing Light upon the rabble. Thus when Man and Wife By their mutual snubbing,
+         Kindle civil strife, Servants get the the drubbing, Ducat. I would have you, Damaris have
+         an eye upon your mistress. You should have her good at heart, and inform me when she has
+         any schemes a-foot; it may be the means to reconcile us. Damaris. She's wild, Sir. There is
+         no speaking to her. she's flown into the garden! Mercy upon us all, say I, How can you be
+         so unreasonable to contradict a woman, when you know we can't bear it? Ducat. I depend upon
+         you, Damaris, for intelligence. You may observe her at a distance; and as soon as she comes
+         into her own room, bring me word. There is the sweetest pleasure in the revenge that I have
+         now in my head! I'll this instant go and take my charge from Mrs. Trapes. [aside] Damaris,
+         you know your instructions. [Exit. SCENE X. DAMARIS. Damaris. Sure all masters and
+         mistresses, like politicians, judge of the conscience of mankind by their own, and require
+         treachery of their servants as a duty! I am employ'd by my master to watch my mistress, and
+         by my mistress to watch my master. Which party shall I espouse? To be sure my mistress's.
+         For in hers, juridiction and power, the common cause of the whole sex, are at stake. But my
+         master I see is coming this way. I'll avoid him, and make my observations. [Exit. SCENE XI.
+         DUCAT, POLLY. Ducat. Be cheerful, Polly, for your good fortune hath thrown you into a
+         family, where, if you rightly consult your own interest, as every body now-a-days does, you
+         may make your self perfectly easy. Those eyes of yours, Polly, are a sufficient fortune for
+         any woman, if she have but conduct and knew how to make the most of e'm. Polly. As I am
+         your servant, Sir, my duty obliges me not to contradict you; and I must hear your flattery
+         tho' I know my self undeserving. But sure, Sir, in handsome women, you must have observ'd
+         that their hearts often oppose their interest; and beauty certainly has ruin'd more women
+         than it has made happy. AIR XIII. The bush a boon traquair. The crow or daw thro' all the
+         year No fowler seeks to ruin; But birds of voice or feather rare He's all day long
+         persuing. Beware, fair maids; so scape the net That other beauties fell in; For sure at
+         heart was never yet So great a wretch as Helen! If my lady, Sir, will let me know my duty,
+         gratitude will make me study to please her. Ducat. I have a mind to have a little
+         conversation with you, and I would not be interrupted. [bars the door. Polly. I wish, Sir,
+         you would let me receive my lady's commands. Ducat. And so, Polly, by these downcast looks
+         of yours you would have me believe you don't know you are handsome, and that you have no
+         faith in your looking-glass. Why, every pretty woman studies her face, and a looking-glass
+         to her is what a book is to a Pedant; she is poring upon it all day long. In troth, a man
+         can never know how much love is in him by conversations with his Wife. A kiss on those lips
+         would make me young again. [Kisses her. AIR XIV. Bury Fair. Polly. How can you be so
+         teazing? Ducat. Love will excuse my fault. How can you be so pleasing! [going to kiss her.
+         Polly. I vow I'll not be naught. Ducat. All maids I know at first resist. [struggling. A
+         master may command. Polly. You're monstrous rude; I'll not be kiss'd: Nay, fie, let go my
+         hand, Ducat 'Tis foolish pride— Polly. 'Tis vile, 'tis base Poor innocence to wrong; Ducat.
+         I'll force you, Polly. Guard me from disgrace. You find that virtue's strong. [pushing him
+         away. 'Tis barbarous in you, Sir, to take the occasion of my necessities to insult me.
+         Ducat. Nay, hussy, I'll give you money. Polly. I despise it. No, Sir, tho' I was born and
+         bred in England, I can dare to be poor, which is the only thing now-a-days men are asham'd
+         of. Ducat. I shall humble these saucy airs of yours, Mrs. Minx. Is this language from a
+         servant! from a slave! Polly. Am I then betray'd and sold! Ducat. Yes, hussy, that you are;
+         and as legally my property, as any woman is her husband's, who fells her self in marriage.
+         Polly. Climates that change constitutions have no effect upon manners. What a profligate is
+         that Trapes! Ducat. Your fortune, your happiness depends upon your compliance. What proof
+         against a bribe! Sure, hussy, you belye your country, or you must have had a very vulgar
+         education. 'Tis unnatural. AIR XV. Bobbing Joan. Maids like courtiers must be woo'd, Most
+         by flattery are subdu'd; Some capricious, coy or nice Out of pride protract the vice? But
+         they fall, One and all, When we bid up to their price. Besides, hussy, your consent may
+         make me your slave; there's power to tempt you into the bargain. You must be more than
+         woman if you can stand that too. Polly. Sure you only mean to try me! but 'tis barbarous to
+         trifle with my distresses. Ducat. I'll have none of these airs. 'Tis impertinent in a
+         servant, to have scruples of any kind. I hire honour, conscience and all, for I will not be
+         serv'd by halves. And so, to be plain with you, you obstinate slut, you shall either
+         contribute to my pleasure or my profit; and if you refuse play in the bed-chamber, you
+         shall go work in the fields among the planters. I hope now I have explain'd myself. Polly.
+         My freedom may be lost, but you cannot rob me of my vertue and integrity; and whatever is
+         my lot, having that, I shall have the comfort of hope, and find pleasure in reflection. AIR
+         XVI. A swain long tortur'd with Disdain. Can I or toil or hunger fear? For love's a pain
+         that's more severe. The slave, with virtue in his breast, Can wake in peace, and sweetly
+         rest. But love, when unhappy, the more vertuous it is, the more it suffers. [Aside. Ducat.
+         What noise is that? Damaris. [Without] Sir, Sir. Ducat. Step into the closet; I'll call you
+         out immediately to present you to my wife. Don't let bashfulness ruin your fortune? The
+         next Opportunity I hope you will be better disposed. [Exit Polly. Damaris. Open the door,
+         Sir. This moment, this moment. SCENE XII. DUCAT, DAMARIS, Servants, Mrs. DUCAT, &amp;. Ducat.
+         What's the matter? Was any body about to ravish you? Is the house o'fire? Or my Wife in a
+         passion? Damaris. O, Sir, the whole country is in an uproar! The pyrates are all coming
+         down upon us; and if they should raise the Militia, you are an officer, you know. I hope
+         you have Time enough to fling up your commission. [Enter 1st Footman. 1st Footm. The
+         neighbours, Sir, are all frighted out of their wits; they leave their houses, and fly to
+         yours for protection. Where's my lady, your Wife? Heaven grant they have not taken her!
+         Ducat. If they only took what one could spare. 1st Footman. That's true, there were no
+         great harm done. Ducat. How are the musquets? 1st Footman. Rusty, Sir, all rusty and
+         peaceable! For we never clean 'em, but against training-day. Damaris. Then, Sir, your
+         honour is safe, for now you have a just excuse against fighting. [Enter 2d Footman. 2d
+         Footman. The Indians, Sir, with whom we are in alliance are all in arms; there will be
+         bloody work to be sure. I hope they will decide the matter before we can get ready. [Enter
+         Mrs. Ducat. Mrs. Ducat. O dear Husband, I'm frighten'd to death! What will become of us
+         all! I thought a punishment for your wicked lewdness would light upon you at last. Ducat.
+         Presence of mind, my dear, is as necessary in dangers as courage. Damaris. But you are too
+         rich to have courage. You should fight by deputy. 'Tis only for poor people to be brave and
+         desperate, who cannot afford to live. [Enter Maids, &amp;. one after another. 1st Maid. The
+         pyrates, Sir, the pyrates! Mercy upon us! what will become of us poor helpless Women! 2d
+         Maid. We shall all be ravish'd! 1st Old Woman. All be ravish'd! 2d Old Woman. Ay to be
+         sure, we shall be ravish'd; all be ravish'd! 1st Old Woman. But if fortune will have it so,
+         patience is a vertue; and we must undergo it. 2d Old Woman. Ay, for certain we must all
+         bear it, Mrs. Damaris. 3d Footm. A soldier, Sir, from the Indian Camp, desires admittance.
+         He's here, Sir. [Enter Indian. Indian. I come, Sir, to the English colony, with whom we are
+         in alliance, from the mighty King Pohetohee, my lord and master, and address my self to
+         you, as you are of the council, for succours. The pyrates are ravaging and plund'ring the
+         country, and we are now in arms, ready for battle, to oppose 'em. Ducat. Does Macheath
+         command the enemy? Indian. Report says he is dead. Above twelve moons are pass'd since we
+         heard of him. Morano, a Negro villain, is their chief, who in rapine and barbarities is
+         even equal to him. Ducat. I shall inform the council, and we shall soon be ready to join
+         you. So acquaint the King your master. [Exit Indian. AIR XVII. March in Scipio. Brave Boys
+         prepare. [to the men. Ah! Cease, fond Wife, to cry. [to her. Servant. For when the danger's
+         near, We've time enough to fly. Mrs. Ducat. How can you be disgrac'd! For Wealth secures
+         your fame. Servant. The rich are always plac'd Above the sense of shame. Mrs. Ducat. Let
+         honour spur the slave, To fight for fighting's sake: Ducat. But even the rich are brave
+         When money is at stake. Be satisfy'd, my dear, I shall be discreet. My servants here will
+         take care that I be not over-rash, for their wages depend upon me. But before I go to
+         council—come hither Polly; I intreat you, Wife, to take her into your service. [Enter
+         Polly.] And use her civilly. Indeed, my dear, your suspicions are very frivolous and
+         unreasonable. Mrs. Ducat. I hate to have a handsome wench about me. They are always so
+         saucy! Ducat. Women, by their jealousies, put one in mind of doing that which otherwise we
+         should never think of. Why you are a proof, my dear, that a handsome woman may be honest.
+         Mrs. Ducat. I find you can say a civil thing to me still. Ducat. Affairs, you see, call me
+         hence. And so I leave her under your protection. SCENE XIII. Mrs. DUCAT, DAMARIS Mrs.
+         Ducat. Away, into the other room again. When I want you, I'll call you. [Exit Polly.] Well,
+         Damaris, to be sure you have observ'd all that has pass'd. I will know all. I'm sure she's
+         a hussy. Damaris. Nay, Madam, I can't say so much. But— Mrs. Ducat. But what? Damaris. I
+         hate to make mischief. AIR XVIII. Jig-it-o'Foot. Better to doubt All that's doing, Than to
+         find out Proofs of ruin. What servants hear and see Should they tattle, Marriage all day
+         would be Feuds and battle. A servant's legs and hands should be under your command, but,
+         for the sake of quiet, you should leave their tongues to their own discretion. Mrs. Ducat.
+         I vow, Damaris, I will know it. Damaris. To be sure, Madam, the door was bolted, and I
+         could only listen. There was a sort of a bustle between 'em, that's certain. What past I
+         know not: But the noise they made, to my thinking, did not sound very honest. Mrs. Ducat.
+         Noises that did not sound very honest, said you? Damaris. Nay, Madam, I am a maid, and have
+         no experience. If you had heard them, you would have been a better judge of the matter.
+         Mrs. Ducat. An impudent slut! I'll have her before me. If she be not a thorough profligate,
+         I shall make a discovery by her behaviour. Go call her to me. [Exit Damaris and returns.
+         SCENE XIV. Mrs. DUCAT, DAMARIS, POLLY. Mrs Ducat. In my own house! before my face! I'll
+         have you sent to the house of correction, strumpet. By that overhonest look, I guess her to
+         be a horrid jade. A mere hypocrite, that is perfectly white-wash'd with innocence. My blood
+         rises at the sight of all strumpets, for they are smuglers in love, that ruin us fair
+         traders in matrimony. Look upon me, Mr. brazen. She has no feeling of shame. She is so us'd
+         to impudence, that she has not a blush within her. Do you know, Madam, that I am Mr.
+         Ducat's wife? Polly. As your servant, Madam, I think my self happy. Mrs. Ducat. You know
+         Mr. Ducat, I suppose. She has beauty enough to make any woman alive hate her. AIR XIX.
+         Trumpet Minuet. Abroad after misses most husbands will roam, Tho' sure they find woman
+         sufficient at home. To be nos'd by a strumpet! Hence, hussy you'd best. Would he give me my
+         due, I wou'd give her the rest. I vow I had rather have a thief in my house. For to be sure
+         she is that besides. Polly. If you were acquainted with my misfortunes, Madam, you could
+         not insult me. Mrs. Ducat. What does the wench mean? Damaris. There's not one of these
+         common creatures, but like common beggars, hath a moving story at her finger's ends, which
+         they tell over, when they are maudlin, to their lovers. I had a sweetheart, Madam, who was
+         a rake, and I know their ways very well, by hear-say. Polly. What villains are hypocrites!
+         For they rob those of relief, who are in real distress. I know what it is to be unhappy in
+         marriage. Mrs. Ducat. Married! Polly. Unhappily. Mrs. Ducat. When, where, to whom? Polly.
+         If woman can have faith in woman, may my words find belief. Protestations are to be
+         suspected, so I shall use none. If truth can prevail, I know you will pity me. Mrs. Ducat.
+         Her manner and behaviour are so particular, that is say, so sincere, that I must hear her
+         story. Unhappily married! That is a misfortune not to be remedied. Polly. A constant woman
+         hath but one chance to be happy; an inconstant woman, tho' she hath no chance to be very
+         happy, can never be very unhappy. Damaris. Believe me, Mrs. Polly, as to pleasures of all
+         sorts, 'tis a much more agreeable way to be inconstant. AIR XX. Polwart on the Green. Love
+         now is nought but art, 'Tis who can juggle best; To all men seem to give your heart But
+         keep it in your breast. What gain and pleasure do we find, Who change whene'er we list! The
+         mill that turns with every wind Must bring the owner grist. Polly. My case, Madam. may in
+         these times be look'd upon as singular; for I married a man only because I lov'd him. For
+         this I was look'd upon as a fool by all my acquaintance; I was us'd inhumanly by my father
+         and mother; and to compleat my misfortunes, my husband, by his wild behaviour, incurr'd the
+         sentence of the law, and was separated from me by banishment. Being inform'd he was in this
+         country, upon the death of my father and mother, with most of my small fortune, I came here
+         to seek him. Mrs. Ducat. But how then fell you into the hands of that consummate bawd,
+         Trapes? Polly. In my voyage, Madam, I was robb'd of all I had. Upon my landing in a strange
+         country, and in want, I was found out by this inhuman woman, who had been an acquaintance
+         of my father: She offered me at first the civilities of her own house. When she was
+         inform'd of my necessities, she proposed to me the service of a Lady; of which I readily
+         accepted. 'Twas under that pretence that she treacherously sold me to your husband as a
+         mistress. This, Madam, is in short the whole truth. I fling my self at your feet for
+         protection. By relieving me, you make your self easy. Mrs. Ducat. What is't you propose?
+         Polly. In conniving at my escape, you save me from your husband's worrying me with threats
+         and violence, and at the same time quiet your own fears and jealousies. If it is ever in my
+         power, Madam, with gratitude I will repay you my ransom. Damaris. Besides, Madam, you will
+         effectually revenge your self upon your husband; for the loss of the money he paid for her
+         will touch him to the quick. Mrs. Ducat. But have you considered what you request? We are
+         invaded by the pyrates: The Indians are in arms; the whole country is in commotion, and you
+         will every where be expos'd to danger. Damaris. Get rid of her at any rate. For such is the
+         vanity of man, that when once he has begun with a woman, out of pride he will insist upon
+         his point. Polly. In staying with you, Madam, I make two people unhappy. And I chuse to
+         bear my own misfortunes, without being the cause of another's. Mrs. Ducat. If I let her
+         escape before my husband's return, he will imagin she got off by the favour of this bustle
+         and confusion. Polly. May heaven reward your charity. Mrs. Ducat. A woman so young and so
+         handsome must be expos'd to continual dangers. I have a suit of cloaths by me of my
+         nephew's, who is dead. In a man's habit you will run fewer risques. I'll assist you too for
+         the present with some money; and, as a traveller, you may with greater safety make
+         enquiries after your husband. Polly. How shall I ever make a return for so much goodness?
+         Mrs. Ducat. May love reward your constancy. As for that perfidious monster Trapes, I will
+         deliver her into the hands of the magistrate. Come Damaris, let us this instant equip her
+         for her adventures. Damaris. When she is out of the house, without doubt, Madam, you will
+         be more easy. And I wish she may be so too. Polly. May vertue be my protection; for I feel
+         within me hope, cheerfulness and resolution. AIR. XXI. St. Martin's Lane. As pilgrims thro'
+         devotion To some shrine pursue their way, They tempt the raging ocean, And thro' desarts
+         stray. With zeal their hope desiring, The saint their breast inspiring With cheerful air,
+         Devoid of fear, They every danger bear. Thus equal zeal possessing, I seek my only
+         blessing. O love, my honest vow regard! My truth protect, My steps direct, His flight
+         detect, A faithful wife reward. [Exit. </body>
+   </text>
 </TEI>
