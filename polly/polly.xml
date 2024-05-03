@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+   xmlns:mei="http://www.music-encoding.org/ns/mei">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -35,6 +34,8 @@
             
          </titlePage> 
 
+<div1>
+
 PREFACE.
 
 After Mr. Rich and I were agreed upon terms and conditions for bringing this Piece on the Stage, and that every Thing was ready for a Rehearsal; The Lord Chamberlain sent an order from the country to prohibit Mr. Rich to suffer any Play to be rehears'd upon his Stage till it had been first of all supervis'd by his Grace. As soon as Mr. Rich came from his Grace's Secretary (who had sent for him to receive the before-mentioned order) he came to my lodgings and acquainted me with the orders he had received.
@@ -66,6 +67,9 @@ March 25, 1729.
 E R R A T A.
 Air 5. L. 15. Read Neighbours.       Air 9. l. 1  r. all my senses.
 
+</div1>
+         
+         <div1>
 
 INTRODUCTION.
 POET. PLAYER.
@@ -102,7 +106,9 @@ Enter 4th Player.
   4th Player. Since the town was last year so good as to encourage an Opera without singers; the favour I was then shown obliges me to offer myself once more, rather than the audience should be dismiss'd. All the other Comedians upon this emergency are willing to do their best, and hope for your favour and indulgence. 
   1st Player. Ladies and Gentlemen, as we wish to do every thing for your diversion, and that singers only will come when they will come, we beg you to excuse this unforeseen accident, and to accept the proposal of the Comedians, who relye wholly on your courtesie and protection. 
 [Exeunt. 
-
+         </div1>
+         
+         <div1>
 
 DRAMATIS PERSONAE
 
@@ -128,7 +134,9 @@ Damaris.
 
 SCENE. In the WEST-INDIES.
  
-
+         </div1>
+      </front>
+      <body>
 
 __________________________________________________
 __________________________________________________
