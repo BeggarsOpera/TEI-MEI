@@ -59,8 +59,10 @@ transcriber) corrected in this edition; by which will appear the most minute dif
 my own copy. 
 
 P for page. 1. for line. sc for scene. what was added mark'd thus ∗. What was left out, thus † . 
+
 The names of all the tunes †. The scenes not divided and number'd. The marginal directions for the 
 Actors were often omitted. 
+
 Act 1. p. 2. l. 16. ever †. l. 18. after more, too∗. p. 4. l. 1. before part not∗. l. 11. take †. sc. 2. l. 12. to †. 
 Air 5. l. 10. thus instead of they, p. 9. l. 20. wherewith for wherewithal. l. 19. my †. l. 26. will †. p. 10. l. 1. 
 you for it. p. 11. l. 20. no †. Air  10. l. 5. with a twinkum twankum †. p. 14. l. 18. complaisance for 
@@ -71,10 +73,15 @@ bully. p. 42. l. 26 is †. Air 42. l. 6. is for are. p. 44. l. 7. none for no m
 stake. p. 53. l. 9. ever t. p. 54. l. 9. found †. Air 51. Thus to battle we will go  †. Air 52. with a fa, la, la, †. 
 sc. 8. l. 4. prey for pay. p. 63. l. 26. no notions. p. 65. l. 28. or redress 'em . Air 71. the repetition of the 
 Chorus. . 
+
 EMENDATIONS of my own copy on revising it for the Quarto Edition. 
+
 ∗Is the mark for any thing added. 
+
 †The mark for what is left out. 
+
 ‡The mark of what stood in the original Copy. 
+
 Act 1. p. 2. l. 36: pictures ∗. sc. 4. l. 2. thousand ∗. p. 18. l. 28. But unhappy love, the more virtuous that is 
 ‡. Air 21. l. 13. my steps direct, my truth protect a faithful, &amp;. ‡. Act. 2. Air 23. l. 3. sick imagination ‡. l. 
 4. then alone I forget to weep ‡. l. 7. for whole years ‡. l. 11. 'Tis a dream ‡. l. 12. 'Tis our utmost ‡. Air 
@@ -88,6 +95,7 @@ enterprize, let us now to our posts ‡. Air 58. l. 4. cheers my breast. ‡. Ai
 63. l. 7. Tis jealous rage ‡. Air 64. l. 3. is of the noxious ‡. folded arms hide its charms, all the night free 
 from blight, &amp;. ‡. Polly's speech before Air 64. was plac'd after it, but without any alteration ‡. Air 69. l. 
 7. sure to virtue ‡. 
+
 Excepting these errors and emendations, this Edition is a true and faithful Copy as I my-self in my own 
 hand writing delivered it to Mr. Rich, and afterwards to the Lord Chamberlain, for the truth of which I 
 appeal to his Grace. 
@@ -150,6 +158,7 @@ Air 5. L. 15. Read Neighbours.       Air 9. l. 1  r. all my senses.
 
             <head>INTRODUCTION.</head>
             <stage type="setting" rend="align(center)"><hi rend="italic">POET. PLAYER</hi>.</stage>
+            
             <speaker><hi rend="italic">Poet.</hi></speaker> <p> A sequel to a Play is like more last words. 'Tis a kind of absurdity; and really, Sir, you have prevail'd 
 upon me to  pursue this subject against my judgment.</p>
             
@@ -167,14 +176,14 @@ pardon'd for imitating my self, for sure pieces of this sort are not to be follo
 dependance, like a tricking bookseller's, is, that the kind reception the first part met with will carry off 
 the second be it what it will.</p> 
             
-  1st Player. You should not disparage your own works; you will have criticks enough who will be glad to 
-do that for you: and let me tell you, Sir, after the success you have had, you must expect envy. 
+            <speaker><hi rend="italic">1st Player.</hi></speaker> <p> You should not disparage your own works; you will have criticks enough who will be glad to 
+do that for you: and let me tell you, Sir, after the success you have had, you must expect envy.</p> 
 
                <speaker><hi rend="italic">Poet.</hi></speaker> <p> Since I have had more applause than I can deserve, I must, with other authors, be content, if 
 criticks allow me less. I  should be an arrant courtier or an arrant beggar indeed, if as soon as I have 
 receiv'd one undeserved favour I should lay claim to another; I don't flatter myself with the like success.</p> 
             
-  1st Player. I hope, Sir, in the catastrophe you have not run into the absurdity of your last Piece. 
+            <speaker><hi rend="italic">1st Player.</hi></speaker> <p> I hope, Sir, in the catastrophe you have not run into the absurdity of your last Piece.</p> 
   
                   <speaker><hi rend="italic">Poet.</hi></speaker> <p>  I know that I have been unjustly accus'd of having given up my moral for a joke, like a fine 
 gentleman in conversation; but whatever be the event now, I will not so much as seem to give up my 
@@ -182,15 +191,15 @@ moral.</p>
             
 [Page vi] 
 
-  1st Player. Really, Sir, an author should comply with the customs and taste of the town.—I am indeed 
+            <speaker><hi rend="italic">1st Player.</hi></speaker> <p> Really, Sir, an author should comply with the customs and taste of the town.—I am indeed 
 afraid too that your Satyr here and there is too free. A man should be cautious how he mentions any 
-vice whatsoever before good company, lest somebody present should apply it to himself. 
+vice whatsoever before good company, lest somebody present should apply it to himself.</p> 
 
                      <speaker><hi rend="italic">Poet.</hi></speaker> <p> The Stage, Sir, hath the privilege of the pulpit to attack vice however dignified or distinguish'd, 
 and preachers and poets should not be too well bred upon these occasions: Nobody can overdo it when 
 he attacks the vice and not the person.</p> 
             
-  1st Player.  But how can you hinder malicious applications? 
+            <speaker><hi rend="italic">1st Player.</hi></speaker> <p>  But how can you hinder malicious applications?</p> 
   
                         <speaker><hi rend="italic">Poet.</hi></speaker> <p>  Let those answer for 'em who make 'em. I aim at no particular persons; my strokes are at vice in 
 general: but if any men particularly vicious are hurt, I make no apology, but leave them to the cure of 
@@ -200,39 +209,39 @@ rich and great, and an Indian judges and talks of Europeans by those he hath see
 virtuous, which would soon amend and reform the common people who act by imitation.</p>
             
             
-  1st Player.  But a little indulgence and partiality to the vices of your own country without doubt would 
+            <speaker><hi rend="italic">1st Player.</hi></speaker> <p>  But a little indulgence and partiality to the vices of your own country without doubt would 
 be look'd upon as more discreet. Tho' your Satyr, Sir, is on vices in general, it must and will give offence; 
 every vicious man thinks you particular, for conscience will make self-application. And why will you 
 make yourself so many enemies? I say no more upon this head. As to us I hope you are satisfied we have 
-done all we could for you; for you will now have the advantage of all our best singers. 
+done all we could for you; for you will now have the advantage of all our best singers.</p> 
 
-Enter 2d Player.
+            <stage type="entrance" rend="align(center)"><hi rend="italic">Enter 2d Player.</hi></stage>
 
-  2d Player. 'Tis impossible to perform the Opera to night, all the fine singers within are out of humour 
+            <speaker><hi rend="italic">2d Player.</hi></speaker> <p>'Tis impossible to perform the Opera to night, all the fine singers within are out of humour 
 with their parts. The Tenor, says he was never offer'd such an indignity, and in a rage flung his clean 
 lambskin gloves into the fire; he swears that in his whole life he never did sing, would sing, or could sing 
-but in true kid. 
+but in true kid.</p> 
 
-  1st Player. Musick might tame and civilize wild beasts, but 'tis evident it never yet could tame and 
-civilize musicians. 
+            <speaker><hi rend="italic">1st Player.</hi></speaker> <p> Musick might tame and civilize wild beasts, but 'tis evident it never yet could tame and 
+civilize musicians.</p> 
 
 [Page vii] 
 
-Enter 3d Player.
+            <stage type="entrance" rend="align(center)"><hi rend="italic">Enter 3d Player.</hi></stage>
 
- 3d Player. Sir, Signora Crotchetta says she finds her character so low that she had rather dye than sing 
-it. 
+            <speaker><hi rend="italic">3d Player.</hi></speaker> <p> Sir, Signora Crotchetta says she finds her character so low that she had rather dye than sing 
+it.</p> 
 
-    1st Player. Tell her by her contract I can make her sing it. 
+            <speaker><hi rend="italic">1st Player.</hi></speaker> <p> Tell her by her contract I can make her sing it.</p> 
     
-Enter Signora Crotchetta.
+            <stage type="entrance" rend="align(center)"><hi rend="italic">Enter Signora Crotchetta.</hi></stage>
 
-   Crotchetta. Barbarous Tramontane! Where are all the lovers of Virtue? Will they not all rise in arms in 
+            <speaker><hi rend="italic">Crotchetta.</hi></speaker> <p>Barbarous Tramontane! Where are all the lovers of Virtue? Will they not all rise in arms in 
 my defence? make me sing it! good Gods! should I tamely submit to such usage I should debase myself 
-thro' all Europe. 
+thro' all Europe.</p> 
 
-  1st Player. In the Opera nine or ten years ago, I remember, Madam, your appearance in a character 
-little better than a fish. 
+            <speaker><hi rend="italic">1st Player.</hi></speaker> <p> In the Opera nine or ten years ago, I remember, Madam, your appearance in a character 
+little better than a fish.</p> 
 
   Crotchetta. A fish! monstrous! Let me inform you, Sir, that a Mermaid or Syren is not many removes 
 from a sea-Goddess; or I had never submitted to be that fish which you are pleas'd to call me by way of 
@@ -241,24 +250,24 @@ and then as well as others. If a singer may not be indulg'd in her humours, I am
 become of no consequence with the town. And so, Sir, I have a cold; I am hoarse. I hope now you are 
 satisfied. 
 
-[Exit Crotchetta in a fury. 
+            <stage type="exit" rend="align(center)"><hi rend="italic">[Exit Crotchetta in a fury.</hi></stage> 
 
-Enter 4th Player.
+            <stage type="entrance" rend="align(center)"><hi rend="italic">Enter 4th Player.</hi></stage>
 
    4th Player. Sir, the base voice insists upon pearl-colour'd stockings and red-heel'd shoes. 
    
-   1st Player. There is no governing caprice. But how shall we make our excuses to the house? 
+            <speaker><hi rend="italic">1st Player.</hi></speaker> <p> There is no governing caprice. But how shall we make our excuses to the house?</p> 
    
-  4th Player. Since the town was last year so good as to encourage an Opera without singers; the favour I 
+            <speaker><hi rend="italic">4th Player.</hi></speaker> <p> Since the town was last year so good as to encourage an Opera without singers; the favour I 
 was then shown obliges me to offer myself once more, rather than the audience should be dismiss'd. All 
 the other Comedians upon this emergency are willing to do their best, and hope for your favour and 
-indulgence. 
+indulgence.</p> 
 
-  1st Player. Ladies and Gentlemen, as we wish to do every thing for your diversion, and that singers only 
+            <speaker><hi rend="italic">1st Player.</hi></speaker> <p> Ladies and Gentlemen, as we wish to do every thing for your diversion, and that singers only 
 will come when they will come, we beg you to excuse this unforeseen accident, and to accept the 
-proposal of the Comedians, who relye wholly on your courtesie and protection. 
+proposal of the Comedians, who relye wholly on your courtesie and protection.</p> 
 
-[Exeunt. 
+            <stage type="exit" rend="align(center)"><hi rend="italic">[Exeunt.</hi></stage> 
 
          </div1>
          
