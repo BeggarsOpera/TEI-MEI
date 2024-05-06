@@ -342,9 +342,10 @@ proposal of the Comedians, who relye wholly on your courtesie and protection.</p
       </front>
       <body>
          
-         <!--  
-         <div1> 
-            <stage type="setting" rend="align(center)">SCENE. In the WEST-INDIES.</stage>
+           
+         <div1>
+             <!--
+             <stage type="setting" rend="align(center)">SCENE. In the WEST-INDIES.</stage>
             
             <div2>
 
@@ -354,7 +355,11 @@ OPERA.
 </titlePart></docTitle>
 -->
 
-               <head>ACT I. SCENE I.</head>
+               <head>ACT I.</head> 
+             
+             <div2>
+                   
+                   <head>SCENE I.</head>
 
                <stage type="setting" rend="align(center)">SCENE Ducat's House.</stage> 
 
@@ -371,17 +376,26 @@ who live elegantly, always run out. 'Tis genteel to be in debt. Your luxury shou
 vulgar. You cannot be too expensive in your pleasures.</p> 
                   
                </sp>
+         
+         <floatingText>
+            <body>
+               <div type="song" xml:id="AIR_1">
 
-AIR I. The disappointed Widow.
+                   <head>AIR I. The disappointed Widow.</head>
 
-The manners of the Great affect;
-    Stint not your pleasure,
-If conscience had the genius checkt,
-    How got they treasure?
-The more in debt, run in debt the more,
-    Careless who is undone,
-Morals and honesty leave to the poor,
-    As they do at London. 
+                   <l>The manners of the Great affect;</l>
+                   <l>Stint not your pleasure,</l>
+                   <l>If conscience had the genius checkt,</l>
+                   <l>How got they treasure?</l>
+                   <l>The more in debt, run in debt the more,</l>
+                   <l>Careless who is undone,</l>
+                   <l>Morals and honesty leave to the poor,</l>
+                   <l>As they do at London.</l> 
+    
+    
+               </div>
+            </body>
+         </floatingText>
  
                <sp>
                <speaker><hi rend="italic">Ducat.</hi></speaker> <p> I never thought to have heard thrift laid to my charge. There is not a man, though I say it, in all 
@@ -447,26 +461,33 @@ me; I must leave keeping to younger husbands and old batchelors.</p>
                                           <speaker><hi rend="italic">Trapes.</hi></speaker> <p> There it is again now! Our very vulgar pursue pleasures in the flush of youth and inclination; 
 but our great men are modishly profligate when their appetite hath left 'em.</p> 
                                           </sp>
+         <floatingText>
+            <body>
+               <div type="song" xml:id="AIR_2">
 
-AIR II. The Irish ground.
+                   <head>AIR II. The Irish ground.</head>
 
-       BASS.
-Ducat.  What can wealth
-        When we're old?
-       Youth and health 
-         Are not sold.
+                   <!--  BASS. -->
+                   <!--Ducat.-->  <l>What can wealth</l>
+                   <l>When we're old?</l>
+                   <l>Youth and health</l> 
+                   <l>Are not sold.</l>
  	
-                TREBLE.
-Trapes.  When love in the pulse beats low,
-        (As haply it may with you)
-              A girl can fresh youth bestow, 
-        And kindle desire a-new.
-             Thus numm'd in the brake,
-             Without motion, the snake 
-                 Sleeps cold winter away;
-            But in every vein
-            Life quickens again
-            On the bosom of May.
+                   <!-- TREBLE. -->
+                   <!--Trapes.-->  <l>When love in the pulse beats low,</l>
+                   <l>(As haply it may with you)</l>
+                   <l>A girl can fresh youth bestow,</l> 
+                   <l>And kindle desire a-new.</l>
+                   <l>Thus numm'd in the brake,</l>
+                   <l>Without motion, the snake</l> 
+                   <l>Sleeps cold winter away;</l>
+                   <l>But in every vein</l>
+                   <l>Life quickens again</l>
+                   <l>On the bosom of May.</l>
+            
+               </div>
+            </body>
+         </floatingText>
  
 <p>We are not here, I must tell you, as we are at London, where we can have fresh goods every week by the 
 waggon. My maid is again gone aboard the vessel; she is perfectly charm'd with one of the ladies; 'twill 
@@ -511,15 +532,23 @@ to be really in love with my Wife! We are not so ignorant here as you imagine; w
 reasonable way, only for her money.</p> 
                                                                </sp>
 
-AIR III. Noel Hills.
-He that weds a beauty
-  Soon will find her cloy;
- When pleasure grows a duty,
-  Farewell love and joy;
-He that weds for treasure,
-  (Though he hath a wife)
-Hath chose one lasting pleasure
-  In a married life. 
+
+                  <floatingText>
+                     <body>
+                        <div type="song" xml:id="AIR_3">
+                            <head>AIR III. Noel Hills.</head>
+                            <l>He that weds a beauty</l>
+                            <l>Soon will find her cloy;</l>
+                            <l>When pleasure grows a duty,</l>
+                            <l>Farewell love and joy;</l>
+                            <l>He that weds for treasure,</l>
+                            <l>(Though he hath a wife)</l>
+                            <l>Hath chose one lasting pleasure</l>
+                            <l>In a married life.</l> 
+  
+                        </div>
+                     </body>
+                  </floatingText>
   
             </div2>
             
@@ -582,11 +611,20 @@ I hope, Sir, you will pardon my freedom.</p>
                            </sp>
                   <stage type="modifier">[He gives her money.]</stage> 
 
-AIR IV. Sweetheart, think upon me.
-My conscience is of courtly mold,
-   Fit for highest station.
-Where's the hand when touch'd with gold, 
-   Proof against temptation?
+
+                  <floatingText>
+                     <body>
+                        <div type="song" xml:id="AIR_4">
+
+
+                            <head>AIR IV. Sweetheart, think upon me.</head>
+                            <l>My conscience is of courtly mold,</l>
+                            <l>Fit for highest station.</l>
+                            <l>Where's the hand when touch'd with gold,</l> 
+                            <l>Proof against temptation?</l>   
+                        </div>
+                     </body>
+                  </floatingText>
    
                   <stage type="exit" rend="align(center)">[Ex. Flimzy.</stage> 
  
@@ -612,23 +650,32 @@ genius and capacity I can match them to a hair: were they in my circumstance the
 were I in theirs, I should be rewarded as a most profound penetrating politician.</p> 
                      </sp>
 
-AIR. V. 'Twas within a furlong.
-In pimps and politicians
-   The genius is the same;
-Both raise their own conditions 
-   On others guilt and shame:
-With a tongue well-tip'd with lyes
-Each the want of parts supplies,
-And with a heart that's all disguise 
-  Keeps his schemes unknown.
-Seducing as the devil, 
-  They play the tempter's part,
-And have, when most they're civil, 
-   Most mischief in their heart.
-Each a secret commerce drives,
-First corrupts and then connives,
-And by his neighbours vices thrives, 
-   For they are all his own. 
+
+
+                     <floatingText>
+                        <body>
+                           <div type="song" xml:id="AIR_5">
+                               <head>AIR. V. 'Twas within a furlong.</head>
+                               <l>In pimps and politicians</l>
+                               <l>The genius is the same;</l>
+                               <l>Both raise their own conditions</l> 
+                               <l>On others guilt and shame:</l>
+                               <l>With a tongue well-tip'd with lyes</l>
+                               <l>Each the want of parts supplies,</l>
+                               <l>And with a heart that's all disguise</l> 
+                               <l>Keeps his schemes unknown.</l>
+                               <l>Seducing as the devil,</l> 
+                               <l>They play the tempter's part,</l>
+                               <l>And have, when most they're civil,</l> 
+                               <l>Most mischief in their heart.</l>
+                               <l>Each a secret commerce drives,</l>
+                               <l> First corrupts and then connives,</l>
+                               <l>And by his neighbours vices thrives,</l> 
+                               <l>For they are all his own.</l> 
+   
+                           </div>
+                        </body>
+                     </floatingText>
    
                   </div2>
  
@@ -659,16 +706,25 @@ life, I never engag'd in my father's affairs as a thief or a thief-catcher, for 
 profession. Would my Papa had never taken it up, he then still had been alive and I had never known 
 Macheath.</p> </sp>
 
-AIR VI. Sortez des vos retraites.
 
-She who hath felt a real pain
-  By Cupid's dart.
-Finds that all absence is in vain 
-  To cure her heart.
-Though from my lover cast 
-  Far as from Pole to Pole,
-Still the pure flame must last,
-For love is in the soul. 
+                        <floatingText>
+                           <body>
+                              <div type="song" xml:id="AIR_6">
+
+                                  <head>AIR VI. Sortez des vos retraites.</head>
+
+                                  <l>She who hath felt a real pain</l>
+                                  <l>By Cupid's dart.</l>
+                                  <l>Finds that all absence is in vain</l> 
+                                  <l>To cure her heart.</l>
+                                  <l>Though from my lover cast</l> 
+                                  <l>Far as from Pole to Pole,</l>
+                                  <l>Still the pure flame must last,</l>
+                                  <l>For love is in the soul.</l> 
+
+                              </div>
+                           </body>
+                        </floatingText>
 
 <p>You must have heard, Madam, that I was unhappy in my marriage. When Macheath was transported all 
 my peace was banished with him; and my Papa's death hath now given me liberty to pursue my 
@@ -713,16 +769,24 @@ too well to flatter you.</p>
                                                    <speaker><hi rend="italic">Polly.</hi></speaker> <p>  Why have I a heart so constant? cruel love!</p> 
                                                    </sp>
 
-AIR. VII. O Waly, Waly, up the bank.
+                                 <floatingText>
+                                    <body>
+                                       <div type="song" xml:id="AIR_7">
 
-Farewell, farewell, all hope of bliss!
-For Polly always must be thine.
-Shall then my heart be never his,
-Which never can again be mine?
-O Love, you play a cruel part,
-Thy shaft still festers in the wound;
-You should reward a constant heart,
-Since 'tis, alas, so seldom found! 
+                                           <head>AIR. VII. O Waly, Waly, up the bank.</head>
+
+                                           <l>Farewell, farewell, all hope of bliss!</l>
+                                           <l>For Polly always must be thine.</l>
+                                           <l>Shall then my heart be never his,</l>
+                                           <l>Which never can again be mine?</l>
+                                           <l>O Love, you play a cruel part,</l>
+                                           <l>Thy shaft still festers in the wound;</l>
+                                           <l>You should reward a constant heart,</l>
+                                           <l>Since 'tis, alas, so seldom found!</l> 
+
+                                       </div>
+                                    </body>
+                                 </floatingText>
 
                                                       <sp>
                                                       <speaker><hi rend="italic">Trapes.</hi></speaker> <p> I tell you once again, Miss Polly, you must think no more of him. You are like a child who is 
@@ -759,13 +823,21 @@ knows, if Madam Ducat should tip off, what may happen? I shall recommend you, Mi
 gentlewoman.</p> 
                                                                   </sp>
 
-AIR. VIII. O Jenny come tye me.
-Despair is all folly;
-    Hence melancholy,
-Fortune attends you while youth is in flower.
-   By beauty's possession
-       Us'd with discretion,
-Woman at all times hath joy in her power. 
+                                          <floatingText>
+                                             <body>
+                                                <div type="song" xml:id="AIR_8">
+
+                                                    <head>AIR. VIII. O Jenny come tye me.</head>
+                                                    <l>Despair is all folly;</l>
+                                                    <l>Hence melancholy,</l>
+                                                    <l>Fortune attends you while youth is in flower.</l>
+                                                    <l>By beauty's possession</l>
+                                                    <l>Us'd with discretion,</l>
+                                                    <l>Woman at all times hath joy in her power.</l> 
+
+                                                </div>
+                                             </body>
+                                          </floatingText>
 
                                                                      <sp>
                                                                      <speaker><hi rend="italic">Polly.</hi></speaker> <p> The service, Madam, you offer me, makes me as happy as I can be in my circumstance, and I 
@@ -904,16 +976,25 @@ Such usage might force the most vertuous woman to resentment. I don't see why th
 country should not put themselves upon as easy a foot as in England. In short, Mr. Ducat, if you behave 
 your self like an English husband, I will behave my self like an English wife. </p>
                                  </sp>
-                                 
-       AIR IX. Red House. 
-I will have my humours, I'll please all my senses,
-I will not be stinted—in love or expences.
-I'll dress with profusion, I'll game without measure;
-You shall have the business, I will have the pleasure: 
-    Thus every day I'll pass my life,
-   My home shall be my least resort;
-   For sure 'tis fitting that your wife
-   Shou'd copy ladies of the court. 
+         
+         
+                                 <floatingText>
+                                    <body>
+                                       <div type="song" xml:id="AIR_9">
+                                          
+       <head>AIR IX. Red House.</head> 
+                                           <l>I will have my humours, I'll please all my senses,</l>
+                                           <l>I will not be stinted—in love or expences.</l>
+                                           <l>I'll dress with profusion, I'll game without measure;</l>
+                                           <l>You shall have the business, I will have the pleasure: </l>
+                                           <l>Thus every day I'll pass my life,</l>
+                                           <l>My home shall be my least resort;</l>
+                                           <l>For sure 'tis fitting that your wife</l>
+                                           <l>Shou'd copy ladies of the court.</l>
+   
+                                       </div>
+                                    </body>
+                                 </floatingText>
 
                                     <sp>
                                     <speaker><hi rend="italic">Ducat.</hi></speaker> <p>.  All these things I know are natural to the sex, my dear. But husbands like colts, are restif, and 
@@ -922,19 +1003,27 @@ this country. That tongue of yours, my dear, hath not eloquence enough to persua
 reason. A woman's tongue, like a trumpet, only serves to raise my courage.</p> 
                                     </sp>
 
-AIR. X. Old Orpheus tickl'd, &amp;.
-When billows come breaking on the strand,
-The rocks are deaf and unshaken stand:
-Old oaks can defy the thunder's roar,
-And I can stand woman's tongue—that's more, 
-   With a twinkum, twankum, &amp;. 
+                                          <floatingText>
+                                             <body>
+                                                <div type="song" xml:id="AIR_10">
 
-With that weapon, women, like pyrates, are at war with the whole world. But I thought, my dear, your 
+                                                    <head>AIR. X. Old Orpheus tickl'd, &amp;.</head>
+                                                    <l>When billows come breaking on the strand,</l>
+                                                    <l>The rocks are deaf and unshaken stand:</l>
+                                                    <l>Old oaks can defy the thunder's roar,</l>
+                                                    <l>And I can stand woman's tongue—that's more, </l>
+                                                    <l>With a twinkum, twankum, &amp;.</l> 
+   
+                                                </div>
+                                             </body>
+                                          </floatingText>
+
+<p>With that weapon, women, like pyrates, are at war with the whole world. But I thought, my dear, your 
 pride would have kept you from being jealous. 'Tis the whole business of my life to please you; but wives 
 are like children, the more they are flatter'd and humour'd the more perverse they are. Here now have I 
 been laying out my money, purely to make you a present, and I have nothing but these freaks and 
 reproaches in return. You wanted a maid, and I have bought you the handiest creature; she will indeed 
-make a very creditable servant. 
+make a very creditable servant.</p> 
 
                                        <sp>
                                        <speaker><hi rend="italic">Mrs. Ducat.</hi></speaker> <p> I will have none of your hussies about me. And so, Sir, you would make me your 
@@ -954,41 +1043,39 @@ strumpet under my nose! Here's fine doings indeed!</p>
                                                 <speaker><hi rend="italic">Ducat.</hi></speaker> <p>.  I will have the directions of my family. 'Tis my pleasure it shall be so. So, Madam, be satisfy'd.</p> 
                                                 </sp>
    
-                    AIR XI. Christ-Church Bells. 
-                   When a woman jealous grows, 
-                     Farewell all peace of life! 
-Mrs Ducat. But e'er man roves, he should pay what he owes. 
-                           And with her due content his wife. 
+   
+                                          <floatingText>
+                                             <body>
+                                                <div type="song" xml:id="AIR_11">
+                                                    <head>AIR XI. Christ-Church Bells.</head> 
+                                                    <l>When a woman jealous grows,</l> 
+                                                    <l>Farewell all peace of life!</l> 
+                                                    <l>Mrs Ducat. But e'er man roves, he should pay what he owes.</l> 
+                                                    <l>And with her due content his wife.</l> 
                            
-                                                   <sp>
-                                                   <speaker><hi rend="italic">Ducat.</hi></speaker> <p>T'is man's the weaker sex to sway.</p> 
-                                                   </sp>
+                           <l>Ducat. T'is man's the weaker sex to sway.</l>
+                                                   
+                                                   <l>Mrs. Ducat. We too, whene'er we list obey.</l>
+                                                      
+                                                      <l>Ducat. 'Tis just and fit. You should submit.</l>
+                                                          
+                                                          <l>Mrs. Ducat. But sweet kind husband—not to day.</l>
+                                                            
+                                                    <l>Ducat. Let your clack be still.</l>
+                                                     
+                                                    <l>Mrs Ducat. Not till I have my will.</l> 
+                                                    <l>If thus you reason slight,</l> 
+                                                    <l>There's never an hour</l> 
+                                                    <l>While breath has power.</l> 
+                                                    <l>But I will assert my right.</l> 
+                                
+                                                </div>
+                                             </body>
+                                          </floatingText>
 
-                                                      <sp>
-                                                      <speaker><hi rend="italic">Mrs. Ducat.</hi></speaker> <p> We too, whene'er we list obey.</p> 
-                                                      </sp>
-
-                                                         <sp>
-                                                         <speaker><hi rend="italic">Ducat.</hi></speaker> <p>'Tis just and fit. You should submit.</p> 
-                                                         </sp>
-                      
-                                                            <sp>
-                                                            <speaker><hi rend="italic">Mrs. Ducat.</hi></speaker> <p> But sweet kind husband—not to day.</p> 
-                                                            </sp>
-
-                                                               <sp>
-                                                               <speaker><hi rend="italic">Ducat.</hi></speaker> <p>Let your clack be still.</p> 
-                                                               </sp>
-
-Mrs Ducat.           Not till I have my will. 
-                               If thus you reason slight, 
-                               There's never an hour 
-                               While breath has power. 
-                                But I will assert my right. 
-
-Would I had you in England; I should have all the women there rise in arms in my defence. For the 
+<p>Would I had you in England; I should have all the women there rise in arms in my defence. For the 
 honour and prerogative of the sex, they would not suffer such a precedent of submission. And so Mr. 
-Ducat, I tell you once again, that you shall keep your trollops out of the house, or I will not stay in it. 
+Ducat, I tell you once again, that you shall keep your trollops out of the house, or I will not stay in it.</p> 
 
                                                                   <sp>
                                                                   <speaker><hi rend="italic">Ducat.</hi></speaker> <p>. Look'ee, Wife; you will be able to bring about nothing by pouting and vapours. I have resolution 
@@ -1029,6 +1116,10 @@ look so before in all my life; tho' mayhap you may have seen her look so before 
 be to the servants that fall in her way! I'm sure I'm glad to be out of it.</p>
                                        </sp>
 
+                                    <floatingText>
+                                       <body>
+                                          <div type="song" xml:id="AIR_12">
+
 AIR XII. Cheshire-rounds. 
 When kings by their huffing
 Have blown up a squable, 
@@ -1037,6 +1128,10 @@ Thus when Man and Wife
 By their mutual snubbing, 
 Kindle civil strife, 
 Servants get the the drubbing, 
+
+                                          </div>
+                                       </body>
+                                    </floatingText>
 
                                           <sp>
                                           <speaker><hi rend="italic">Ducat.</hi></speaker> <p>.  I would have you, Damaris have an eye upon your mistress. You should have her good at heart, 
@@ -1089,10 +1184,14 @@ make the most of e'm.</p>
                                           </sp>
 
                                              <sp>
-                                             <speaker><h<i rend="italic">Polly.</hi></speaker> <p>  As I am your servant, Sir, my duty obliges me not to contradict you; and I must hear your flattery 
+                                             <speaker><hi rend="italic">Polly.</hi></speaker> <p>  As I am your servant, Sir, my duty obliges me not to contradict you; and I must hear your flattery 
 tho' I know my self undeserving. But sure, Sir, in handsome women, you must have observ'd that their 
 hearts often oppose their interest; and beauty certainly has ruin'd more women than it has made happy.</p>
                                              </sp>
+
+                                          <floatingText>
+                                             <body>
+                                                <div type="song" xml:id="AIR_13">
 
 AIR XIII. The bush a boon traquair. 
 The crow or daw thro' all the year 
@@ -1103,6 +1202,10 @@ Beware, fair maids; so scape the net
     That other beauties fell in; 
 For sure at heart was never yet 
    So great a wretch as Helen! 
+   
+                                                </div>
+                                             </body>
+                                          </floatingText>
 
 If my lady, Sir, will let me know my duty, gratitude will make me study to please her. 
 
@@ -1113,7 +1216,7 @@ If my lady, Sir, will let me know my duty, gratitude will make me study to pleas
                                           <stage type="setting" rend="align(center)">[bars the door.</stage> 
        
                                                    <sp>
-                                                   <speaker><h<i rend="italic">Polly.</hi></speaker> <p>I wish, Sir, you would let me receive my lady's commands.</p> 
+                                                   <speaker><hi rend="italic">Polly.</hi></speaker> <p>I wish, Sir, you would let me receive my lady's commands.</p> 
                                                    </sp>
 
                                                       <sp>
@@ -1124,7 +1227,11 @@ man can never know how much love is in him by conversations with his Wife. A kis
 make me young again.</p>
                                                       </sp>
                                                          
-                                                         [Kisses her. 
+                                                   <stage type="modifier">[Kisses her.</stage> 
+
+                                                   <floatingText>
+                                                      <body>
+                                                         <div type="song" xml:id="AIR_14">
 
        AIR XIV. Bury Fair. 
 Polly.     How can you be so teazing? 
@@ -1140,7 +1247,11 @@ Polly.			  'Tis vile, 'tis base
             Poor innocence to wrong; 
 Ducat.      I'll force you, 
 Polly.		         Guard me from disgrace. 
-                   You find that virtue's strong.    [pushing him away. 
+You find that virtue's strong.    <stage type="modifier">[pushing him away.</stage> 
+                   
+                                                         </div>
+                                                      </body>
+                                                   </floatingText>
                    
  
 'Tis barbarous in you, Sir, to take the occasion of my necessities to insult me. 
@@ -1151,7 +1262,7 @@ Polly.		         Guard me from disgrace.
                                                          </sp>
    
                                                             <sp>
-                                                            <speaker><h<i rend="italic">Polly.</hi></speaker> <p> I despise it. No, Sir, tho' I was born and bred in England, I can dare to be poor, which is the only 
+                                                            <speaker><hi rend="italic">Polly.</hi></speaker> <p> I despise it. No, Sir, tho' I was born and bred in England, I can dare to be poor, which is the only 
 thing now-a-days men are asham'd of.</p>
                                                             </sp>
 
@@ -1161,7 +1272,7 @@ slave!</p>
                                                                </sp>
 
                                                                   <sp>
-                                                                  <speaker><h<i rend="italic">Polly.</hi></speaker> <p> Am I then betray'd and sold!</p> 
+                                                                  <speaker><hi rend="italic">Polly.</hi></speaker> <p> Am I then betray'd and sold!</p> 
                                                                   </sp>
    
                                                                      <sp>
@@ -1170,7 +1281,7 @@ her self in marriage.</p>
                                                                      </sp>
 
                                                                         <sp>
-                                                                        <speaker><h<i rend="italic">Polly.</hi></speaker> <p> Climates that change constitutions have no effect upon manners. What a profligate is that 
+                                                                        <speaker><hi rend="italic">Polly.</hi></speaker> <p> Climates that change constitutions have no effect upon manners. What a profligate is that 
 Trapes!</p> 
                                                                         </sp>
 
@@ -1178,6 +1289,10 @@ Trapes!</p>
                                                                            <speaker><hi rend="italic">Ducat.</hi></speaker> <p>. Your fortune, your happiness depends upon your compliance. What proof against a bribe! Sure, 
 hussy, you belye your country, or you must have had a very vulgar education. 'Tis unnatural.</p>
                                                                            </sp>
+
+                                                            <floatingText>
+                                                               <body>
+                                                                  <div type="song" xml:id="AIR_15">
 
 AIR XV. Bobbing Joan. 
 Maids like courtiers must be woo'd, 
@@ -1188,11 +1303,16 @@ Out of pride protract the vice?
        One and all, 
 When we bid up to their price. 
 
+                                                                  </div>
+                                                               </body>
+                                                            </floatingText>
+                                          
+
 Besides, hussy, your consent may make me your slave; there's power to tempt you into the bargain. You 
 must be more than woman if you can stand that too. 
 
                                                                               <sp>
-      <speaker><h<i rend="italic">Polly.</hi></speaker> <p> Sure you only mean to try me! but 'tis barbarous to trifle with my distresses.</p>
+      <speaker><hi rend="italic">Polly.</hi></speaker> <p> Sure you only mean to try me! but 'tis barbarous to trifle with my distresses.</p>
                                                                               </sp>
   
                                                                                  <sp>
@@ -1203,9 +1323,13 @@ you shall go work in the fields among the planters. I hope now I have explain'd 
                                                                                  </sp>
 
                                                                                     <sp>
-                                                                                    <speaker><h<i rend="italic">Polly.</hi></speaker> <p> My freedom may be lost, but you cannot rob me of my vertue and integrity; and whatever is my 
+                                                                                    <speaker><hi rend="italic">Polly.</hi></speaker> <p> My freedom may be lost, but you cannot rob me of my vertue and integrity; and whatever is my 
 lot, having that, I shall have the comfort of hope, and find pleasure in reflection.</p>
                                                                                     </sp>
+
+                                                                     <floatingText>
+                                                                        <body>
+                                                                           <div type="song" xml:id="AIR_16">
 
 AIR XVI. A swain long tortur'd with Disdain. 
 Can I or toil or hunger fear? 
@@ -1214,6 +1338,11 @@ The slave, with virtue in his breast,
 Can wake in peace, and sweetly rest. 
 
 But love, when unhappy, the more vertuous it is, the more it suffers. 	<stage type="setting" rend="align(center)">[Aside.</stage> 
+                                                                              
+                                                                           </div>
+                                                                        </body>
+                                                                     </floatingText>
+                                          
 
                                                                                        <sp>
                                    <speaker><hi rend="italic">Ducat.</hi></speaker> <p>. What noise is that?</p>
@@ -1359,6 +1488,10 @@ Negro villain, is their chief, who in rapine and barbarities is even equal to hi
    <stage type="exit" rend="align(center)"><hi rend="italic">[Exit Indian.</hi></stage>
 
 
+                                             <floatingText>
+                                                <body>
+                                                   <div type="song" xml:id="AIR_17">
+
                AIR XVII. March in Scipio.
                     Brave Boys prepare.   [to the men. 
                   Ah! Cease, fond Wife, to cry.  [to her. 
@@ -1372,6 +1505,11 @@ Mrs. Ducat. Let honour spur the slave,
                       To fight for fighting's sake: 
 <speaker><hi rend="italic">Ducat.</hi></speaker> <p>.          But even the rich are brave 
                        When money is at stake.</p> 
+                                                      
+                                                   </div>
+                                                </body>
+                                             </floatingText>
+                                             
 
 Be satisfy'd, my dear, I shall be discreet. My servants here will take care that I be not over-rash, for their 
 wages depend upon me. But before I go to council—come hither Polly; I intreat you, Wife, to take her 
@@ -1415,6 +1553,11 @@ Damaris, to be sure you have observ'd all that has pass'd. I will know all. I'm 
                                                          <speaker><hi rend="italic">Damaris.</hi></speaker> <p> I hate to make mischief.</p> 
                                                          </sp>
    
+   
+                                                <floatingText>
+                                                   <body>
+                                                      <div type="song" xml:id="AIR_18">
+   
        AIR XVIII. Jig-it-o'Foot. 
      Better to doubt 
     All that's doing, 
@@ -1424,6 +1567,11 @@ What servants hear and see
    Should they tattle, 
 Marriage all day would be 
    Feuds and battle. 
+   
+                                                      </div>
+                                                   </body>
+                                                </floatingText>
+                                                
 
 A servant's legs and hands should be under your command, but, for the sake of quiet, you should leave 
 their tongues to their own discretion. 
@@ -1470,7 +1618,7 @@ impudence, that she has not a blush within her. Do you know, Madam, that I am Mr
                                                    </sp>
 
                                                       <sp>
-                                                      <speaker><h<i rend="italic">Polly.</hi></speaker> <p> As your servant, Madam, I think my self happy.</p> 
+                                                      <speaker><hi rend="italic">Polly.</hi></speaker> <p> As your servant, Madam, I think my self happy.</p> 
                                                       </sp>
    
                                                          <sp>
@@ -1478,16 +1626,26 @@ impudence, that she has not a blush within her. Do you know, Madam, that I am Mr
 her.</p> 
                                                          </sp>
 
+
+                                                   <floatingText>
+                                                      <body>
+                                                         <div type="song" xml:id="AIR_19">
+
        AIR XIX. Trumpet Minuet. 
   Abroad after misses most husbands will roam, 
   Tho' sure they find woman sufficient at home. 
 To be nos'd by a strumpet! Hence, hussy you'd best. 
 Would he give me my due, I wou'd give her the rest. 
 
+                                                         </div>
+                                                      </body>
+                                                   </floatingText>
+                                                   
+
 I vow I had rather have a thief in my house. For to be sure she is that besides. 
 
                                                             <sp>
-                                                            <speaker><h<i rend="italic">Polly.</hi></speaker> <p> If you were acquainted with my misfortunes, Madam, you could not insult me.</p> 
+                                                            <speaker><hi rend="italic">Polly.</hi></speaker> <p> If you were acquainted with my misfortunes, Madam, you could not insult me.</p> 
                                                             </sp>
    
                                                                <sp>
@@ -1501,7 +1659,7 @@ Madam, who was a rake, and I know their ways very well, by hear-say.</p>
                                                                   </sp>
 
                                                                      <sp>
-                                                                     <speaker><h<i rend="italic">Polly.</hi></speaker> <p> What villains are hypocrites! For they rob those of relief, who are in real distress. I know what it 
+                                                                     <speaker><hi rend="italic">Polly.</hi></speaker> <p> What villains are hypocrites! For they rob those of relief, who are in real distress. I know what it 
 is to be unhappy in marriage.</p> 
                                                                      </sp>
 
@@ -1518,7 +1676,7 @@ is to be unhappy in marriage.</p>
                                                                               </sp>
    
                                                                                  <sp>
-                                                                                 <speaker><h<i rend="italic">Polly.</hi></speaker> <p>  If woman can have faith in woman, may my words find belief. Protestations are to be suspected, 
+                                                                                 <speaker><hi rend="italic">Polly.</hi></speaker> <p>  If woman can have faith in woman, may my words find belief. Protestations are to be suspected, 
 so I shall use none. If truth can prevail, I know you will pity me.</p> 
                                                                                  </sp>
 
@@ -1528,7 +1686,7 @@ story. Unhappily married! That is a misfortune not to be remedied.</p>
                                                                                     </sp>
 
                                                                                        <sp>
-                                                                                       <speaker><h<i rend="italic">Polly.</hi></speaker> <p>  A constant woman hath but one chance to be happy; an inconstant woman, tho' she hath no 
+                                                                                       <speaker><hi rend="italic">Polly.</hi></speaker> <p>  A constant woman hath but one chance to be happy; an inconstant woman, tho' she hath no 
 chance to be very happy, can never be very unhappy.</p> 
                                                                                        </sp>
 
@@ -1536,6 +1694,10 @@ chance to be very happy, can never be very unhappy.</p>
                                                                                           <speaker><hi rend="italic">Damaris.</hi></speaker> <p>  Believe me, Mrs. Polly, as to pleasures of all sorts, 'tis a much more agreeable way to be 
 inconstant.</p> 
                                                                                           </sp>
+
+                                                            <floatingText>
+                                                               <body>
+                                                                  <div type="song" xml:id="AIR_20">
 
 AIR XX. Polwart on the Green. 
 Love now is nought but art, 
@@ -1547,8 +1709,13 @@ What gain and pleasure do we find,
 The mill that turns with every wind 
    Must bring the owner grist. 
 
+
+                                                                  </div>
+                                                               </body>
+                                                            </floatingText>
+                                                   
                                                                                              <sp>
-                                                                                             <speaker><h<i rend="italic">Polly.</hi></speaker> <p> My case, Madam. may in these times be look'd upon as singular; for I married a man only 
+                                                                                             <speaker><hi rend="italic">Polly.</hi></speaker> <p> My case, Madam. may in these times be look'd upon as singular; for I married a man only 
 because I lov'd him. For this I was look'd upon as a fool by all my acquaintance; I was us'd inhumanly by 
 my father and mother; and to compleat my misfortunes, my husband, by his wild behaviour, incurr'd the 
 sentence of the law, and was separated from me by banishment. Being inform'd he was in this country, 
@@ -1560,7 +1727,7 @@ upon the death of my father and mother, with most of my small fortune, I came he
                                                                                                 </sp>
    
                                                                                                    <sp>
-                                                                                                   <speaker><h<i rend="italic">Polly.</hi></speaker> <p> In my voyage, Madam, I was robb'd of all I had. Upon my landing in a strange country, and in 
+                                                                                                   <speaker><hi rend="italic">Polly.</hi></speaker> <p> In my voyage, Madam, I was robb'd of all I had. Upon my landing in a strange country, and in 
 want, I was found out by this inhuman woman, who had been an acquaintance of my father: She offered 
 me at first the civilities of her own house. When she was inform'd of my necessities, she proposed to me 
 the service of a Lady; of which I readily accepted. 'Twas under that pretence that she treacherously sold 
@@ -1573,7 +1740,7 @@ for protection. By relieving me, you make your self easy.</p>
                                                                                                       </sp>
    
                                                                                                          <sp>
-                                                                                                         <speaker><h<i rend="italic">Polly.</hi></speaker> <p>  In conniving at my escape, you save me from your husband's worrying me with threats and 
+                                                                                                         <speaker><hi rend="italic">Polly.</hi></speaker> <p>  In conniving at my escape, you save me from your husband's worrying me with threats and 
 violence, and at the same time quiet your own fears and jealousies. If it is ever in my power, Madam, 
 with gratitude I will repay you my ransom.</p> 
                                                                                                          </sp>
@@ -1594,7 +1761,7 @@ woman, out of pride he will insist upon his point.</p>
                                                                                                                   </sp>
 
                                                                                                                      <sp>
-                                                                                                                     <speaker><h<i rend="italic">Polly.</hi></speaker> <p> In staying with you, Madam, I make two people unhappy. And I chuse to bear my own 
+                                                                                                                     <speaker><hi rend="italic">Polly.</hi></speaker> <p> In staying with you, Madam, I make two people unhappy. And I chuse to bear my own 
 misfortunes, without being the cause of another's.</p>
                                                                                                                      </sp>
 
@@ -1604,7 +1771,7 @@ this bustle and confusion.</p>
                                                                                                                         </sp>
 
                                                                                                                            <sp>
-                                                                                                                           <speaker><h<i rend="italic">Polly.</hi></speaker> <p> May heaven reward your charity.</p> 
+                                                                                                                           <speaker><hi rend="italic">Polly.</hi></speaker> <p> May heaven reward your charity.</p> 
                                                                                                                            </sp>
                                                                                                                               <sp>
                                                                                                                               <speaker><hi rend="italic">Mrs. Ducat.</hi></speaker> <p>  A woman so young and so handsome must be expos'd to continual dangers. I have a suit 
@@ -1614,7 +1781,7 @@ after your husband.</p>
                                                                                                                               </sp>
 
                                                                                                                                  <sp>
-                                                                                                                                 <speaker><h<i rend="italic">Polly.</hi></speaker> <p> How shall I ever make a return for so much goodness?</p> 
+                                                                                                                                 <speaker><hi rend="italic">Polly.</hi></speaker> <p> How shall I ever make a return for so much goodness?</p> 
                                                                                                                                  </sp>
    
                                                                                                                                     <sp>
@@ -1628,8 +1795,10 @@ may be so too.</p>
                                                                                                                                        </sp>
 
                                                                                                                                           <sp>
-                                                                                                                                          <speaker><h<i rend="italic">Polly.</hi></speaker> <p>  May vertue be my protection; for I feel within me hope, cheerfulness and resolution.</p> 
-                                                                                                                                          </sp>
+                                                                                                                                          <speaker><hi rend="italic">Polly.</hi></speaker> <p>  May vertue be my protection; for I feel within me hope, cheerfulness and resolution.</p> 
+                                                                                                                                             <floatingText>
+                                                                                                                                                <body>
+                                                                                                                                                   <div type="song" xml:id="AIR_21">                                                                                                                                         </sp>
    
 AIR. XXI. St. Martin's Lane.
     As pilgrims thro' devotion 
@@ -1648,6 +1817,12 @@ O love, my honest vow regard!
    My steps direct,
     His flight detect, 
     A faithful wife reward.   			<stage type="exit" rend="align(center)"><hi rend="italic">[Exit.</hi></stage> 
+                                                   
+                                                   
+                                                   </div>
+      </body>
+      </floatingText>
+      
 
                                                 </div2>
 
