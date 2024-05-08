@@ -469,6 +469,9 @@ OPERA.
 
                                 <head>AIR I. The disappointed Widow.</head>
 
+                                
+                                <sp>
+                                    <lg rend="italic">    
                                 <l>The manners of the Great affect;</l>
                                 <l>Stint not your pleasure,</l>
                                 <l>If conscience had the genius checkt,</l>
@@ -477,6 +480,9 @@ OPERA.
                                 <l>Careless who is undone,</l>
                                 <l>Morals and honesty leave to the poor,</l>
                                 <l>As they do at London.</l>
+                                    </lg>
+                                
+                                </sp>
 
 
                             </div>
@@ -576,7 +582,7 @@ OPERA.
 
                                 <head>AIR II. The Irish ground.</head>
 
-                                <!--  BASS. -->
+                                <sp><!--  BASS. -->
                                 <!--Ducat.-->
                                 <l>What can wealth</l>
                                 <l>When we're old?</l>
@@ -594,7 +600,7 @@ OPERA.
                                 <l>Sleeps cold winter away;</l>
                                 <l>But in every vein</l>
                                 <l>Life quickens again</l>
-                                <l>On the bosom of May.</l>
+                                <l>On the bosom of May.</l></sp>
 
                             </div>
                         </body>
@@ -666,7 +672,9 @@ OPERA.
                         <body>
                             <div type="song" xml:id="AIR_3">
                                 <head>AIR III. Noel Hills.</head>
-                                <l>He that weds a beauty</l>
+                                
+                                <sp>
+                                    <l>He that weds a beauty</l>
                                 <l>Soon will find her cloy;</l>
                                 <l>When pleasure grows a duty,</l>
                                 <l>Farewell love and joy;</l>
@@ -674,6 +682,8 @@ OPERA.
                                 <l>(Though he hath a wife)</l>
                                 <l>Hath chose one lasting pleasure</l>
                                 <l>In a married life.</l>
+                                    
+                                    </sp>
 
                             </div>
                         </body>
@@ -764,10 +774,14 @@ OPERA.
 
 
                                 <head>AIR IV. Sweetheart, think upon me.</head>
-                                <l>My conscience is of courtly mold,</l>
+                                
+                                <sp>
+                                    <l>My conscience is of courtly mold,</l>
                                 <l>Fit for highest station.</l>
                                 <l>Where's the hand when touch'd with gold,</l>
                                 <l>Proof against temptation?</l>
+                                </sp>
+                                
                             </div>
                         </body>
                     </floatingText>
@@ -807,7 +821,9 @@ OPERA.
                         <body>
                             <div type="song" xml:id="AIR_5">
                                 <head>AIR. V. 'Twas within a furlong.</head>
-                                <l>In pimps and politicians</l>
+                                
+                                <sp>
+                                 <l>In pimps and politicians</l>
                                 <l>The genius is the same;</l>
                                 <l>Both raise their own conditions</l>
                                 <l>On others guilt and shame:</l>
@@ -823,6 +839,7 @@ OPERA.
                                 <l> First corrupts and then connives,</l>
                                 <l>And by his neighbours vices thrives,</l>
                                 <l>For they are all his own.</l>
+                                </sp>
 
                             </div>
                         </body>
@@ -873,6 +890,7 @@ OPERA.
 
                                 <head>AIR VI. Sortez des vos retraites.</head>
 
+                                <sp>
                                 <l>She who hath felt a real pain</l>
                                 <l>By Cupid's dart.</l>
                                 <l>Finds that all absence is in vain</l>
@@ -881,6 +899,7 @@ OPERA.
                                 <l>Far as from Pole to Pole,</l>
                                 <l>Still the pure flame must last,</l>
                                 <l>For love is in the soul.</l>
+                                </sp>
 
                             </div>
                         </body>
@@ -949,6 +968,7 @@ OPERA.
 
                                 <head>AIR. VII. O Waly, Waly, up the bank.</head>
 
+                                <sp>
                                 <l>Farewell, farewell, all hope of bliss!</l>
                                 <l>For Polly always must be thine.</l>
                                 <l>Shall then my heart be never his,</l>
@@ -957,7 +977,8 @@ OPERA.
                                 <l>Thy shaft still festers in the wound;</l>
                                 <l>You should reward a constant heart,</l>
                                 <l>Since 'tis, alas, so seldom found!</l>
-
+                                
+                                </sp>
                             </div>
                         </body>
                     </floatingText>
@@ -1015,12 +1036,14 @@ OPERA.
                             <div type="song" xml:id="AIR_8">
 
                                 <head>AIR. VIII. O Jenny come tye me.</head>
+                                <sp>
                                 <l>Despair is all folly;</l>
                                 <l>Hence melancholy,</l>
                                 <l>Fortune attends you while youth is in flower.</l>
                                 <l>By beauty's possession</l>
                                 <l>Us'd with discretion,</l>
                                 <l>Woman at all times hath joy in her power.</l>
+                                </sp>
 
                             </div>
                         </body>
@@ -1203,6 +1226,8 @@ OPERA.
                             <div type="song" xml:id="AIR_9">
 
                                 <head>AIR IX. Red House.</head>
+                                
+                                <sp>
                                 <l>I will have my humours, I'll please all my senses,</l>
                                 <l>I will not be stinted—in love or expences.</l>
                                 <l>I'll dress with profusion, I'll game without measure;</l>
@@ -1211,6 +1236,7 @@ OPERA.
                                 <l>My home shall be my least resort;</l>
                                 <l>For sure 'tis fitting that your wife</l>
                                 <l>Shou'd copy ladies of the court.</l>
+                                </sp>
 
                             </div>
                         </body>
@@ -1231,11 +1257,14 @@ OPERA.
                             <div type="song" xml:id="AIR_10">
 
                                 <head>AIR. X. Old Orpheus tickl'd, &amp;.</head>
+                                
+                                <sp>
                                 <l>When billows come breaking on the strand,</l>
                                 <l>The rocks are deaf and unshaken stand:</l>
                                 <l>Old oaks can defy the thunder's roar,</l>
                                 <l>And I can stand woman's tongue—that's more, </l>
                                 <l>With a twinkum, twankum, &amp;.</l>
+                                </sp>
 
                             </div>
                         </body>
@@ -1278,6 +1307,8 @@ OPERA.
                         <body>
                             <div type="song" xml:id="AIR_11">
                                 <head>AIR XI. Christ-Church Bells.</head>
+                                
+                               <sp> 
                                 <l>When a woman jealous grows,</l>
                                 <l>Farewell all peace of life!</l>
                                 <l>Mrs Ducat. But e'er man roves, he should pay what he owes.</l>
@@ -1298,6 +1329,7 @@ OPERA.
                                 <l>There's never an hour</l>
                                 <l>While breath has power.</l>
                                 <l>But I will assert my right.</l>
+                               </sp>
 
                             </div>
                         </body>
@@ -1353,6 +1385,8 @@ OPERA.
                         <body>
                             <div type="song" xml:id="AIR_12">
                                 <head>AIR XII. Cheshire-rounds.</head>
+                                
+                                <sp>
                                 <l>When kings by their huffing</l>
                                 <l>Have blown up a squable,</l>
                                 <l>All the charge and cuffing</l>
@@ -1361,6 +1395,7 @@ OPERA.
                                 <l>By their mutual snubbing,</l>
                                 <l>Kindlebcivil strife,</l>
                                 <l>Servants get the the drubbing.</l>
+                                </sp>
 
                             </div>
                         </body>
@@ -1431,6 +1466,8 @@ OPERA.
                         <body>
                             <div type="song" xml:id="AIR_13">
                                 <head>AIR XIII. The bush a boon traquair.</head>
+                                
+                                <sp>
                                 <l>The crow or daw thro' all the year</l>
                                 <l>No fowler seeks to ruin;</l>
                                 <l>But birds of voice or feather rare</l>
@@ -1439,6 +1476,7 @@ OPERA.
                                 <l>That other beauties fell in;</l>
                                 <l>For sure at heart was never yet</l>
                                 <l>So great a wretch as Helen!</l>
+                                </sp>
 
 
                             </div>
@@ -1473,6 +1511,8 @@ OPERA.
                         <body>
                             <div type="song" xml:id="AIR_14">
                                 <head>AIR XIV. Bury Fair.</head>
+                                
+                                <sp>
                                 <l>Polly. How can you be so teazing?</l>
                                 <l>Ducat. Love will excuse my fault.</l>
                                 <l>How can you be so pleasing!</l>
@@ -1489,6 +1529,8 @@ OPERA.
                                 <l>Ducat. I'll force you,</l>
                                 <l>Polly. Guard me from disgrace.</l>
                                 <l>You find that virtue's strong.</l>
+                                </sp>
+                                
                                 <stage type="modifier">[pushing him away.</stage>
                             </div>
                         </body>
@@ -1536,6 +1578,8 @@ OPERA.
                             <div type="song" xml:id="AIR_15">
 
                                 <head>AIR XV. Bobbing Joan.</head>
+                                
+                                <sp>
                                 <l>Maids like courtiers must be woo'd,</l>
                                 <l>Most by flattery are subdu'd;</l>
                                 <l>Some capricious, coy or nice</l>
@@ -1543,6 +1587,7 @@ OPERA.
                                 <l>But they fall,</l>
                                 <l>One and all,</l>
                                 <l>When we bid up to their price.</l>
+                                </sp>
 
                             </div>
                         </body>
@@ -1576,10 +1621,13 @@ OPERA.
                         <body>
                             <div type="song" xml:id="AIR_16">
                                 <head>AIR XVI. A swain long tortur'd with Disdain.</head>
+                                
+                                <sp>
                                 <l>Can I or toil or hunger fear?</l>
                                 <l>For love's a pain that's more severe.</l>
                                 <l>The slave, with virtue in his breast,</l>
                                 <l>Can wake in peace, and sweetly rest.</l>
+                                </sp>
 
 
 
@@ -1748,6 +1796,8 @@ OPERA.
                             <div type="song" xml:id="AIR_17">
 
                                 <head>AIR XVII. March in Scipio.</head>
+                                
+                                <sp>
                                 <l>Brave Boys prepare.</l>
                                 <stage type="modifier">[to the men.</stage>
                                 <l>Ah! Cease, fond Wife, to cry.</l>
@@ -1762,6 +1812,7 @@ OPERA.
                                 <l>To fight for fighting's sake:</l>
                                 <l>Ducat. But even the rich are brave</l>
                                 <l>When money is at stake.</l>
+                                </sp>
 
 
                             </div>
@@ -1822,14 +1873,17 @@ OPERA.
                         <body>
                             <div type="song" xml:id="AIR_18">
                                 <head>AIR XVIII. Jig-it-o'Foot.</head>
-                                <p>Better to doubt</p>
-                                <p>All that's doing,</p>
-                                <p>Than to find out</p>
-                                <p>Proofs of ruin.</p>
-                                <p>What servants hear and see</p>
-                                <p>Should they tattle,</p>
-                                <p>Marriage all day would be</p>
-                                <p>Feuds and battle.</p>
+                                
+                                <sp>
+                                <l>Better to doubt</l>
+                                <l>All that's doing,</l>
+                                <l>Than to find out</l>
+                                <l>Proofs of ruin.</l>
+                                <l>What servants hear and see</l>
+                                <l>Should they tattle,</l>
+                                <l>Marriage all day would be</l>
+                                <l>Feuds and battle.</l>
+                                </sp>
 
 
                             </div>
@@ -1898,10 +1952,13 @@ OPERA.
                         <body>
                             <div type="song" xml:id="AIR_19">
                                 <head>AIR XIX. Trumpet Minuet.</head>
+                                
+                                <sp>
                                 <l>Abroad after misses most husbands will roam,</l>
                                 <l>Tho' sure they find woman sufficient at home.</l>
                                 <l>To be nos'd by a strumpet! Hence, hussy you'd best.</l>
                                 <l>Would he give me my due, I wou'd give her the rest.</l>
+                                </sp>
 
 
                             </div>
@@ -1971,6 +2028,8 @@ OPERA.
                         <body>
                             <div type="song" xml:id="AIR_20">
                                 <head>AIR XX. Polwart on the Green.</head>
+                                
+                                <sp>
                                 <l>Love now is nought but art,</l>
                                 <l>'Tis who can juggle best;</l>
                                 <l>To all men seem to give your heart</l>
@@ -1979,6 +2038,7 @@ OPERA.
                                 <l>Who change whene'er we list!</l>
                                 <l>The mill that turns with every wind</l>
                                 <l>Must bring the owner grist.</l>
+                                </sp>
 
 
                             </div>
@@ -2087,6 +2147,8 @@ OPERA.
                         <body>
                             <div type="song" xml:id="AIR_21">
                                 <head>AIR. XXI. St. Martin's Lane.</head>
+                                
+                                <sp>
                                 <l>As pilgrims thro' devotion</l>
                                 <l>To some shrine pursue their way,</l>
                                 <l>They tempt the raging ocean,</l>
@@ -2103,6 +2165,7 @@ OPERA.
                                 <l>My steps direct,</l>
                                 <l>His flight detect,</l>
                                 <l>A faithful wife reward.</l>
+                                </sp>
 
                                 <stage type="exit" rend="align(center)"><hi rend="italic"
                                         >[Exit.</hi></stage>
