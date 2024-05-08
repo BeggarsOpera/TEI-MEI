@@ -582,7 +582,9 @@ OPERA.
 
                                 <head>AIR II. The Irish ground.</head>
 
-                                <sp><!--  BASS. -->
+                                <sp>
+                                <lg rend="italic">
+                                    <!--  BASS. -->
                                 <!--Ducat.-->
                                 <l>What can wealth</l>
                                 <l>When we're old?</l>
@@ -600,7 +602,9 @@ OPERA.
                                 <l>Sleeps cold winter away;</l>
                                 <l>But in every vein</l>
                                 <l>Life quickens again</l>
-                                <l>On the bosom of May.</l></sp>
+                                    <l>On the bosom of May.</l></lg></sp>
+                            
+                            
 
                             </div>
                         </body>
@@ -674,6 +678,7 @@ OPERA.
                                 <head>AIR III. Noel Hills.</head>
                                 
                                 <sp>
+                                    <lg rend="italic">
                                     <l>He that weds a beauty</l>
                                 <l>Soon will find her cloy;</l>
                                 <l>When pleasure grows a duty,</l>
@@ -682,7 +687,7 @@ OPERA.
                                 <l>(Though he hath a wife)</l>
                                 <l>Hath chose one lasting pleasure</l>
                                 <l>In a married life.</l>
-                                    
+                                    </lg>
                                     </sp>
 
                             </div>
@@ -776,10 +781,11 @@ OPERA.
                                 <head>AIR IV. Sweetheart, think upon me.</head>
                                 
                                 <sp>
-                                    <l>My conscience is of courtly mold,</l>
+                                    <lg rend="italic">   
+                                <l>My conscience is of courtly mold,</l>
                                 <l>Fit for highest station.</l>
                                 <l>Where's the hand when touch'd with gold,</l>
-                                <l>Proof against temptation?</l>
+                                <l>Proof against temptation?</l></lg>
                                 </sp>
                                 
                             </div>
@@ -823,6 +829,7 @@ OPERA.
                                 <head>AIR. V. 'Twas within a furlong.</head>
                                 
                                 <sp>
+                                    <lg rend="italic">
                                  <l>In pimps and politicians</l>
                                 <l>The genius is the same;</l>
                                 <l>Both raise their own conditions</l>
@@ -839,6 +846,7 @@ OPERA.
                                 <l> First corrupts and then connives,</l>
                                 <l>And by his neighbours vices thrives,</l>
                                 <l>For they are all his own.</l>
+                                    </lg>
                                 </sp>
 
                             </div>
@@ -891,6 +899,7 @@ OPERA.
                                 <head>AIR VI. Sortez des vos retraites.</head>
 
                                 <sp>
+                                    <lg rend="italic">
                                 <l>She who hath felt a real pain</l>
                                 <l>By Cupid's dart.</l>
                                 <l>Finds that all absence is in vain</l>
@@ -899,6 +908,7 @@ OPERA.
                                 <l>Far as from Pole to Pole,</l>
                                 <l>Still the pure flame must last,</l>
                                 <l>For love is in the soul.</l>
+                                    </lg>
                                 </sp>
 
                             </div>
@@ -969,6 +979,7 @@ OPERA.
                                 <head>AIR. VII. O Waly, Waly, up the bank.</head>
 
                                 <sp>
+                                    <lg rend="italic">
                                 <l>Farewell, farewell, all hope of bliss!</l>
                                 <l>For Polly always must be thine.</l>
                                 <l>Shall then my heart be never his,</l>
@@ -977,6 +988,7 @@ OPERA.
                                 <l>Thy shaft still festers in the wound;</l>
                                 <l>You should reward a constant heart,</l>
                                 <l>Since 'tis, alas, so seldom found!</l>
+                                    </lg>
                                 
                                 </sp>
                             </div>
@@ -1037,12 +1049,14 @@ OPERA.
 
                                 <head>AIR. VIII. O Jenny come tye me.</head>
                                 <sp>
+                                    <lg rend="italic">
                                 <l>Despair is all folly;</l>
                                 <l>Hence melancholy,</l>
                                 <l>Fortune attends you while youth is in flower.</l>
                                 <l>By beauty's possession</l>
                                 <l>Us'd with discretion,</l>
                                 <l>Woman at all times hath joy in her power.</l>
+                                    </lg>
                                 </sp>
 
                             </div>
@@ -1228,6 +1242,7 @@ OPERA.
                                 <head>AIR IX. Red House.</head>
                                 
                                 <sp>
+                                    <lg rend="italic">
                                 <l>I will have my humours, I'll please all my senses,</l>
                                 <l>I will not be stinted—in love or expences.</l>
                                 <l>I'll dress with profusion, I'll game without measure;</l>
@@ -1236,6 +1251,7 @@ OPERA.
                                 <l>My home shall be my least resort;</l>
                                 <l>For sure 'tis fitting that your wife</l>
                                 <l>Shou'd copy ladies of the court.</l>
+                                    </lg>
                                 </sp>
 
                             </div>
@@ -1309,6 +1325,7 @@ OPERA.
                                 <head>AIR XI. Christ-Church Bells.</head>
                                 
                                <sp> 
+                                   <lg rend="italic">
                                 <l>When a woman jealous grows,</l>
                                 <l>Farewell all peace of life!</l>
                                 <l>Mrs Ducat. But e'er man roves, he should pay what he owes.</l>
@@ -1329,6 +1346,7 @@ OPERA.
                                 <l>There's never an hour</l>
                                 <l>While breath has power.</l>
                                 <l>But I will assert my right.</l>
+                                   </lg>
                                </sp>
 
                             </div>
@@ -1387,6 +1405,7 @@ OPERA.
                                 <head>AIR XII. Cheshire-rounds.</head>
                                 
                                 <sp>
+                                    <lg rend="italic">
                                 <l>When kings by their huffing</l>
                                 <l>Have blown up a squable,</l>
                                 <l>All the charge and cuffing</l>
@@ -1395,6 +1414,7 @@ OPERA.
                                 <l>By their mutual snubbing,</l>
                                 <l>Kindlebcivil strife,</l>
                                 <l>Servants get the the drubbing.</l>
+                                    </lg>
                                 </sp>
 
                             </div>
@@ -1468,6 +1488,7 @@ OPERA.
                                 <head>AIR XIII. The bush a boon traquair.</head>
                                 
                                 <sp>
+                                    <lg rend="italic">
                                 <l>The crow or daw thro' all the year</l>
                                 <l>No fowler seeks to ruin;</l>
                                 <l>But birds of voice or feather rare</l>
@@ -1476,6 +1497,7 @@ OPERA.
                                 <l>That other beauties fell in;</l>
                                 <l>For sure at heart was never yet</l>
                                 <l>So great a wretch as Helen!</l>
+                                    </lg>
                                 </sp>
 
 
@@ -1513,6 +1535,7 @@ OPERA.
                                 <head>AIR XIV. Bury Fair.</head>
                                 
                                 <sp>
+                                    <lg rend="italic">
                                 <l>Polly. How can you be so teazing?</l>
                                 <l>Ducat. Love will excuse my fault.</l>
                                 <l>How can you be so pleasing!</l>
@@ -1529,6 +1552,7 @@ OPERA.
                                 <l>Ducat. I'll force you,</l>
                                 <l>Polly. Guard me from disgrace.</l>
                                 <l>You find that virtue's strong.</l>
+                                    </lg>
                                 </sp>
                                 
                                 <stage type="modifier">[pushing him away.</stage>
@@ -1580,6 +1604,7 @@ OPERA.
                                 <head>AIR XV. Bobbing Joan.</head>
                                 
                                 <sp>
+                                    <lg rend="italic">
                                 <l>Maids like courtiers must be woo'd,</l>
                                 <l>Most by flattery are subdu'd;</l>
                                 <l>Some capricious, coy or nice</l>
@@ -1587,6 +1612,7 @@ OPERA.
                                 <l>But they fall,</l>
                                 <l>One and all,</l>
                                 <l>When we bid up to their price.</l>
+                                    </lg>
                                 </sp>
 
                             </div>
@@ -1623,10 +1649,12 @@ OPERA.
                                 <head>AIR XVI. A swain long tortur'd with Disdain.</head>
                                 
                                 <sp>
+                                    <lg rend="italic">
                                 <l>Can I or toil or hunger fear?</l>
                                 <l>For love's a pain that's more severe.</l>
                                 <l>The slave, with virtue in his breast,</l>
                                 <l>Can wake in peace, and sweetly rest.</l>
+                                    </lg>
                                 </sp>
 
 
@@ -1798,6 +1826,7 @@ OPERA.
                                 <head>AIR XVII. March in Scipio.</head>
                                 
                                 <sp>
+                                    <lg rend="italic">
                                 <l>Brave Boys prepare.</l>
                                 <stage type="modifier">[to the men.</stage>
                                 <l>Ah! Cease, fond Wife, to cry.</l>
@@ -1812,6 +1841,7 @@ OPERA.
                                 <l>To fight for fighting's sake:</l>
                                 <l>Ducat. But even the rich are brave</l>
                                 <l>When money is at stake.</l>
+                                    </lg>
                                 </sp>
 
 
@@ -1875,6 +1905,7 @@ OPERA.
                                 <head>AIR XVIII. Jig-it-o'Foot.</head>
                                 
                                 <sp>
+                                    <lg rend="italic">
                                 <l>Better to doubt</l>
                                 <l>All that's doing,</l>
                                 <l>Than to find out</l>
@@ -1883,6 +1914,7 @@ OPERA.
                                 <l>Should they tattle,</l>
                                 <l>Marriage all day would be</l>
                                 <l>Feuds and battle.</l>
+                                    </lg>
                                 </sp>
 
 
@@ -1954,10 +1986,12 @@ OPERA.
                                 <head>AIR XIX. Trumpet Minuet.</head>
                                 
                                 <sp>
+                                    <lg rend="italic">
                                 <l>Abroad after misses most husbands will roam,</l>
                                 <l>Tho' sure they find woman sufficient at home.</l>
                                 <l>To be nos'd by a strumpet! Hence, hussy you'd best.</l>
                                 <l>Would he give me my due, I wou'd give her the rest.</l>
+                                    </lg>
                                 </sp>
 
 
@@ -2030,6 +2064,7 @@ OPERA.
                                 <head>AIR XX. Polwart on the Green.</head>
                                 
                                 <sp>
+                                    <lg rend="italic">
                                 <l>Love now is nought but art,</l>
                                 <l>'Tis who can juggle best;</l>
                                 <l>To all men seem to give your heart</l>
@@ -2038,6 +2073,7 @@ OPERA.
                                 <l>Who change whene'er we list!</l>
                                 <l>The mill that turns with every wind</l>
                                 <l>Must bring the owner grist.</l>
+                                    </lg>
                                 </sp>
 
 
@@ -2149,6 +2185,7 @@ OPERA.
                                 <head>AIR. XXI. St. Martin's Lane.</head>
                                 
                                 <sp>
+                                    <lg rend="italic">
                                 <l>As pilgrims thro' devotion</l>
                                 <l>To some shrine pursue their way,</l>
                                 <l>They tempt the raging ocean,</l>
@@ -2165,6 +2202,7 @@ OPERA.
                                 <l>My steps direct,</l>
                                 <l>His flight detect,</l>
                                 <l>A faithful wife reward.</l>
+                                    </lg>
                                 </sp>
 
                                 <stage type="exit" rend="align(center)"><hi rend="italic"
