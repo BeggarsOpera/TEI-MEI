@@ -5,15 +5,197 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Title</title>
+                <title type="main">Polly:</title>
+                <title type="subordinate">An Electronic Edition</title>
+                
+                <author>
+                    <name key="n80045862">Gay, John, 1685-1732</name>
+                </author>
+                <editor>: <name><lb/>Newman, Steve</name>
+                    <name><lb/>Rowland, Fred</name>
+                    <name><lb/>Krick, Jack</name>
+                    <name><lb/>Wermer-Colan, Alex</name>
+                </editor>
+                
             </titleStmt>
+            <editionStmt>
+                <edition>
+                    <lb/>2024-5-10</edition>
+            </editionStmt>
+            <extent/>
+            
             <publicationStmt>
-                <p>Publication Information</p>
+                <publisher>Temple University</publisher>
+                <pubPlace>Philadelphia, PA 19122</pubPlace>
+                <availability>
+                    <p>Usable according to the Creative Commons License <ref
+                        target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution
+                        Non-commercial Share-alike</ref>.</p>
+                </availability>
             </publicationStmt>
+            
             <sourceDesc>
-                <p>Information about the source</p>
+                <biblStruct>
+                    <monogr>
+                        <title level="m">Polly: An Opera. Being the Second Part of the Beggar's Opera.</title>
+                        <author>
+                            <name key="n80045862">Gay, John, 1685-1732</name>
+                        </author>
+                        <imprint>
+                            <publisher>printed by the author</publisher>
+                            <pubPlace>London, UK</pubPlace>
+                            <date>1729</date>
+                            
+                        </imprint>
+                    </monogr>
+                </biblStruct>
             </sourceDesc>
         </fileDesc>
+            
+            <encodingDesc>
+                <editorialDecl>
+                    <interpretation>
+                        <p>!!!!!Steve Newman needs to provide a description here.!!!!!</p>
+                    </interpretation>
+                    
+                    <correction>
+                        <p>As per editorial guidelines, corrections are made only when the copytext
+                            would compromise the meaning of the text. </p>
+                    </correction>
+                    
+                    <normalization>
+                        <p>As per editorial guidelines, original spelling and typography is retained,
+                            except that long s and ligatured forms are not encoded.</p>
+                    </normalization>
+                    
+                    <punctuation>
+                        <p> All punctuation from the copytext has been retained, as per editorial
+                            guidelines </p>
+                    </punctuation>
+                    
+                </editorialDecl>
+                
+            </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="D">
+                        <persName type="standard">Ducat</persName>
+                        <sex value="M"/>
+                        <occupation></occupation>
+                    </person>
+                    <person xml:id="M">
+                        <persName type="standard">Morano</persName>
+                        <sex value="M"/>
+                        <occupation></occupation>
+                    </person>
+                    <person xml:id="V">
+                        <persName type="standard">Vanderbluff</persName>
+                        <sex value="M"/>
+                        <occupation></occupation>
+                    </person>
+                    <person xml:id="C">
+                        <persName type="standard">Capstern</persName>
+                        <sex value="M"/>
+                        <occupation></occupation>
+                    </person>
+                    <person xml:id="H">
+                        <persName type="standard">Hacker</persName>
+                        <sex value="M"/>
+                        <occupation></occupation>
+                    </person>
+                    <person xml:id="CU">
+                        <persName type="standard">Culverin</persName>
+                        <sex value="M"/>
+                        <occupation></occupation>
+                    </person>
+                    <person xml:id="LA">
+                        <persName type="standard">Laguerre</persName>
+                        <sex value="M"/>
+                        <occupation></occupation>
+                    </person>
+                    <person xml:id="CT">
+                        <persName type="standard">Cutlace</persName>
+                        <sex value="M"/>
+                    </person>
+                    <person xml:id="PO">
+                        <persName type="standard">Pohetohee</persName>
+                        <sex value="M"/>
+                    </person>
+                    <person xml:id="CA">
+                        <persName type="standard">Cawwawkee</persName>
+                        <sex value="M"/>
+                    </person>
+                    <person xml:id="S">
+                        <persName type="standard">Servants</persName>
+                       
+                    </person>
+                    <person xml:id="I">
+                        <persName type="standard">Indians</persName>
+                        
+                    </person>
+                    <person xml:id="PY">
+                        <persName type="standard">Pyrates</persName>
+                        
+                    </person>
+                    <person xml:id="GU">
+                        <persName type="standard">Guards</persName>
+                        
+                    </person>
+                
+                
+                
+                    <person xml:id="PP">
+                        <persName type="standard">Polly</persName>
+                        <sex value="F"/>
+                    </person>
+                    <person xml:id="MD">
+                        <persName type="standard">Mrs. Ducat</persName>
+                        <sex value="F"/>
+                    </person>
+                    <person xml:id="DT1">
+                        <persName type="standard">Trapes</persName>
+                        <sex value="F"/>
+                    </person>
+                    <person xml:id="JD">
+                        <persName type="standard">Jenny Diver</persName>
+                        <sex value="F"/>
+                    </person>
+                    <person xml:id="F">
+                        <persName type="standard">Flimzy</persName>
+                        <sex value="F"/>
+                    </person>
+                    <person xml:id="DA">
+                        <persName type="standard">Damaris</persName>
+                        <sex value="F"/>
+                    </person>
+
+                    
+                </listPerson>
+            </particDesc>
+            <settingDesc>
+                <listPlace>
+                    <place>
+                        <placeName>name</placeName>
+                        <placeName>name</placeName>
+                        <placeName>name</placeName>
+                        <location>
+                            <geo></geo>
+                            <desc></desc>
+                            <country></country>
+                            <country></country>
+                            <country></country>
+                            <region></region>
+                            <settlement></settlement>
+                            <district></district>
+                        </location>
+
+                    </place>
+                    
+                </listPlace>
+            </settingDesc>
+        </profileDesc>
+        
     </teiHeader>
     <text>
         <front>
@@ -32,7 +214,7 @@
                     </cit>
                     <bibl>Hor.</bibl>
                 </epigraph>
-                <docImprint>LONDON: Printed for the AUTHOR. M DCCCXXIX.</docImprint>
+                <docImprint>LONDON: Printed for the AUTHOR. MDCCXXIX.</docImprint>
 
 
             </titlePage>
